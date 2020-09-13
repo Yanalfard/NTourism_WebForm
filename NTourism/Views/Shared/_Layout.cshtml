@@ -1,0 +1,168 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="~/Scripts/modernizr-2.8.3.js"></script>
+
+
+    <link href="~/StyleScriptsNTourism/Style/Master.css" rel="stylesheet" />
+    <script src="~/StyleScriptsNTourism/Script/Master.js"></script>
+
+</head>
+<body>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        div {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+
+    <section>
+
+        <header>
+
+            <div id="Header">
+                <div class="MenuSmClickShowAndHideMenu" id="Button12">
+                    <div class="bar1"></div>
+                    <div class="bar3"></div>
+                    <div class="bar3"></div>
+                </div>
+            </div>
+
+        </header>
+
+
+        <div id="MenuHeaderLeftLg" class="MenuHeaderLeftLgStyle" style="z-index: 3;">
+            <div class="DivLogoMenuHeaderLeftLgStyle">
+                <a href="#">
+                    <img src="/Resources/En/Logo/logo-01.png" class="ImgDivLogoMenuHeaderLeftLgStyle" />
+                </a>
+            </div>
+            <div class="DivTextMenuHeaderLeftLgStyle">
+                <ul class="UlDivTextMenuHeaderLeftLgStyle list-unstyled ">
+                    <li>
+
+                        <a href="/Index.aspx">Home</a>
+                    </li>
+                    <li>
+                        <a href="/View/En/Destinations/Destinations-En.aspx">Destinations</a>
+                    </li>
+                    <li>
+                        <a href="/View/En/OurServices/OurServices-En.aspx">Our Services</a>
+                    </li>
+                    <li>
+                        <a href="/View/En/News/News-En.aspx">News</a>
+                    </li>
+                    <li>
+                        <a href="/View/En/Rimatours/Rimatours-En.aspx">Rimatours</a>
+                    </li>
+                    <li>
+                        <a href="/View/En/Event/Event-En.aspx">Event</a>
+                    </li>
+
+                    <li>
+                        <a href="/View/En/Gallery/Gallery-En.aspx">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="/View/En/Collaborate/Collaborate-En.aspx">Invitation For Cooperation</a>
+                    </li>
+                    <li>
+                        <a href="/View/En/AboutUs/AboutUs-En.aspx">About Us</a>
+                    </li>
+
+                </ul>
+            </div>
+
+
+
+            <div id="DivBtnMenuHeaderLeftLg" class="DivBtnMenuHeaderLeftLgStyle text-center">
+                <a href="/View/En/SingIn/SingIn.aspx" id="BtnLogin" class="btn BtnStyleBtnMenuHeaderLeftLgStyle">Sing in</a>
+
+            </div>
+            <div id="DivBtnSingout" class="HideSingout text-center">
+                <input id="BtnGoDashboard" class="BtnStyleBtnMenuHeaderLeftLgStyle" type="button" value="Dashboard" onclick="GoDashboard();" /><br />
+                <input type="hidden" name="name" id="HiddenProfileName" value="" />
+                <input id="BtnSingout" class="BtnStyleBtnMenuHeaderLeftLgStyle" type="button" value="Singout" onclick="SingOut();" /><br />
+            </div>
+        </div>
+
+        <div id="MainColRightLg" class="MainColRightLgStyle container-fluid">
+            <div class="row">
+                @RenderSection("SliderPage", false)
+
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-3 hidden-xs hidden-sm">
+                    <div class="Row2MainLeftNewsStyle" style="margin-top:18vw;">
+                        <div id="DynamicAdsImg1">
+                        </div>
+                        <div class="divRow2MainLeftNewsStyle">
+                            <p class="textRow2MainLeftNewsStyle">News</p>
+                        </div>
+                        <div id="DivaslyDynamicLinkAllNewsIndex">
+                        </div>
+                        <div id="DynamicAdsImg3">
+                        </div>
+                        <div id="DynamicAdsImg4">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+                    @RenderBody()
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </section>
+
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/StyleScriptsNTourism/Script/Master.js"></script>
+
+    <script src="~/JsDecoder/AdJore.js"></script>
+    <script src="~/JsDecoder/AttractionCommentsRelJore.js"></script>
+    <script src="~/JsDecoder/AttractionEquipmentRelJore.js"></script>
+    <script src="~/JsDecoder/AttractionJore.js"></script>
+    <script src="~/JsDecoder/AttractionPollRelJore.js"></script>
+    <script src="~/JsDecoder/BjaxLib.js"></script>
+    <script src="~/JsDecoder/CityAttractionRelJore.js"></script>
+    <script src="~/JsDecoder/CityJore.js"></script>
+    <script src="~/JsDecoder/ClientJore.js"></script>
+    <script src="~/JsDecoder/CommentsJore.js"></script>
+    <script src="~/JsDecoder/CountryJore.js"></script>
+    <script src="~/JsDecoder/EquipmentJore.js"></script>
+    <script src="~/JsDecoder/FacilityJore.js"></script>
+    <script src="~/JsDecoder/FirstPageJore.js"></script>
+    <script src="~/JsDecoder/ImagesJore.js"></script>
+    <script src="~/JsDecoder/MedicalServiceImagesRelJore.js"></script>
+    <script src="~/JsDecoder/MedicalServiceJore.js"></script>
+    <script src="~/JsDecoder/NewsJore.js"></script>
+    <script src="~/JsDecoder/PollJore.js"></script>
+    <script src="~/JsDecoder/ResumeJore.js"></script>
+    <script src="~/JsDecoder/RoomHomeCommentsRelJore.js"></script>
+    <script src="~/JsDecoder/RoomHomeFacilityRelJore.js"></script>
+    <script src="~/JsDecoder/RoomHomeImageRelJore.js"></script>
+    <script src="~/JsDecoder/RoomHomeJore.js"></script>
+    <script src="~/JsDecoder/TextJore.js"></script>
+    <script src="~/JsDecoder/TicketJore.js"></script>
+    <script src="~/JsDecoder/TourGuideEquipmentRelJore.js"></script>
+    <script src="~/JsDecoder/TourGuideImagesRelJore.js"></script>
+    <script src="~/JsDecoder/TourGuideJore.js"></script>
+    <script src="~/JsDecoder/TourGuideResumeRelJore.js"></script>
+    <script src="~/JsDecoder/TripStoryCommentRelJore.js"></script>
+    <script src="~/JsDecoder/TripStoryJore.js"></script>
+    @RenderSection("Scripts", false)
+</body>
+</html>

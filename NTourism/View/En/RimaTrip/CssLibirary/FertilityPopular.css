@@ -1,0 +1,606 @@
+﻿.PanelFertilityStyle {
+}
+
+.ImgHeaderFertilityStyle {
+    width: 100%;
+}
+
+.DivVideoAndTextFertilityStyle {
+    margin-top: 5%;
+}
+
+.VideoFertilityStyle {
+    width: 100%;
+}
+
+.TitrTextVideoFertilityStyle {
+    font-family: Arial;
+    font-size: 1.5vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTextVideoFertilityStyle {
+    margin-top: 3%;
+}
+
+.ZirTextVideoFertilityStyle {
+    font-family: Arial;
+    font-size: 1.2vw;
+    color: black;
+}
+
+.SliderDivTextFertilityStyle {
+    position: absolute;
+    margin-top: -33%;
+    margin-left: 5%;
+}
+
+.SliderTitrFertilityStyle {
+    color: rgba(12,144,68,1);
+    font-size: 5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderZirDivTextFertilityStyle {
+    position: absolute;
+    margin-top: -28%;
+    margin-left: 5%;
+}
+
+.SliderZirTitrFertilityStyle {
+    color: rgba(12,144,68,1);
+    font-size: 3.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderDivDescriptionFertilityTitrStyle {
+    position: absolute;
+    margin-top: -20%;
+    margin-left: 5.5%;
+}
+
+.SliderDescriptionFertilityTextTitrStyle {
+    color: rgba(0,76,52,1);
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.DivBtnFertilitySingInStyle {
+    position: absolute;
+    margin-top: -9.5%;
+    margin-left: 5%;
+    background-color: rgba(141,198,63,1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+    .DivBtnFertilitySingInStyle:hover {
+        position: absolute;
+        margin-top: -9.5%;
+        margin-left: 5%;
+        background-color: rgba(141,198,63,1);
+        border-radius: 30px;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.TextBtnFertilityStyle {
+    color: white;
+    font-size: 1.8vw;
+    font-weight: bold;
+}
+
+    .TextBtnFertilityStyle:hover {
+        color: white;
+        font-size: 1.8vw;
+        font-weight: bold;
+    }
+
+.DivZirHeadersImgTextFertilityStyle {
+    margin-top: 2%;
+}
+
+.ZirHeadersImgTextFertilityStyle {
+    font-family: Arial;
+    font-size: 1.5vw;
+    color: black;
+}
+
+.DescaptirionOrginalFertilityStyle {
+    margin-top: 8%;
+}
+
+.DescaptirionRowOneFertilityStyle {
+}
+
+.Pic3FertilityRowOneStyle {
+    width: 65%;
+}
+
+.TitrTextRowOneFertilityStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowOneFertilityStyle {
+    margin-top: 5%;
+}
+
+.ZirTitrTextRowOneFertilityStyle {
+    font-family: Arial;
+    font-size: 1.2vw;
+    color: black;
+}
+
+.DescaptirionRowTwoFertilityStyle {
+    margin-top: 10%;
+}
+
+.Pic1FertilityRowTwoStyle {
+    width: 70%;
+}
+
+.TitrTextRowTwoFertilityStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowTwoFertilityStyle {
+    margin-top: 5%;
+}
+
+.ZirTitrTextRowTwoFertilityStyle {
+    font-family: Arial;
+    font-size: 1.2vw;
+    color: black;
+}
+
+.DescaptirionRowThreeFertilityStyle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Pic2FertilityRowThreeStyle {
+    width: 65%;
+}
+
+.TitrTextRowThreeFertilityStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRoThreeFertilityStyle {
+    margin-top: 5%;
+}
+
+.ZirTitrTextRowThreeFertilityStyle {
+    font-family: Arial;
+    font-size: 1.2vw;
+    color: black;
+}
+
+
+/*#Sm*/
+.PanelFertilitySmStyle {
+}
+
+.ImgHeaderFertilitySmStyle {
+    width: 100%;
+}
+
+.SliderDivTextFertilitySmStyle {
+    position: absolute;
+    margin-top: -33%;
+    margin-left: 5%;
+}
+
+.SliderTitrFertilitySmStyle {
+    color: rgba(12,144,68,1);
+    font-size: 5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderZirDivTextFertilitySmStyle {
+    position: absolute;
+    margin-top: -28%;
+    margin-left: 5%;
+}
+
+.SliderZirTitrFertilitySmStyle {
+    color: rgba(12,144,68,1);
+    font-size: 3.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderDivDescriptionFertilityTitrSmStyle {
+    position: absolute;
+    margin-top: -20%;
+    margin-left: 5.5%;
+}
+
+.SliderDescriptionFertilityTextTitrSmStyle {
+    color: rgba(0,76,52,1);
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.DivBtnFertilitySingInSmStyle {
+    position: absolute;
+    margin-top: -9.5%;
+    margin-left: 5%;
+    background-color: rgba(141,198,63,1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+    .DivBtnFertilitySingInSmStyle:hover {
+        position: absolute;
+        margin-top: -9.5%;
+        margin-left: 5%;
+        background-color: rgba(141,198,63,1);
+        border-radius: 30px;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.TextBtnFertilitySmStyle {
+    color: white;
+    font-size: 1.8vw;
+    font-weight: bold;
+}
+
+    .TextBtnFertilitySmStyle:hover {
+        color: white;
+        font-size: 1.8vw;
+        font-weight: bold;
+    }
+
+.DivZirHeadersImgTextFertilitySmStyle {
+    margin-top: 2%;
+}
+
+.ZirHeadersImgTextFertilitySmStyle {
+    font-family: Arial;
+    font-size: 1.7vw;
+    color: black;
+}
+
+.DivVideoAndTextFertilitySmStyle {
+    margin-top: 5%;
+}
+
+.VideoFertilitySmStyle {
+    width: 100%;
+}
+
+.DivZirVideoFertilitySmStyle {
+    margin-top: 2%;
+}
+
+.TitrTextVideoFertilitySmStyle {
+    font-family: Arial;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.ZirTextVideoFertilitySmStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+}
+
+
+.DescaptirionOrginalFertilitySmStyle {
+    margin-top: 8%;
+}
+
+.DescaptirionRowOneFertilitySmStyle {
+}
+
+.Pic3FertilityRowOneTransplantSmStyle {
+    width: 50%;
+}
+
+.DivTitrRowOneFertilitySmStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowOneFertilitySmStyle {
+    font-family: Arial;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowOneFertilitySmStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowOneFertilitySmStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+}
+
+.DescaptirionRowTwoFertilitySmStyle {
+    margin-top: 10%;
+}
+
+.Pic1FertilityRowTwoTransplantSmStyle {
+    width: 55%;
+}
+
+.DivTitrRowTwoFertilitySmStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowTwoFertilitySmStyle {
+    font-family: Arial;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowTwoFertilitySmStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowTwoFertilitySmStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+}
+
+.DescaptirionRowThreeFertilitySmStyle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Pic2FertilityRowThreeTransplantSmStyle {
+    width: 50%;
+}
+
+.DivTitrRowThreeFertilitySmStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowThreeFertilitySmStyle {
+    font-family: Arial;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRoThreeFertilitySmStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowThreeFertilitySmStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+}
+
+
+/* #Xs*/
+
+
+.PanelFertilityXsStyle {
+}
+
+.ImgHeaderFertilityXsStyle {
+    width: 100%;
+}
+
+.SliderDivTextFertilityXsStyle {
+    position: absolute;
+    margin-top: -33%;
+    margin-left: 5%;
+}
+
+.SliderTitrFertilityXsStyle {
+    color: rgba(12,144,68,1);
+    font-size: 6vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderZirDivTextFertilityXsStyle {
+    position: absolute;
+    margin-top: -26%;
+    margin-left: 5%;
+}
+
+.SliderZirTitrFertilityXsStyle {
+    color: rgba(12,144,68,1);
+    font-size: 4.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderDivDescriptionFertilityTitrXsStyle {
+    position: absolute;
+    margin-top: -19%;
+    margin-left: 5.5%;
+}
+
+.SliderDescriptionFertilityTextTitrXsStyle {
+    color: rgba(0,76,52,1);
+    font-size: 2.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.DivBtnFertilitySingInXsStyle {
+    position: absolute;
+    margin-top: -8%;
+    margin-left: 40%;
+    background-color: rgba(141,198,63,1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+    .DivBtnFertilitySingInXsStyle:hover {
+        position: absolute;
+        margin-top: -8%;
+        margin-left: 40%;
+        background-color: rgba(141,198,63,1);
+        border-radius: 30px;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.TextBtnFertilityXsStyle {
+    color: white;
+    font-size: 2.4vw;
+    font-weight: bold;
+}
+
+    .TextBtnFertilityXsStyle:hover {
+        color: white;
+        font-size: 2.4vw;
+        font-weight: bold;
+    }
+
+
+.DivZirHeadersImgTextFertilityXsStyle {
+    margin-top: 3%;
+}
+
+.ZirHeadersImgTextFertilityXsStyle {
+    font-family: Arial;
+    font-size: 2.3vw;
+    color: black;
+}
+
+.DivVideoAndTextFertilityXsStyle {
+    margin-top: 5%;
+}
+
+.VideoFertilityXsStyle {
+    width: 100%;
+}
+
+.DivZirVideoFertilityXsStyle {
+    margin-top: 2%;
+}
+
+.TitrTextVideoFertilityXsStyle {
+    font-family: Arial;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.ZirTextVideoFertilityXsStyle {
+    font-family: Arial;
+    font-size: 2.2vw;
+    color: black;
+}
+
+.DescaptirionOrginalFertilityXsStyle {
+    margin-top: 8%;
+}
+
+.DescaptirionRowOneFertilityXsStyle {
+}
+
+.Pic3FertilityTransplantRowOneTransplantXsStyle {
+    width: 50%;
+}
+
+.DivTitrRowOneFertilityXsStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowOneFertilityXsStyle {
+    font-family: Arial;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowOneFertilityXsStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowOneFertilityXsStyle {
+    font-family: Arial;
+    font-size: 2.2vw;
+    color: black;
+}
+
+
+.DescaptirionRowTwoFertilityXsStyle {
+    margin-top: 10%;
+}
+
+.Pic1FertilityRowTwoTransplantXsStyle {
+    width: 55%;
+}
+
+.DivTitrRowTwoFertilityXsStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowTwoFertilityXsStyle {
+    font-family: Arial;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowTwoFertilityXsStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowTwoFertilityXsStyle {
+    font-family: Arial;
+    font-size: 2.2vw;
+    color: black;
+}
+
+
+.DescaptirionRowThreeFertilityXsStyle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Pic2FertilityRowThreeTransplantXsStyle {
+    width: 50%;
+}
+
+.DivTitrRowThreeFertilityXsStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowThreeFertilityXsStyle {
+    font-family: Arial;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRoThreeFertilityXsStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowThreeFertilityXsStyle {
+    font-family: Arial;
+    font-size: 2.2vw;
+    color: black;
+}

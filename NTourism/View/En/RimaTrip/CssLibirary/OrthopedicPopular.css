@@ -1,0 +1,606 @@
+﻿.PanelOrthopedicStyle {
+}
+
+.ImgHeaderOrthopedicStyle {
+    width: 100%;
+}
+
+.DivVideoAndTextOrthopedicStyle {
+    margin-top: 5%;
+}
+
+.VideoOrthopedicStyle {
+    width: 100%;
+}
+
+.TitrTextVideoOrthopedicStyle {
+    font-family: Arial;
+    font-size: 1.5vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTextVideoOrthopedicStyle {
+    margin-top: 3%;
+}
+
+.ZirTextVideoOrthopedicStyle {
+    font-family: Arial;
+    font-size: 1.2vw;
+    color: black;
+}
+
+.SliderDivTextOrthopedicStyle {
+    position: absolute;
+    margin-top: -33%;
+    margin-left: 5%;
+}
+
+.SliderTitrOrthopedicStyle {
+    color: rgba(12,144,68,1);
+    font-size: 5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderZirDivTextOrthopedicStyle {
+    position: absolute;
+    margin-top: -28%;
+    margin-left: 5%;
+}
+
+.SliderZirTitrOrthopedicStyle {
+    color: rgba(12,144,68,1);
+    font-size: 3.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderDivDescriptionOrthopedicTitrStyle {
+    position: absolute;
+    margin-top: -20%;
+    margin-left: 5.5%;
+}
+
+.SliderDescriptionOrthopedicTextTitrStyle {
+    color: rgba(0,76,52,1);
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.DivBtnOrthopedicSingInStyle {
+    position: absolute;
+    margin-top: -9.5%;
+    margin-left: 5%;
+    background-color: rgba(141,198,63,1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+    .DivBtnOrthopedicSingInStyle:hover {
+        position: absolute;
+        margin-top: -9.5%;
+        margin-left: 5%;
+        background-color: rgba(141,198,63,1);
+        border-radius: 30px;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.TextBtnOrthopedicStyle {
+    color: white;
+    font-size: 1.8vw;
+    font-weight: bold;
+}
+
+    .TextBtnOrthopedicStyle:hover {
+        color: white;
+        font-size: 1.8vw;
+        font-weight: bold;
+    }
+
+.DivZirHeadersImgTextOrthopedicStyle {
+    margin-top: 2%;
+}
+
+.ZirHeadersImgTextOrthopedicStyle {
+    font-family: Arial;
+    font-size: 1.5vw;
+    color: black;
+}
+
+.DescaptirionOrginalOrthopedicStyle {
+    margin-top: 8%;
+}
+
+.DescaptirionRowOneOrthopedicStyle {
+}
+
+.Pic3OrthopedicRowOneStyle {
+    width: 65%;
+}
+
+.TitrTextRowOneOrthopedicStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowOneOrthopedicStyle {
+    margin-top: 5%;
+}
+
+.ZirTitrTextRowOneOrthopedicStyle {
+    font-family: Arial;
+    font-size: 1.2vw;
+    color: black;
+}
+
+.DescaptirionRowTwoOrthopedicStyle {
+    margin-top: 10%;
+}
+
+.Pic1OrthopedicRowTwoStyle {
+    width: 70%;
+}
+
+.TitrTextRowTwoOrthopedicStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowTwoOrthopedicStyle {
+    margin-top: 5%;
+}
+
+.ZirTitrTextRowTwoOrthopedicStyle {
+    font-family: Arial;
+    font-size: 1.2vw;
+    color: black;
+}
+
+.DescaptirionRowThreeOrthopedicStyle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Pic2OrthopedicRowThreeStyle {
+    width: 65%;
+}
+
+.TitrTextRowThreeOrthopedicStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRoThreeOrthopedicStyle {
+    margin-top: 5%;
+}
+
+.ZirTitrTextRowThreeOrthopedicStyle {
+    font-family: Arial;
+    font-size: 1.2vw;
+    color: black;
+}
+
+
+/*#Sm*/
+.PanelOrthopedicSmStyle {
+}
+
+.ImgHeaderOrthopedicSmStyle {
+    width: 100%;
+}
+
+.SliderDivTextOrthopedicSmStyle {
+    position: absolute;
+    margin-top: -33%;
+    margin-left: 5%;
+}
+
+.SliderTitrOrthopedicSmStyle {
+    color: rgba(12,144,68,1);
+    font-size: 5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderZirDivTextOrthopedicSmStyle {
+    position: absolute;
+    margin-top: -28%;
+    margin-left: 5%;
+}
+
+.SliderZirTitrOrthopedicSmStyle {
+    color: rgba(12,144,68,1);
+    font-size: 3.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderDivDescriptionOrthopedicTitrSmStyle {
+    position: absolute;
+    margin-top: -20%;
+    margin-left: 5.5%;
+}
+
+.SliderDescriptionOrthopedicTextTitrSmStyle {
+    color: rgba(0,76,52,1);
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.DivBtnOrthopedicSingInSmStyle {
+    position: absolute;
+    margin-top: -9.5%;
+    margin-left: 5%;
+    background-color: rgba(141,198,63,1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+    .DivBtnOrthopedicSingInSmStyle:hover {
+        position: absolute;
+        margin-top: -9.5%;
+        margin-left: 5%;
+        background-color: rgba(141,198,63,1);
+        border-radius: 30px;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.TextBtnOrthopedicSmStyle {
+    color: white;
+    font-size: 1.8vw;
+    font-weight: bold;
+}
+
+    .TextBtnOrthopedicSmStyle:hover {
+        color: white;
+        font-size: 1.8vw;
+        font-weight: bold;
+    }
+
+.DivZirHeadersImgTextOrthopedicSmStyle {
+    margin-top: 2%;
+}
+
+.ZirHeadersImgTextOrthopedicSmStyle {
+    font-family: Arial;
+    font-size: 1.7vw;
+    color: black;
+}
+
+.DivVideoAndTextOrthopedicSmStyle {
+    margin-top: 5%;
+}
+
+.VideoOrthopedicSmStyle {
+    width: 100%;
+}
+
+.DivZirVideoOrthopedicSmStyle {
+    margin-top: 2%;
+}
+
+.TitrTextVideoOrthopedicSmStyle {
+    font-family: Arial;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.ZirTextVideoOrthopedicSmStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+}
+
+
+.DescaptirionOrginalOrthopedicSmStyle {
+    margin-top: 8%;
+}
+
+.DescaptirionRowOneOrthopedicSmStyle {
+}
+
+.Pic3OrthopedicRowOneTransplantSmStyle {
+    width: 50%;
+}
+
+.DivTitrRowOneOrthopedicSmStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowOneOrthopedicSmStyle {
+    font-family: Arial;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowOneOrthopedicSmStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowOneOrthopedicSmStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+}
+
+.DescaptirionRowTwoOrthopedicSmStyle {
+    margin-top: 10%;
+}
+
+.Pic1OrthopedicRowTwoTransplantSmStyle {
+    width: 55%;
+}
+
+.DivTitrRowTwoOrthopedicSmStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowTwoOrthopedicSmStyle {
+    font-family: Arial;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowTwoOrthopedicSmStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowTwoOrthopedicSmStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+}
+
+.DescaptirionRowThreeOrthopedicSmStyle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Pic2OrthopedicRowThreeTransplantSmStyle {
+    width: 50%;
+}
+
+.DivTitrRowThreeOrthopedicSmStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowThreeOrthopedicSmStyle {
+    font-family: Arial;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRoThreeOrthopedicSmStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowThreeOrthopedicSmStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+}
+
+
+/* #Xs*/
+
+
+.PanelOrthopedicXsStyle {
+}
+
+.ImgHeaderOrthopedicXsStyle {
+    width: 100%;
+}
+
+.SliderDivTextOrthopedicXsStyle {
+    position: absolute;
+    margin-top: -33%;
+    margin-left: 5%;
+}
+
+.SliderTitrOrthopedicXsStyle {
+    color: rgba(12,144,68,1);
+    font-size: 6vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderZirDivTextOrthopedicXsStyle {
+    position: absolute;
+    margin-top: -26%;
+    margin-left: 5%;
+}
+
+.SliderZirTitrOrthopedicXsStyle {
+    color: rgba(12,144,68,1);
+    font-size: 4.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderDivDescriptionOrthopedicTitrXsStyle {
+    position: absolute;
+    margin-top: -19%;
+    margin-left: 5.5%;
+}
+
+.SliderDescriptionOrthopedicTextTitrXsStyle {
+    color: rgba(0,76,52,1);
+    font-size: 2.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.DivBtnOrthopedicSingInXsStyle {
+    position: absolute;
+    margin-top: -8%;
+    margin-left: 40%;
+    background-color: rgba(141,198,63,1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+    .DivBtnOrthopedicSingInXsStyle:hover {
+        position: absolute;
+        margin-top: -8%;
+        margin-left: 40%;
+        background-color: rgba(141,198,63,1);
+        border-radius: 30px;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.TextBtnOrthopedicXsStyle {
+    color: white;
+    font-size: 2.4vw;
+    font-weight: bold;
+}
+
+    .TextBtnOrthopedicXsStyle:hover {
+        color: white;
+        font-size: 2.4vw;
+        font-weight: bold;
+    }
+
+
+.DivZirHeadersImgTextOrthopedicXsStyle {
+    margin-top: 3%;
+}
+
+.ZirHeadersImgTextOrthopedicXsStyle {
+    font-family: Arial;
+    font-size: 2.3vw;
+    color: black;
+}
+
+.DivVideoAndTextOrthopedicXsStyle {
+    margin-top: 5%;
+}
+
+.VideoOrthopedicXsStyle {
+    width: 100%;
+}
+
+.DivZirVideoOrthopedicXsStyle {
+    margin-top: 2%;
+}
+
+.TitrTextVideoOrthopedicXsStyle {
+    font-family: Arial;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.ZirTextVideoOrthopedicXsStyle {
+    font-family: Arial;
+    font-size: 2.2vw;
+    color: black;
+}
+
+.DescaptirionOrginalOrthopedicXsStyle {
+    margin-top: 8%;
+}
+
+.DescaptirionRowOneOrthopedicXsStyle {
+}
+
+.Pic3OrthopedicTransplantRowOneTransplantXsStyle {
+    width: 50%;
+}
+
+.DivTitrRowOneOrthopedicXsStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowOneOrthopedicXsStyle {
+    font-family: Arial;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowOneOrthopedicXsStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowOneOrthopedicXsStyle {
+    font-family: Arial;
+    font-size: 2.2vw;
+    color: black;
+}
+
+
+.DescaptirionRowTwoOrthopedicXsStyle {
+    margin-top: 10%;
+}
+
+.Pic1OrthopedicRowTwoTransplantXsStyle {
+    width: 55%;
+}
+
+.DivTitrRowTwoOrthopedicXsStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowTwoOrthopedicXsStyle {
+    font-family: Arial;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowTwoOrthopedicXsStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowTwoOrthopedicXsStyle {
+    font-family: Arial;
+    font-size: 2.2vw;
+    color: black;
+}
+
+
+.DescaptirionRowThreeOrthopedicXsStyle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Pic2OrthopedicRowThreeTransplantXsStyle {
+    width: 50%;
+}
+
+.DivTitrRowThreeOrthopedicXsStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowThreeOrthopedicXsStyle {
+    font-family: Arial;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRoThreeOrthopedicXsStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowThreeOrthopedicXsStyle {
+    font-family: Arial;
+    font-size: 2.2vw;
+    color: black;
+}

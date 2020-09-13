@@ -1,0 +1,173 @@
+﻿/*Color Menu Right In one Page And others*/
+.accordion {
+    border-bottom: 1px solid #94c120;
+}
+
+.accordion-panel {
+    border-color: #94c120;
+}
+
+/**/
+
+.SliderPageHomeStyle {
+    display: none;
+}
+
+.SliderPageAboutUsStyle {
+    display: none;
+}
+
+.SliderPageDestinationsStyle {
+    display: none;
+}
+
+.SliderPageContactUsStyle {
+    display: none;
+}
+
+.SliderPageOurServicesStyle {
+    display: none;
+}
+
+.SliderPageIranUsStyle {
+    display: none;
+}
+
+.SliderPageNewsStyle {
+    display: none;
+}
+
+.SliderPageTourguideStyle {
+    display: none;
+}
+
+.SliderPageEventStyle {
+    display: none;
+}
+
+.SliderPageTripstoryStyle {
+    display: none;
+}
+
+.SliderPageGalleryStyle {
+    display: none;
+}
+
+/*City Display*/
+.SliderPageCityHamedanStyle {
+    display: none;
+}
+
+.SliderPageCityArasStyle {
+    display: none;
+}
+
+.SliderPageCityIsfahanStyle {
+    display: none;
+}
+
+.SliderPageCityKashanStyle {
+    display: none;
+}
+
+.SliderPageCityShirazStyle {
+    display: none;
+}
+
+.SliderPageCityRashtStyle {
+    display: none;
+}
+
+.SliderPageCityTabrizStyle {
+    display: none;
+}
+
+.SliderPageCityTehranStyle {
+    display: none;
+}
+
+.SliderPageCityYazdStyle {
+    display: none;
+}
+
+.SliderPageCityKishStyle {
+    display: none;
+}
+
+.SliderPageCitySariStyle {
+    display: none;
+}
+
+.SliderPageCityMashhadStyle {
+    display: none;
+}
+
+.SliderPageCityKermanStyle {
+    display: none;
+}
+
+.SliderPageCityQeshmStyle {
+    display: none;
+}
+
+
+
+/*#Row1*/
+.divRow1NewsPageStyle {
+    margin-top: 0.5em;
+}
+
+.divInRow1TheRow1TextNewsPageStyle {
+    text-align: center;
+}
+
+.textInRow1TheRow1TextNewsPageStyle {
+    font-family: 'ZapfHumnst Ult BT';
+    color: black;
+    font-size: 3.5vw;
+    font-weight: bolder;
+    height: 4.5vw;
+}
+
+.Row2MainContainAndNewsAndMenuRightStyle {
+    margin-top: 4em;
+}
+
+.Row2MainCenterContainStyle {
+    margin-top: -5em;
+}
+
+.TagPnameNewsTitrStyle {
+    font-size: 2em;
+    font-family: 'B Yekan';
+    color: black;
+}
+
+
+.DivImgNewsMainDynamic {
+    text-align: center;
+}
+
+.ImgNewsMainStatic {
+    text-align: center;
+    width: 65%;
+}
+
+
+
+
+.LinkNewsMainDynamicStyle {
+    font-size: 1.5em;
+    font-family: 'B Yekan';
+    color: black;
+}
+
+
+#DivAslyNewsMainDynamic {
+}
+
+#NewsMainPageDiv img {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}

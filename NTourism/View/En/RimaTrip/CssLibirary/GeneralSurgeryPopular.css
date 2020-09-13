@@ -1,0 +1,608 @@
+﻿.PanelGeneralSurgeryStyle {
+}
+
+.ImgHeaderGeneralSurgeryStyle {
+    width: 100%;
+}
+
+.DivVideoAndTextGeneralSurgeryStyle {
+    margin-top: 5%;
+}
+
+.VideoGeneralSurgeryStyle {
+    width: 100%;
+}
+
+.TitrTextVideoGeneralSurgeryStyle {
+    font-family: Arial;
+    font-size: 1.5vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTextVideoGeneralSurgeryStyle {
+    margin-top: 3%;
+}
+
+.ZirTextVideoGeneralSurgeryStyle {
+    font-family: Arial;
+    font-size: 1.2vw;
+    color: black;
+}
+
+
+.SliderDivTextGeneralSurgeryStyle {
+    position: absolute;
+    margin-top: -33%;
+    margin-left: 5%;
+}
+
+.SliderTitrGeneralSurgeryStyle {
+    color: rgba(12,144,68,1);
+    font-size: 5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderZirDivTextGeneralSurgeryStyle {
+    position: absolute;
+    margin-top: -28%;
+    margin-left: 5%;
+}
+
+.SliderZirTitrGeneralSurgeryStyle {
+    color: rgba(12,144,68,1);
+    font-size: 3.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderDivDescriptionGeneralSurgeryTitrStyle {
+    position: absolute;
+    margin-top: -20%;
+    margin-left: 5.5%;
+}
+
+.SliderDescriptionGeneralSurgeryTextTitrStyle {
+    color: rgba(0,76,52,1);
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.DivBtnGeneralSurgerySingInStyle {
+    position: absolute;
+    margin-top: -9.5%;
+    margin-left: 5%;
+    background-color: rgba(141,198,63,1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+    .DivBtnGeneralSurgerySingInStyle:hover {
+        position: absolute;
+        margin-top: -9.5%;
+        margin-left: 5%;
+        background-color: rgba(141,198,63,1);
+        border-radius: 30px;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.TextBtnGeneralSurgeryStyle {
+    color: white;
+    font-size: 1.8vw;
+    font-weight: bold;
+}
+
+    .TextBtnGeneralSurgeryStyle:hover {
+        color: white;
+        font-size: 1.8vw;
+        font-weight: bold;
+    }
+
+
+.DivZirHeadersImgTextGeneralSurgeryStyle {
+    margin-top: 2%;
+}
+
+.ZirHeadersImgTextGeneralSurgeryStyle {
+    font-family: Arial;
+    font-size: 1.5vw;
+    color: black;
+}
+
+
+.DescaptirionOrginalGeneralSurgeryStyle {
+    margin-top: 8%;
+}
+
+.DescaptirionRowOneGeneralSurgeryStyle {
+}
+
+.Pic3GeneralSurgeryRowOneStyle {
+    width: 65%;
+}
+
+.TitrTextRowOneGeneralSurgeryStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowOneGeneralSurgeryStyle {
+    margin-top: 5%;
+}
+
+.ZirTitrTextRowOneGeneralSurgeryStyle {
+    font-family: Arial;
+    font-size: 1.2vw;
+    color: black;
+}
+
+.DescaptirionRowTwoGeneralSurgeryStyle {
+    margin-top: 10%;
+}
+
+.Pic1GeneralSurgeryRowTwoStyle {
+    width: 70%;
+}
+
+.TitrTextRowTwoGeneralSurgeryStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowTwoGeneralSurgeryStyle {
+    margin-top: 5%;
+}
+
+.ZirTitrTextRowTwoGeneralSurgeryStyle {
+    font-family: Arial;
+    font-size: 1.2vw;
+    color: black;
+}
+
+.DescaptirionRowThreeGeneralSurgeryStyle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Pic2GeneralSurgeryRowThreeStyle {
+    width: 65%;
+}
+
+.TitrTextRowThreeGeneralSurgeryStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRoThreeGeneralSurgeryStyle {
+    margin-top: 5%;
+}
+
+.ZirTitrTextRowThreeGeneralSurgeryStyle {
+    font-family: Arial;
+    font-size: 1.2vw;
+    color: black;
+}
+
+.PanelGeneralSurgerySmStyle {
+}
+
+.ImgHeaderGeneralSurgerySmStyle {
+    width: 100%;
+}
+
+.SliderDivTextGeneralSurgerySmStyle {
+    position: absolute;
+    margin-top: -33%;
+    margin-left: 5%;
+}
+
+.SliderTitrGeneralSurgerySmStyle {
+    color: rgba(12,144,68,1);
+    font-size: 5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderZirDivTextGeneralSurgerySmStyle {
+    position: absolute;
+    margin-top: -28%;
+    margin-left: 5%;
+}
+
+.SliderZirTitrGeneralSurgerySmStyle {
+    color: rgba(12,144,68,1);
+    font-size: 3.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderDivDescriptionGeneralSurgeryTitrSmStyle {
+    position: absolute;
+    margin-top: -20%;
+    margin-left: 5.5%;
+}
+
+.SliderDescriptionGeneralSurgeryTextTitrSmStyle {
+    color: rgba(0,76,52,1);
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.DivBtnGeneralSurgerySingInSmStyle {
+    position: absolute;
+    margin-top: -9.5%;
+    margin-left: 5%;
+    background-color: rgba(141,198,63,1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+    .DivBtnGeneralSurgerySingInSmStyle:hover {
+        position: absolute;
+        margin-top: -9.5%;
+        margin-left: 5%;
+        background-color: rgba(141,198,63,1);
+        border-radius: 30px;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.TextBtnGeneralSurgerySmStyle {
+    color: white;
+    font-size: 1.8vw;
+    font-weight: bold;
+}
+
+    .TextBtnGeneralSurgerySmStyle:hover {
+        color: white;
+        font-size: 1.8vw;
+        font-weight: bold;
+    }
+
+
+/*#Sm*/
+.DivZirHeadersImgTextGeneralSurgerySmStyle {
+    margin-top: 2%;
+}
+
+.ZirHeadersImgTextGeneralSurgerySmStyle {
+    font-family: Arial;
+    font-size: 1.7vw;
+    color: black;
+}
+
+
+.DivVideoAndTextGeneralSurgerySmStyle {
+    margin-top: 5%;
+}
+
+.VideoGeneralSurgerySmStyle {
+    width: 100%;
+}
+
+.DivZirVideoGeneralSurgerySmStyle {
+    margin-top: 2%;
+}
+
+.TitrTextVideoGeneralSurgerySmStyle {
+    font-family: Arial;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.ZirTextVideoGeneralSurgerySmStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+}
+
+
+.DescaptirionOrginalGeneralSurgerySmStyle {
+    margin-top: 8%;
+}
+
+.DescaptirionRowOneGeneralSurgerySmStyle {
+}
+
+.Pic3GeneralSurgeryRowOneTransplantSmStyle {
+    width: 50%;
+}
+
+.DivTitrRowOneGeneralSurgerySmStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowOneGeneralSurgerySmStyle {
+    font-family: Arial;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowOneGeneralSurgerySmStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowOneGeneralSurgerySmStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+}
+
+.DescaptirionRowTwoGeneralSurgerySmStyle {
+    margin-top: 10%;
+}
+
+.Pic1GeneralSurgeryRowTwoTransplantSmStyle {
+    width: 55%;
+}
+
+.DivTitrRowTwoGeneralSurgerySmStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowTwoGeneralSurgerySmStyle {
+    font-family: Arial;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowTwoGeneralSurgerySmStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowTwoGeneralSurgerySmStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+}
+
+.DescaptirionRowThreeGeneralSurgerySmStyle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Pic2GeneralSurgeryRowThreeTransplantSmStyle {
+    width: 50%;
+}
+
+.DivTitrRowThreeGeneralSurgerySmStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowThreeGeneralSurgerySmStyle {
+    font-family: Arial;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRoThreeGeneralSurgerySmStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowThreeGeneralSurgerySmStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+}
+
+
+
+/*#Xs*/
+.PanelGeneralSurgeryXsStyle {
+}
+
+.ImgHeaderGeneralSurgeryXsStyle {
+    width: 100%;
+}
+.SliderDivTextGeneralSurgeryXsStyle {
+    position: absolute;
+    margin-top: -33%;
+    margin-left: 5%;
+}
+
+.SliderTitrGeneralSurgeryXsStyle {
+    color: rgba(12,144,68,1);
+    font-size: 5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderZirDivTextGeneralSurgeryXsStyle {
+    position: absolute;
+    margin-top: -28%;
+    margin-left: 5%;
+}
+
+.SliderZirTitrGeneralSurgeryXsStyle {
+    color: rgba(12,144,68,1);
+    font-size: 3.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderDivDescriptionGeneralSurgeryTitrXsStyle {
+    position: absolute;
+    margin-top: -20%;
+    margin-left: 5.5%;
+}
+
+.SliderDescriptionGeneralSurgeryTextTitrXsStyle {
+    color: rgba(0,76,52,1);
+    font-size: 1.8vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.DivBtnGeneralSurgerySingInXsStyle {
+    position: absolute;
+    margin-top: -8%;
+    margin-left: 5%;
+    background-color: rgba(141,198,63,1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+    .DivBtnGeneralSurgerySingInXsStyle:hover {
+        position: absolute;
+        margin-top: -8%;
+        margin-left: 5%;
+        background-color: rgba(141,198,63,1);
+        border-radius: 30px;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.TextBtnGeneralSurgeryXsStyle {
+    color: white;
+    font-size: 2.4vw;
+    font-weight: bold;
+}
+
+    .TextBtnGeneralSurgeryXsStyle:hover {
+        color: white;
+        font-size: 2.4vw;
+        font-weight: bold;
+    }
+
+
+.DivZirHeadersImgTextGeneralSurgeryXsStyle {
+    margin-top: 2%;
+}
+
+.ZirHeadersImgTextGeneralSurgeryXsStyle {
+    font-family: Arial;
+    font-size: 2.3vw;
+    color: black;
+}
+
+
+.DivVideoAndTextGeneralSurgeryXsStyle {
+    margin-top: 5%;
+}
+
+.VideoGeneralSurgeryXsStyle {
+    width: 100%;
+}
+
+.DivZirVideoGeneralSurgeryXsStyle {
+    margin-top: 2%;
+}
+
+.TitrTextVideoGeneralSurgeryXsStyle {
+    font-family: Arial;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.ZirTextVideoGeneralSurgeryXsStyle {
+    font-family: Arial;
+    font-size: 2.2vw;
+    color: black;
+}
+
+.DescaptirionOrginalGeneralSurgeryXsStyle {
+    margin-top: 8%;
+}
+
+.DescaptirionRowOneGeneralSurgeryXsStyle {
+}
+
+.Pic3GeneralSurgeryTransplantRowOneTransplantXsStyle {
+    width: 50%;
+}
+
+.DivTitrRowOneGeneralSurgeryXsStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowOneGeneralSurgeryXsStyle {
+    font-family: Arial;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowOneGeneralSurgeryXsStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowOneGeneralSurgeryXsStyle {
+    font-family: Arial;
+    font-size: 2.2vw;
+    color: black;
+}
+
+.DescaptirionRowTwoGeneralSurgeryXsStyle {
+    margin-top: 10%;
+}
+
+.Pic1GeneralSurgeryRowTwoTransplantXsStyle {
+    width: 55%;
+}
+
+.DivTitrRowTwoGeneralSurgeryXsStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowTwoGeneralSurgeryXsStyle {
+    font-family: Arial;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowTwoGeneralSurgeryXsStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowTwoGeneralSurgeryXsStyle {
+    font-family: Arial;
+    font-size: 2.2vw;
+    color: black;
+}
+
+
+.DescaptirionRowThreeGeneralSurgeryXsStyle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Pic2GeneralSurgeryRowThreeTransplantXsStyle {
+    width: 50%;
+}
+
+.DivTitrRowThreeGeneralSurgeryXsStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowThreeGeneralSurgeryXsStyle {
+    font-family: Arial;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRoThreeGeneralSurgeryXsStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowThreeGeneralSurgeryXsStyle {
+    font-family: Arial;
+    font-size: 2.2vw;
+    color: black;
+}

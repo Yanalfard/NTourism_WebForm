@@ -1,0 +1,616 @@
+﻿.PanelNonSurgicalStyle {
+}
+
+.ImgHeaderNonSurgicalStyle {
+    width: 100%;
+}
+
+.DivVideoAndTextNonSurgicalStyle {
+    margin-top: 5%;
+}
+
+.VideoNonSurgicalStyle {
+    width: 100%;
+}
+
+.TitrTextVideoNonSurgicalStyle {
+    font-family: Arial;
+    font-size: 1.5vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTextVideoNonSurgicalStyle {
+    margin-top: 3%;
+}
+
+.ZirTextVideoNonSurgicalStyle {
+    font-family: Arial;
+    font-size: 1.2vw;
+    color: black;
+}
+
+.SliderDivTextNonSurgicalStyle {
+    position: absolute;
+    margin-top: -33%;
+    margin-left: 5%;
+}
+
+.SliderTitrNonSurgicalStyle {
+    color: rgba(12,144,68,1);
+    font-size: 3.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderZirDivTextNonSurgicalStyle {
+    position: absolute;
+    margin-top: -29%;
+    margin-left: 5%;
+}
+
+.SliderZirTitrNonSurgicalStyle {
+    color: rgba(12,144,68,1);
+    font-size: 3.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderDivDescriptionNonSurgicalTitrStyle {
+    position: absolute;
+    margin-top: -20%;
+    margin-left: 5.5%;
+}
+
+.SliderDescriptionNonSurgicalTextTitrStyle {
+    color: rgba(0,76,52,1);
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.DivBtnNonSurgicalSingInStyle {
+    position: absolute;
+    margin-top: -9.5%;
+    margin-left: 5%;
+    background-color: rgba(141,198,63,1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+    .DivBtnNonSurgicalSingInStyle:hover {
+        position: absolute;
+        margin-top: -9.5%;
+        margin-left: 5%;
+        background-color: rgba(141,198,63,1);
+        border-radius: 30px;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.TextBtnNonSurgicalStyle {
+    color: white;
+    font-size: 1.8vw;
+    font-weight: bold;
+}
+
+    .TextBtnNonSurgicalStyle:hover {
+        color: white;
+        font-size: 1.8vw;
+        font-weight: bold;
+    }
+
+.DivZirHeadersImgTextNonSurgicalStyle {
+    margin-top: 2%;
+}
+
+.ZirHeadersImgTextNonSurgicalStyle {
+    font-family: Arial;
+    font-size: 1.5vw;
+    color: black;
+}
+
+.DescaptirionOrginalNonSurgicalStyle {
+    margin-top: 8%;
+}
+
+.DescaptirionRowOneNonSurgicalStyle {
+}
+
+.Pic3NonSurgicalRowOneStyle {
+    width: 65%;
+}
+
+.TitrTextRowOneNonSurgicalStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowOneNonSurgicalStyle {
+    margin-top: 5%;
+}
+
+.ZirTitrTextRowOneNonSurgicalStyle {
+    font-family: Arial;
+    font-size: 1.2vw;
+    color: black;
+}
+
+
+.DescaptirionRowTwoNonSurgicalStyle {
+    margin-top: 10%;
+}
+
+.Pic1NonSurgicalRowTwoStyle {
+    width: 70%;
+}
+
+.TitrTextRowTwoNonSurgicalStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowTwoNonSurgicalStyle {
+    margin-top: 5%;
+}
+
+.ZirTitrTextRowTwoNonSurgicalStyle {
+    font-family: Arial;
+    font-size: 1.2vw;
+    color: black;
+}
+
+
+.DescaptirionRowThreeNonSurgicalStyle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Pic2NonSurgicalRowThreeStyle {
+    width: 65%;
+}
+
+.TitrTextRowThreeNonSurgicalStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRoThreeNonSurgicalStyle {
+    margin-top: 5%;
+}
+
+.ZirTitrTextRowThreeNonSurgicalStyle {
+    font-family: Arial;
+    font-size: 1.2vw;
+    color: black;
+}
+
+
+.PanelNonSurgicalSmStyle {
+}
+
+.ImgHeaderNonSurgicalSmStyle {
+    width: 100%;
+}
+
+
+/*#Sm*/
+
+
+.SliderDivTextNonSurgicalSmStyle {
+    position: absolute;
+    margin-top: -33%;
+    margin-left: 5%;
+}
+
+.SliderTitrNonSurgicalSmStyle {
+    color: rgba(12,144,68,1);
+    font-size: 3.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderZirDivTextNonSurgicalSmStyle {
+    position: absolute;
+    margin-top: -29%;
+    margin-left: 5%;
+}
+
+.SliderZirTitrNonSurgicalSmStyle {
+    color: rgba(12,144,68,1);
+    font-size: 3.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderDivDescriptionNonSurgicalTitrSmStyle {
+    position: absolute;
+    margin-top: -20%;
+    margin-left: 5.5%;
+}
+
+.SliderDescriptionNonSurgicalTextTitrSmStyle {
+    color: rgba(0,76,52,1);
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.DivBtnNonSurgicalSingInSmStyle {
+    position: absolute;
+    margin-top: -9.5%;
+    margin-left: 5%;
+    background-color: rgba(141,198,63,1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+    .DivBtnNonSurgicalSingInSmStyle:hover {
+        position: absolute;
+        margin-top: -9.5%;
+        margin-left: 5%;
+        background-color: rgba(141,198,63,1);
+        border-radius: 30px;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.TextBtnNonSurgicalSmStyle {
+    color: white;
+    font-size: 1.8vw;
+    font-weight: bold;
+}
+
+    .TextBtnNonSurgicalSmStyle:hover {
+        color: white;
+        font-size: 1.8vw;
+        font-weight: bold;
+    }
+
+
+.DivZirHeadersImgTextNonSurgicalSmStyle {
+    margin-top: 2%;
+}
+
+.ZirHeadersImgTextNonSurgicalSmStyle {
+    font-family: Arial;
+    font-size: 1.7vw;
+    color: black;
+}
+
+
+.DivVideoAndTextNonSurgicalSmStyle {
+    margin-top: 5%;
+}
+
+.VideoNonSurgicalSmStyle {
+    width: 100%;
+}
+
+.DivZirVideoNonSurgicalSmStyle {
+    margin-top: 2%;
+}
+
+.TitrTextVideoNonSurgicalSmStyle {
+    font-family: Arial;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.ZirTextVideoNonSurgicalSmStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+}
+
+
+.DescaptirionOrginalNonSurgicalSmStyle {
+    margin-top: 8%;
+}
+
+.DescaptirionRowOneNonSurgicalSmStyle {
+}
+
+.Pic3NonSurgicalRowOneTransplantSmStyle {
+    width: 50%;
+}
+
+.DivTitrRowOneNonSurgicalSmStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowOneNonSurgicalSmStyle {
+    font-family: Arial;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowOneNonSurgicalSmStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowOneNonSurgicalSmStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+}
+
+
+.DescaptirionRowTwoNonSurgicalSmStyle {
+    margin-top: 10%;
+}
+
+.Pic1NonSurgicalRowTwoTransplantSmStyle {
+    width: 55%;
+}
+
+.DivTitrRowTwoNonSurgicalSmStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowTwoNonSurgicalSmStyle {
+    font-family: Arial;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowTwoNonSurgicalSmStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowTwoNonSurgicalSmStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+}
+
+
+.DescaptirionRowThreeNonSurgicalSmStyle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Pic2NonSurgicalRowThreeTransplantSmStyle {
+    width: 50%;
+}
+
+.DivTitrRowThreeNonSurgicalSmStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowThreeNonSurgicalSmStyle {
+    font-family: Arial;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRoThreeNonSurgicalSmStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowThreeNonSurgicalSmStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+}
+
+
+/*#Xs*/
+
+.PanelNonSurgicalXsStyle {
+}
+
+.ImgHeaderNonSurgicalXsStyle {
+    width: 100%;
+}
+
+
+
+.SliderDivTextNonSurgicalXsStyle {
+    position: absolute;
+    margin-top: -33%;
+    margin-left: 5%;
+}
+
+.SliderTitrNonSurgicalXsStyle {
+    color: rgba(12,144,68,1);
+    font-size: 3.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderZirDivTextNonSurgicalXsStyle {
+    position: absolute;
+    margin-top: -29%;
+    margin-left: 5%;
+}
+
+.SliderZirTitrNonSurgicalXsStyle {
+    color: rgba(12,144,68,1);
+    font-size: 3.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderDivDescriptionNonSurgicalTitrXsStyle {
+    position: absolute;
+    margin-top: -20%;
+    margin-left: 5.5%;
+}
+
+.SliderDescriptionNonSurgicalTextTitrXsStyle {
+    color: rgba(0,76,52,1);
+    font-size: 1.8vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.DivBtnNonSurgicalSingInXsStyle {
+    position: absolute;
+    margin-top: -8%;
+    margin-left: 5%;
+    background-color: rgba(141,198,63,1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+    .DivBtnNonSurgicalSingInXsStyle:hover {
+        position: absolute;
+        margin-top: -8%;
+        margin-left: 5%;
+        background-color: rgba(141,198,63,1);
+        border-radius: 30px;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.TextBtnNonSurgicalXsStyle {
+    color: white;
+    font-size: 2.4vw;
+    font-weight: bold;
+}
+
+    .TextBtnNonSurgicalXsStyle:hover {
+        color: white;
+        font-size: 2.4vw;
+        font-weight: bold;
+    }
+
+
+.DivZirHeadersImgTextNonSurgicalXsStyle {
+    margin-top: 2%;
+}
+
+.ZirHeadersImgTextNonSurgicalXsStyle {
+    font-family: Arial;
+    font-size: 2.3vw;
+    color: black;
+}
+
+.DivVideoAndTextNonSurgicalXsStyle {
+    margin-top: 5%;
+}
+
+.VideoNonSurgicalXsStyle {
+    width: 100%;
+}
+
+.DivZirVideoNonSurgicalXsStyle {
+    margin-top: 2%;
+}
+
+.TitrTextVideoNonSurgicalXsStyle {
+    font-family: Arial;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.ZirTextVideoNonSurgicalXsStyle {
+    font-family: Arial;
+    font-size: 2.2vw;
+    color: black;
+}
+
+.DescaptirionOrginalNonSurgicalXsStyle {
+    margin-top: 8%;
+}
+
+.DescaptirionRowOneNonSurgicalXsStyle {
+}
+
+.Pic3NonSurgicalTransplantRowOneTransplantXsStyle {
+    width: 50%;
+}
+
+.DivTitrRowOneNonSurgicalXsStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowOneNonSurgicalXsStyle {
+    font-family: Arial;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowOneNonSurgicalXsStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowOneNonSurgicalXsStyle {
+    font-family: Arial;
+    font-size: 2.2vw;
+    color: black;
+}
+
+
+.DescaptirionRowTwoNonSurgicalXsStyle {
+    margin-top: 10%;
+}
+
+.Pic1NonSurgicalRowTwoTransplantXsStyle {
+    width: 55%;
+}
+
+.DivTitrRowTwoNonSurgicalXsStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowTwoNonSurgicalXsStyle {
+    font-family: Arial;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowTwoNonSurgicalXsStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowTwoNonSurgicalXsStyle {
+    font-family: Arial;
+    font-size: 2.2vw;
+    color: black;
+}
+
+
+.DescaptirionRowThreeNonSurgicalXsStyle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Pic2NonSurgicalRowThreeTransplantXsStyle {
+    width: 50%;
+}
+
+.DivTitrRowThreeNonSurgicalXsStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowThreeNonSurgicalXsStyle {
+    font-family: Arial;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRoThreeNonSurgicalXsStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowThreeNonSurgicalXsStyle {
+    font-family: Arial;
+    font-size: 2.2vw;
+    color: black;
+}

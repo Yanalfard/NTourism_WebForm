@@ -1,0 +1,606 @@
+﻿.PanelHeartTreatmentStyle {
+}
+
+.ImgHeaderHeartTreatmentStyle {
+    width: 100%;
+}
+
+.DivVideoAndTextHeartTreatmentStyle {
+    margin-top: 5%;
+}
+
+.VideoHeartTreatmentStyle {
+    width: 100%;
+}
+
+.TitrTextVideoHeartTreatmentStyle {
+    font-family: Arial;
+    font-size: 1.5vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTextVideoHeartTreatmentStyle {
+    margin-top: 3%;
+}
+
+.ZirTextVideoHeartTreatmentStyle {
+    font-family: Arial;
+    font-size: 1.2vw;
+    color: black;
+}
+
+.SliderDivTextHeartTreatmentStyle {
+    position: absolute;
+    margin-top: -33%;
+    margin-left: 5%;
+}
+
+.SliderTitrHeartTreatmentStyle {
+    color: rgba(12,144,68,1);
+    font-size: 5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderZirDivTextHeartTreatmentStyle {
+    position: absolute;
+    margin-top: -28%;
+    margin-left: 5%;
+}
+
+.SliderZirTitrHeartTreatmentStyle {
+    color: rgba(12,144,68,1);
+    font-size: 3.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderDivDescriptionHeartTreatmentTitrStyle {
+    position: absolute;
+    margin-top: -20%;
+    margin-left: 5.5%;
+}
+
+.SliderDescriptionHeartTreatmentTextTitrStyle {
+    color: rgba(0,76,52,1);
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.DivBtnHeartTreatmentSingInStyle {
+    position: absolute;
+    margin-top: -9.5%;
+    margin-left: 5%;
+    background-color: rgba(141,198,63,1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+    .DivBtnHeartTreatmentSingInStyle:hover {
+        position: absolute;
+        margin-top: -9.5%;
+        margin-left: 5%;
+        background-color: rgba(141,198,63,1);
+        border-radius: 30px;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.TextBtnHeartTreatmentStyle {
+    color: white;
+    font-size: 1.8vw;
+    font-weight: bold;
+}
+
+    .TextBtnHeartTreatmentStyle:hover {
+        color: white;
+        font-size: 1.8vw;
+        font-weight: bold;
+    }
+
+.DivZirHeadersImgTextHeartTreatmentStyle {
+    margin-top: 2%;
+}
+
+.ZirHeadersImgTextHeartTreatmentStyle {
+    font-family: Arial;
+    font-size: 1.5vw;
+    color: black;
+}
+
+.DescaptirionOrginalHeartTreatmentStyle {
+    margin-top: 8%;
+}
+
+.DescaptirionRowOneHeartTreatmentStyle {
+}
+
+.Pic3HeartTreatmentRowOneStyle {
+    width: 65%;
+}
+
+.TitrTextRowOneHeartTreatmentStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowOneHeartTreatmentStyle {
+    margin-top: 5%;
+}
+
+.ZirTitrTextRowOneHeartTreatmentStyle {
+    font-family: Arial;
+    font-size: 1.2vw;
+    color: black;
+}
+
+.DescaptirionRowTwoHeartTreatmentStyle {
+    margin-top: 10%;
+}
+
+.Pic1HeartTreatmentRowTwoStyle {
+    width: 70%;
+}
+
+.TitrTextRowTwoHeartTreatmentStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowTwoHeartTreatmentStyle {
+    margin-top: 5%;
+}
+
+.ZirTitrTextRowTwoHeartTreatmentStyle {
+    font-family: Arial;
+    font-size: 1.2vw;
+    color: black;
+}
+
+.DescaptirionRowThreeHeartTreatmentStyle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Pic2HeartTreatmentRowThreeStyle {
+    width: 65%;
+}
+
+.TitrTextRowThreeHeartTreatmentStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRoThreeHeartTreatmentStyle {
+    margin-top: 5%;
+}
+
+.ZirTitrTextRowThreeHeartTreatmentStyle {
+    font-family: Arial;
+    font-size: 1.2vw;
+    color: black;
+}
+
+
+/*#Sm*/
+.PanelHeartTreatmentSmStyle {
+}
+
+.ImgHeaderHeartTreatmentSmStyle {
+    width: 100%;
+}
+
+.SliderDivTextHeartTreatmentSmStyle {
+    position: absolute;
+    margin-top: -33%;
+    margin-left: 5%;
+}
+
+.SliderTitrHeartTreatmentSmStyle {
+    color: rgba(12,144,68,1);
+    font-size: 5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderZirDivTextHeartTreatmentSmStyle {
+    position: absolute;
+    margin-top: -28%;
+    margin-left: 5%;
+}
+
+.SliderZirTitrHeartTreatmentSmStyle {
+    color: rgba(12,144,68,1);
+    font-size: 3.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderDivDescriptionHeartTreatmentTitrSmStyle {
+    position: absolute;
+    margin-top: -20%;
+    margin-left: 5.5%;
+}
+
+.SliderDescriptionHeartTreatmentTextTitrSmStyle {
+    color: rgba(0,76,52,1);
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.DivBtnHeartTreatmentSingInSmStyle {
+    position: absolute;
+    margin-top: -9.5%;
+    margin-left: 5%;
+    background-color: rgba(141,198,63,1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+    .DivBtnHeartTreatmentSingInSmStyle:hover {
+        position: absolute;
+        margin-top: -9.5%;
+        margin-left: 5%;
+        background-color: rgba(141,198,63,1);
+        border-radius: 30px;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.TextBtnHeartTreatmentSmStyle {
+    color: white;
+    font-size: 1.8vw;
+    font-weight: bold;
+}
+
+    .TextBtnHeartTreatmentSmStyle:hover {
+        color: white;
+        font-size: 1.8vw;
+        font-weight: bold;
+    }
+
+.DivZirHeadersImgTextHeartTreatmentSmStyle {
+    margin-top: 2%;
+}
+
+.ZirHeadersImgTextHeartTreatmentSmStyle {
+    font-family: Arial;
+    font-size: 1.7vw;
+    color: black;
+}
+
+.DivVideoAndTextHeartTreatmentSmStyle {
+    margin-top: 5%;
+}
+
+.VideoHeartTreatmentSmStyle {
+    width: 100%;
+}
+
+.DivZirVideoHeartTreatmentSmStyle {
+    margin-top: 2%;
+}
+
+.TitrTextVideoHeartTreatmentSmStyle {
+    font-family: Arial;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.ZirTextVideoHeartTreatmentSmStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+}
+
+
+.DescaptirionOrginalHeartTreatmentSmStyle {
+    margin-top: 8%;
+}
+
+.DescaptirionRowOneHeartTreatmentSmStyle {
+}
+
+.Pic3HeartTreatmentRowOneTreatmentSmStyle {
+    width: 50%;
+}
+
+.DivTitrRowOneHeartTreatmentSmStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowOneHeartTreatmentSmStyle {
+    font-family: Arial;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowOneHeartTreatmentSmStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowOneHeartTreatmentSmStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+}
+
+.DescaptirionRowTwoHeartTreatmentSmStyle {
+    margin-top: 10%;
+}
+
+.Pic1HeartTreatmentRowTwoTreatmentSmStyle {
+    width: 55%;
+}
+
+.DivTitrRowTwoHeartTreatmentSmStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowTwoHeartTreatmentSmStyle {
+    font-family: Arial;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowTwoHeartTreatmentSmStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowTwoHeartTreatmentSmStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+}
+
+.DescaptirionRowThreeHeartTreatmentSmStyle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Pic2HeartTreatmentRowThreeTreatmentSmStyle {
+    width: 50%;
+}
+
+.DivTitrRowThreeHeartTreatmentSmStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowThreeHeartTreatmentSmStyle {
+    font-family: Arial;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRoThreeHeartTreatmentSmStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowThreeHeartTreatmentSmStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+}
+
+
+/* #Xs*/
+
+
+.PanelHeartTreatmentXsStyle {
+}
+
+.ImgHeaderHeartTreatmentXsStyle {
+    width: 100%;
+}
+
+.SliderDivTextHeartTreatmentXsStyle {
+    position: absolute;
+    margin-top: -33%;
+    margin-left: 5%;
+}
+
+.SliderTitrHeartTreatmentXsStyle {
+    color: rgba(12,144,68,1);
+    font-size: 6vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderZirDivTextHeartTreatmentXsStyle {
+    position: absolute;
+    margin-top: -26%;
+    margin-left: 5%;
+}
+
+.SliderZirTitrHeartTreatmentXsStyle {
+    color: rgba(12,144,68,1);
+    font-size: 4.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderDivDescriptionHeartTreatmentTitrXsStyle {
+    position: absolute;
+    margin-top: -19%;
+    margin-left: 5.5%;
+}
+
+.SliderDescriptionHeartTreatmentTextTitrXsStyle {
+    color: rgba(0,76,52,1);
+    font-size: 2.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.DivBtnHeartTreatmentSingInXsStyle {
+    position: absolute;
+    margin-top: -8%;
+    margin-left: 40%;
+    background-color: rgba(141,198,63,1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+    .DivBtnHeartTreatmentSingInXsStyle:hover {
+        position: absolute;
+        margin-top: -8%;
+        margin-left: 40%;
+        background-color: rgba(141,198,63,1);
+        border-radius: 30px;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.TextBtnHeartTreatmentXsStyle {
+    color: white;
+    font-size: 2.4vw;
+    font-weight: bold;
+}
+
+    .TextBtnHeartTreatmentXsStyle:hover {
+        color: white;
+        font-size: 2.4vw;
+        font-weight: bold;
+    }
+
+
+.DivZirHeadersImgTextHeartTreatmentXsStyle {
+    margin-top: 3%;
+}
+
+.ZirHeadersImgTextHeartTreatmentXsStyle {
+    font-family: Arial;
+    font-size: 2.3vw;
+    color: black;
+}
+
+.DivVideoAndTextHeartTreatmentXsStyle {
+    margin-top: 5%;
+}
+
+.VideoHeartTreatmentXsStyle {
+    width: 100%;
+}
+
+.DivZirVideoHeartTreatmentXsStyle {
+    margin-top: 2%;
+}
+
+.TitrTextVideoHeartTreatmentXsStyle {
+    font-family: Arial;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.ZirTextVideoHeartTreatmentXsStyle {
+    font-family: Arial;
+    font-size: 2.2vw;
+    color: black;
+}
+
+.DescaptirionOrginalHeartTreatmentXsStyle {
+    margin-top: 8%;
+}
+
+.DescaptirionRowOneHeartTreatmentXsStyle {
+}
+
+.Pic3HeartTreatmentTreatmentRowOneTreatmentXsStyle {
+    width: 50%;
+}
+
+.DivTitrRowOneHeartTreatmentXsStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowOneHeartTreatmentXsStyle {
+    font-family: Arial;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowOneHeartTreatmentXsStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowOneHeartTreatmentXsStyle {
+    font-family: Arial;
+    font-size: 2.2vw;
+    color: black;
+}
+
+
+.DescaptirionRowTwoHeartTreatmentXsStyle {
+    margin-top: 10%;
+}
+
+.Pic1HeartTreatmentRowTwoTreatmentXsStyle {
+    width: 55%;
+}
+
+.DivTitrRowTwoHeartTreatmentXsStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowTwoHeartTreatmentXsStyle {
+    font-family: Arial;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowTwoHeartTreatmentXsStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowTwoHeartTreatmentXsStyle {
+    font-family: Arial;
+    font-size: 2.2vw;
+    color: black;
+}
+
+
+.DescaptirionRowThreeHeartTreatmentXsStyle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Pic2HeartTreatmentRowThreeTreatmentXsStyle {
+    width: 50%;
+}
+
+.DivTitrRowThreeHeartTreatmentXsStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowThreeHeartTreatmentXsStyle {
+    font-family: Arial;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRoThreeHeartTreatmentXsStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowThreeHeartTreatmentXsStyle {
+    font-family: Arial;
+    font-size: 2.2vw;
+    color: black;
+}

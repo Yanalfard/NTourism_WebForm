@@ -1,0 +1,99 @@
+﻿@model IEnumerable<NTourism.Models.ObjectClass.OcTblCity>
+
+@{
+    ViewBag.Title = "Search";
+}
+
+<h1>
+    @Html.ActionLink("Add City", "Create")
+</h1>
+
+
+<div class="text-center row">
+    <form action="/Admin/Client/Search" method="get" class="form-group">
+        <input class="inputSearch form-control" name="q" type="text" placeholder="Search.... ">
+        <button><i class="fa fa-search"></i></button>
+    </form>
+</div>
+<table class="table  list-wrapper">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Country)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MapLink)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IsValid)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr class="list-item">
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Country)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MapLink)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsValid)
+            </td>
+            <td>
+                <a class="btn btn-danger btn-sm" onclick="editeGroup(@item.id)">
+                    <i class="glyphicon glyphicon-edit"></i>
+                </a>
+                <a class="btn btn-danger btn-sm" onclick="deleteGroup(@item.id)">
+                    <i class="glyphicon glyphicon-trash"></i>
+                </a>
+            </td>
+        </tr>
+    }
+</table>
+<div class="pagination-container"></div>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" id="myModalBody">
+
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--End Modal -->
+@section scripts{
+    <script src="~/Scripts/modal.js"></script>
+    <script>
+
+        function editeGroup(id) {
+            window.location = '/Admin/City/Edit/' + id;
+        };
+        function deleteGroup(id) {
+            $.get('/Admin/City/Delete/' + id, function (result) {
+                $('#myModal').modal();
+                $('#myModalLabel').html('Delete');
+                $('#myModalBody').html(result);
+            });
+        };
+
+    </script>
+
+
+
+}

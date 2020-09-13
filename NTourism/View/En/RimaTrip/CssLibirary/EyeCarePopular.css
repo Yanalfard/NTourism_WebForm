@@ -1,0 +1,606 @@
+﻿.PanelEyeCareStyle {
+}
+
+.ImgHeaderEyeCareStyle {
+    width: 100%;
+}
+
+.DivVideoAndTextEyeCareStyle {
+    margin-top: 5%;
+}
+
+.VideoEyeCareStyle {
+    width: 100%;
+}
+
+.TitrTextVideoEyeCareStyle {
+    font-family: Arial;
+    font-size: 1.5vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTextVideoEyeCareStyle {
+    margin-top: 3%;
+}
+
+.ZirTextVideoEyeCareStyle {
+    font-family: Arial;
+    font-size: 1.2vw;
+    color: black;
+}
+
+.SliderDivTextEyeCareStyle {
+    position: absolute;
+    margin-top: -33%;
+    margin-left: 5%;
+}
+
+.SliderTitrEyeCareStyle {
+    color: rgba(12,144,68,1);
+    font-size: 5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderZirDivTextEyeCareStyle {
+    position: absolute;
+    margin-top: -28%;
+    margin-left: 5%;
+}
+
+.SliderZirTitrEyeCareStyle {
+    color: rgba(12,144,68,1);
+    font-size: 3.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderDivDescriptionEyeCareTitrStyle {
+    position: absolute;
+    margin-top: -20%;
+    margin-left: 5.5%;
+}
+
+.SliderDescriptionEyeCareTextTitrStyle {
+    color: rgba(0,76,52,1);
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.DivBtnEyeCareSingInStyle {
+    position: absolute;
+    margin-top: -9.5%;
+    margin-left: 5%;
+    background-color: rgba(141,198,63,1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+    .DivBtnEyeCareSingInStyle:hover {
+        position: absolute;
+        margin-top: -9.5%;
+        margin-left: 5%;
+        background-color: rgba(141,198,63,1);
+        border-radius: 30px;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.TextBtnEyeCareStyle {
+    color: white;
+    font-size: 1.8vw;
+    font-weight: bold;
+}
+
+    .TextBtnEyeCareStyle:hover {
+        color: white;
+        font-size: 1.8vw;
+        font-weight: bold;
+    }
+
+.DivZirHeadersImgTextEyeCareStyle {
+    margin-top: 2%;
+}
+
+.ZirHeadersImgTextEyeCareStyle {
+    font-family: Arial;
+    font-size: 1.5vw;
+    color: black;
+}
+
+.DescaptirionOrginalEyeCareStyle {
+    margin-top: 8%;
+}
+
+.DescaptirionRowOneEyeCareStyle {
+}
+
+.Pic3EyeCareRowOneStyle {
+    width: 65%;
+}
+
+.TitrTextRowOneEyeCareStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowOneEyeCareStyle {
+    margin-top: 5%;
+}
+
+.ZirTitrTextRowOneEyeCareStyle {
+    font-family: Arial;
+    font-size: 1.2vw;
+    color: black;
+}
+
+.DescaptirionRowTwoEyeCareStyle {
+    margin-top: 10%;
+}
+
+.Pic1EyeCareRowTwoStyle {
+    width: 70%;
+}
+
+.TitrTextRowTwoEyeCareStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowTwoEyeCareStyle {
+    margin-top: 5%;
+}
+
+.ZirTitrTextRowTwoEyeCareStyle {
+    font-family: Arial;
+    font-size: 1.2vw;
+    color: black;
+}
+
+.DescaptirionRowThreeEyeCareStyle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Pic2EyeCareRowThreeStyle {
+    width: 65%;
+}
+
+.TitrTextRowThreeEyeCareStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRoThreeEyeCareStyle {
+    margin-top: 5%;
+}
+
+.ZirTitrTextRowThreeEyeCareStyle {
+    font-family: Arial;
+    font-size: 1.2vw;
+    color: black;
+}
+
+
+/*#Sm*/
+.PanelEyeCareSmStyle {
+}
+
+.ImgHeaderEyeCareSmStyle {
+    width: 100%;
+}
+
+.SliderDivTextEyeCareSmStyle {
+    position: absolute;
+    margin-top: -33%;
+    margin-left: 5%;
+}
+
+.SliderTitrEyeCareSmStyle {
+    color: rgba(12,144,68,1);
+    font-size: 5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderZirDivTextEyeCareSmStyle {
+    position: absolute;
+    margin-top: -28%;
+    margin-left: 5%;
+}
+
+.SliderZirTitrEyeCareSmStyle {
+    color: rgba(12,144,68,1);
+    font-size: 3.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderDivDescriptionEyeCareTitrSmStyle {
+    position: absolute;
+    margin-top: -20%;
+    margin-left: 5.5%;
+}
+
+.SliderDescriptionEyeCareTextTitrSmStyle {
+    color: rgba(0,76,52,1);
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.DivBtnEyeCareSingInSmStyle {
+    position: absolute;
+    margin-top: -9.5%;
+    margin-left: 5%;
+    background-color: rgba(141,198,63,1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+    .DivBtnEyeCareSingInSmStyle:hover {
+        position: absolute;
+        margin-top: -9.5%;
+        margin-left: 5%;
+        background-color: rgba(141,198,63,1);
+        border-radius: 30px;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.TextBtnEyeCareSmStyle {
+    color: white;
+    font-size: 1.8vw;
+    font-weight: bold;
+}
+
+    .TextBtnEyeCareSmStyle:hover {
+        color: white;
+        font-size: 1.8vw;
+        font-weight: bold;
+    }
+
+.DivZirHeadersImgTextEyeCareSmStyle {
+    margin-top: 2%;
+}
+
+.ZirHeadersImgTextEyeCareSmStyle {
+    font-family: Arial;
+    font-size: 1.7vw;
+    color: black;
+}
+
+.DivVideoAndTextEyeCareSmStyle {
+    margin-top: 5%;
+}
+
+.VideoEyeCareSmStyle {
+    width: 100%;
+}
+
+.DivZirVideoEyeCareSmStyle {
+    margin-top: 2%;
+}
+
+.TitrTextVideoEyeCareSmStyle {
+    font-family: Arial;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.ZirTextVideoEyeCareSmStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+}
+
+
+.DescaptirionOrginalEyeCareSmStyle {
+    margin-top: 8%;
+}
+
+.DescaptirionRowOneEyeCareSmStyle {
+}
+
+.Pic3EyeCareRowOneTransplantSmStyle {
+    width: 50%;
+}
+
+.DivTitrRowOneEyeCareSmStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowOneEyeCareSmStyle {
+    font-family: Arial;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowOneEyeCareSmStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowOneEyeCareSmStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+}
+
+.DescaptirionRowTwoEyeCareSmStyle {
+    margin-top: 10%;
+}
+
+.Pic1EyeCareRowTwoTransplantSmStyle {
+    width: 55%;
+}
+
+.DivTitrRowTwoEyeCareSmStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowTwoEyeCareSmStyle {
+    font-family: Arial;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowTwoEyeCareSmStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowTwoEyeCareSmStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+}
+
+.DescaptirionRowThreeEyeCareSmStyle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Pic2EyeCareRowThreeTransplantSmStyle {
+    width: 50%;
+}
+
+.DivTitrRowThreeEyeCareSmStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowThreeEyeCareSmStyle {
+    font-family: Arial;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRoThreeEyeCareSmStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowThreeEyeCareSmStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+}
+
+
+/* #Xs*/
+
+
+.PanelEyeCareXsStyle {
+}
+
+.ImgHeaderEyeCareXsStyle {
+    width: 100%;
+}
+
+.SliderDivTextEyeCareXsStyle {
+    position: absolute;
+    margin-top: -33%;
+    margin-left: 5%;
+}
+
+.SliderTitrEyeCareXsStyle {
+    color: rgba(12,144,68,1);
+    font-size: 6vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderZirDivTextEyeCareXsStyle {
+    position: absolute;
+    margin-top: -26%;
+    margin-left: 5%;
+}
+
+.SliderZirTitrEyeCareXsStyle {
+    color: rgba(12,144,68,1);
+    font-size: 4.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderDivDescriptionEyeCareTitrXsStyle {
+    position: absolute;
+    margin-top: -19%;
+    margin-left: 5.5%;
+}
+
+.SliderDescriptionEyeCareTextTitrXsStyle {
+    color: rgba(0,76,52,1);
+    font-size: 2.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.DivBtnEyeCareSingInXsStyle {
+    position: absolute;
+    margin-top: -8%;
+    margin-left: 40%;
+    background-color: rgba(141,198,63,1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+    .DivBtnEyeCareSingInXsStyle:hover {
+        position: absolute;
+        margin-top: -8%;
+        margin-left: 40%;
+        background-color: rgba(141,198,63,1);
+        border-radius: 30px;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.TextBtnEyeCareXsStyle {
+    color: white;
+    font-size: 2.4vw;
+    font-weight: bold;
+}
+
+    .TextBtnEyeCareXsStyle:hover {
+        color: white;
+        font-size: 2.4vw;
+        font-weight: bold;
+    }
+
+
+.DivZirHeadersImgTextEyeCareXsStyle {
+    margin-top: 3%;
+}
+
+.ZirHeadersImgTextEyeCareXsStyle {
+    font-family: Arial;
+    font-size: 2.3vw;
+    color: black;
+}
+
+.DivVideoAndTextEyeCareXsStyle {
+    margin-top: 5%;
+}
+
+.VideoEyeCareXsStyle {
+    width: 100%;
+}
+
+.DivZirVideoEyeCareXsStyle {
+    margin-top: 2%;
+}
+
+.TitrTextVideoEyeCareXsStyle {
+    font-family: Arial;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.ZirTextVideoEyeCareXsStyle {
+    font-family: Arial;
+    font-size: 2.2vw;
+    color: black;
+}
+
+.DescaptirionOrginalEyeCareXsStyle {
+    margin-top: 8%;
+}
+
+.DescaptirionRowOneEyeCareXsStyle {
+}
+
+.Pic3EyeCareTransplantRowOneTransplantXsStyle {
+    width: 50%;
+}
+
+.DivTitrRowOneEyeCareXsStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowOneEyeCareXsStyle {
+    font-family: Arial;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowOneEyeCareXsStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowOneEyeCareXsStyle {
+    font-family: Arial;
+    font-size: 2.2vw;
+    color: black;
+}
+
+
+.DescaptirionRowTwoEyeCareXsStyle {
+    margin-top: 10%;
+}
+
+.Pic1EyeCareRowTwoTransplantXsStyle {
+    width: 55%;
+}
+
+.DivTitrRowTwoEyeCareXsStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowTwoEyeCareXsStyle {
+    font-family: Arial;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowTwoEyeCareXsStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowTwoEyeCareXsStyle {
+    font-family: Arial;
+    font-size: 2.2vw;
+    color: black;
+}
+
+
+.DescaptirionRowThreeEyeCareXsStyle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Pic2EyeCareRowThreeTransplantXsStyle {
+    width: 50%;
+}
+
+.DivTitrRowThreeEyeCareXsStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowThreeEyeCareXsStyle {
+    font-family: Arial;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRoThreeEyeCareXsStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowThreeEyeCareXsStyle {
+    font-family: Arial;
+    font-size: 2.2vw;
+    color: black;
+}

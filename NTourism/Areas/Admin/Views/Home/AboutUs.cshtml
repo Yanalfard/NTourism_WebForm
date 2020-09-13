@@ -1,0 +1,70 @@
+﻿
+@{
+    ViewBag.Title = "AboutUs";
+}
+    <link href="~/Areas/Admin/Style/AboutUs.css" rel="stylesheet" />
+
+<div class="row" style="margin-bottom:200px;">
+
+    <div class="row">
+        <h1 onclick="editeGroup();" class="text-center">Edit About</h1>
+        <style>
+            h1 {
+                cursor: pointer;
+            }
+        </style>
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
+            <div class="aboutUsPageShowDynamicImage1">
+            </div>
+         
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
+            <div class="aboutUsPageShowDynamicImage2"></div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
+            <div class="aboutUsPageShowDynamicImage3"></div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
+            <div class="aboutUsPageShowDynamicImage4"></div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <div class="aboutUsPageShowDynamicImage5"></div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <div class="aboutUsPageShowDynamicImage6"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 ">
+            <div class="aboutUsPageShowDynamicImage7"></div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 ">
+            <div class="aboutUsPageShowDynamicImage8"></div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 ">
+            <div class="aboutUsPageShowDynamicImage9"></div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 ">
+            <div class="aboutUsPageShowDynamicImage10"></div>
+        </div>
+    </div>
+
+</div>
+
+@section Scripts{
+
+    <script src="~/Bootstrap1/Scripts/jquery-1.9.1.min.js"></script>
+    <script src="~/Bootstrap1/Scripts/bootstrap.min.js"></script>
+
+    <script src="~/Areas/Admin/Script/AboutUs.js"></script>
+
+    <script>
+        function editeGroup() {
+            window.location = '/Admin/Home/Edit/';
+        };
+    </script>
+
+}

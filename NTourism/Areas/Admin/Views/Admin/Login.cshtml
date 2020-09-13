@@ -1,0 +1,84 @@
+﻿
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+    <script src="/Bootstrap1/Scripts/jquery-1.9.1.min.js"></script>
+    <script src="/Bootstrap1/Scripts/bootstrap.min.js"></script>
+    <link href="/Bootstrap1/Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="/Bootstrap1/Content/bootstrap.min.css" rel="stylesheet" />
+    
+
+    <script src="~/StyleScriptsNTourism/Script/Admin.js"></script>
+    <link href="~/StyleScriptsNTourism/Style/Admin.css" rel="stylesheet" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+
+    <script src="http://www.parsecdn.com/js/parse-1.2.2.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+    <div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
+                    <img src="/Resources/En/SingUp/Signup-01.png" class="ImgSignupStyle" alt="Signup-OurServices" title="Signup-OurServices" />
+                </div>
+                <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
+
+                    <div id="form_container">
+
+                        <form id="signup" method="post">
+                            <label>ADMINISTRATOR</label>
+                            <div class="group">
+                                <input id="UserName" type="text" maxlength="50" autocomplete="off" onblur="CheckEmptyInput(this)" required>
+                                <span class="highlight"></span>
+                                <span class="bar"></span>
+                                <label for="UserName">User Name</label>
+                            </div>
+                            <div class="group">
+                                <input id="Password" type="password" maxlength="15" autocomplete="off" onblur="CheckEmptyInput(this)" required>
+                                <span class="highlight"></span>
+                                <span class="bar"></span>
+                                <label for="Password">Password</label>
+                            </div>
+
+                            <p id="ErrorTextPageLogin"></p>
+
+                            <ul class="errorMessages"></ul>
+
+                            <input id="btnsubmit" type="submit" value="CONTINUE" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <style>
+         
+        </style>
+    
+
+    </div>
+</body>
+</html>

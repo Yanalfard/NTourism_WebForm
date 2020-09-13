@@ -1,0 +1,352 @@
+﻿.DivAslyHospitalValiasrStyle {
+    margin-top: 1%;
+}
+
+.SliderImgHospitalValiasrStyle {
+    width: 100%;
+}
+
+.SliderDivTextHealthHospitalValiasrStyle {
+    position: absolute;
+    margin-top: 0.9%;
+    margin-left: 7.5%;
+}
+
+.SliderTitrHealthHospitalValiasrStyle {
+    font-size: 6.5vw;
+    font-weight: bold;
+    color: white;
+}
+
+.SliderZirDivTextHealthHospitalValiasrStyle {
+    position: absolute;
+    margin-top: 8.5%;
+    margin-left: 7.5%;
+}
+
+.SliderZirTitrHealthHospitalValiasrStyle {
+    font-size: 3.5vw;
+    font-weight: bold;
+    color: white;
+}
+
+.SliderDivIncludinTextTitrHospitalValiasrStyle {
+    position: absolute;
+    margin-top: 14%;
+    margin-left: 7.5%;
+}
+
+.SliderIncludinTextTitrHospitalValiasrStyle {
+    font-size: 1.8vw;
+    font-weight: bold;
+    color: #c6c6c6;
+}
+
+.SliderDivIncludinTextZirTitrHospitalValiasrStyle {
+    position: absolute;
+    margin-top: 16.2%;
+    margin-left: 7.5%;
+}
+
+.SliderIncludinTextZirTitrHospitalValiasrStyle {
+    font-size: 1.2vw;
+    font-weight: bold;
+    color: #c6c6c6;
+}
+
+.SliderBtnRegisterHospitalValiasrStyle {
+    position: absolute;
+    margin-top: 22%;
+    margin-left: 7%;
+    transition: 0.5s;
+}
+
+    .SliderBtnRegisterHospitalValiasrStyle:hover {
+        position: absolute;
+        margin-top: 22%;
+        margin-left: 7%;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.SliderBtnRegisterTextHospitalValiasrStyle {
+    color: white;
+    background-color: rgba(141,198,63,1);
+    border-radius: 25px;
+    font-size: 1.4vw;
+    font-weight: bold;
+}
+
+    .SliderBtnRegisterTextHospitalValiasrStyle:hover {
+        color: white;
+        background-color: rgba(141,198,63,1);
+        border-radius: 25px;
+        font-size: 1.4vw;
+        font-weight: bold;
+    }
+
+
+.DivZirSliderTextHospitalValiasrStyle {
+    padding: 2% 4% 0% 4%;
+}
+
+.ZirSliderTextHospitalValiasrStyle {
+    font-family: Arial;
+    font-size: 1.5em;
+    color: black;
+}
+
+.DivVideoAndTextHospitalValiasrStyle {
+    margin-top: 4%;
+}
+
+.VideoTextHospitalValiasrStyle {
+    font-family: Arial;
+    font-size: 1.1em;
+    color: black;
+}
+
+.DivRow3StyleHospitalValiasrStyle {
+    margin-top: 1%;
+    padding: 0% 3% 0% 3%;
+}
+
+.TitrRow3TextHospitalValiasrStyle {
+    font-family: Arial;
+    font-size: 1.5em;
+    color: black;
+    font-weight: bold;
+}
+
+.ZirTitrRow3TextHospitalValiasrStyle {
+    font-family: Arial;
+    font-size: 1.3em;
+    color: black;
+}
+
+
+.DivOthersHospitalValiasrStyle {
+    margin-top: 1%;
+}
+
+.DivOthersHospitilsBorderStyle {
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+.DivOthersHospitilsInBorderStyle {
+    border-bottom: 2px solid #124908;
+    width: 40%;
+    margin-left: 30%
+}
+
+.TitrNameOthersHospitalValiasrStyle {
+    color: #004a33;
+    font-size: 1.5em;
+    text-decoration: none;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+
+.LinkOthersHospitalValiasrStyle {
+    margin-top: 3%;
+}
+
+.MatnLinkOthersHospitalValiasrStyle {
+    color: #004a33;
+    font-size: 1em;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+    .MatnLinkOthersHospitalValiasrStyle:hover {
+        color: #004a33;
+        font-size: 1em;
+        text-decoration: none;
+        font-family: Arial;
+    }
+
+
+.DivZirSliderTextHospitalValiasrMdStyle {
+    padding: 2% 4% 0% 4%;
+}
+
+.SliderImgHospitalValiasrMdStyle {
+    width: 100%;
+}
+
+.ZirSliderTextHospitalValiasrMdStyle {
+    font-family: Arial;
+    font-size: 1.3em;
+    color: black;
+}
+
+.DivVideoAndTextHospitalValiasrMdStyle {
+    margin-top: 4%;
+}
+
+.VideoTextHospitalValiasrMdStyle {
+    font-family: Arial;
+    font-size: 0.8em;
+    color: black;
+}
+
+
+.DivRow3StyleHospitalValiasrMdStyle {
+    margin-top: 1%;
+    padding: 0% 3% 0% 3%;
+}
+
+.TitrRow3TextHospitalValiasrMdStyle {
+    font-family: Arial;
+    font-size: 1.2em;
+    color: black;
+    font-weight: bold;
+}
+
+.ZirTitrRow3TextHospitalValiasrMdStyle {
+    font-family: Arial;
+    font-size: 1em;
+    color: black;
+}
+
+
+.DivOthersHospitalValiasrMdStyle {
+    margin-top: 1%;
+}
+
+.DivOthersHospitilsBorderStyle {
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+.DivOthersHospitilsInBorderStyle {
+    border-bottom: 2px solid #124908;
+    width: 40%;
+    margin-left: 30%
+}
+
+.TitrNameOthersHospitalValiasrMdStyle {
+    color: #004a33;
+    font-size: 1.5em;
+    text-decoration: none;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+
+.LinkOthersHospitalValiasrMdStyle {
+    margin-top: 3%;
+}
+
+.MatnLinkOthersHospitalValiasrMdStyle {
+    color: #004a33;
+    font-size: 1em;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+    .MatnLinkOthersHospitalValiasrMdStyle:hover {
+        color: #004a33;
+        font-size: 1em;
+        text-decoration: none;
+        font-family: Arial;
+    }
+
+
+.DivZirSliderTextHospitalValiasrSmStyle {
+    padding: 2% 4% 0% 4%;
+}
+
+.SliderImgHospitalValiasrSmStyle {
+    width: 100%;
+}
+
+.ZirSliderTextHospitalValiasrSmStyle {
+    font-family: Arial;
+    font-size: 1em;
+    color: black;
+}
+
+.DivVideoAndTextHospitalValiasrSmStyle {
+    margin-top: 4%;
+}
+
+.VideoTextHospitalValiasrSmStyle {
+    font-family: Arial;
+    font-size: 1em;
+    color: black;
+}
+
+.DivZirVideoHospitalValiasrSmStyle {
+    padding: 5% 5% 0% 5%;
+}
+
+.DivRow3StyleHospitalValiasrSmStyle {
+    margin-top: 2%;
+    padding: 0% 3% 0% 3%;
+}
+
+.TitrRow3TextHospitalValiasrSmStyle {
+    font-family: Arial;
+    font-size: 1.2em;
+    color: black;
+    font-weight: bold;
+}
+
+.ZirTitrRow3TextHospitalValiasrSmStyle {
+    font-family: Arial;
+    font-size: 1em;
+    color: black;
+}
+
+.DivZirSliderTextHospitalValiasrXsStyle {
+    padding: 2% 4% 0% 4%;
+}
+
+.SliderImgHospitalValiasrXsStyle {
+    width: 100%;
+}
+
+.ZirSliderTextHospitalValiasrXsStyle {
+    font-family: Arial;
+    font-size: 1em;
+    color: black;
+}
+
+.DivVideoAndTextHospitalValiasrXsStyle {
+    margin-top: 4%;
+}
+
+.VideoTextHospitalValiasrXsStyle {
+    font-family: Arial;
+    font-size: 1em;
+    color: black;
+}
+
+.DivZirVideoHospitalValiasrXsStyle {
+    padding: 5% 5% 0% 5%;
+}
+
+
+.DivRow3StyleHospitalValiasrXsStyle {
+    margin-top: 2%;
+    padding: 0% 3% 0% 3%;
+}
+
+.TitrRow3TextHospitalValiasrXsStyle {
+    font-family: Arial;
+    font-size: 1.2em;
+    color: black;
+    font-weight: bold;
+}
+
+.ZirTitrRow3TextHospitalValiasrXsStyle {
+    font-family: Arial;
+    font-size: 1em;
+    color: black;
+}
+.DiuvTitrHospitilsStyle {
+    margin-top: 1%;
+}

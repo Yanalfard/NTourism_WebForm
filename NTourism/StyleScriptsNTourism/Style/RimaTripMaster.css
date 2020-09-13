@@ -1,0 +1,1254 @@
+﻿#header {
+    margin-top: 10px;
+}
+
+/*Fixed menu scroll */
+
+.fixedPosition {
+    position: fixed;
+}
+
+.fixedPositionDisabel {
+    position: static;
+}
+
+/**/
+.LogoMenusInHeaderStyle {
+    color: green;
+    margin-right: 0.3rem;
+}
+
+.UlNavbarStyle {
+    padding-left: 3%;
+}
+
+.MenuLinkFontStyle {
+    color: black;
+    font-size: 1.5vw;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+    .MenuLinkFontStyle:hover {
+        color: black;
+        font-size: 1.5vw;
+        text-decoration: none;
+        font-family: Arial;
+    }
+
+.ImgheaderlogoRowOneStyle {
+    width: 13%;
+    margin-left: 70px;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 21px;
+    height: 4px;
+    background-color: #333;
+    margin-top: 5px;
+    transition: 0.4s;
+}
+
+.MenuHambergerStyle {
+    padding-left: 95%;
+    cursor: pointer;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-6.5px,6.5px);
+    transform: rotate(-45deg) translate(-6.5px, 6.5px);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-6.5px, 6.5px);
+    transform: rotate(45deg) translate(-6.5px, -6.5px);
+}
+
+
+
+.sidenav {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+    background-color: rgba(255,255,255,1);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    transition: 0.5s;
+    text-align: center;
+}
+
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 1.5rem;
+        color: black;
+        display: block;
+        transition: 0.3s;
+        font-family: Arial;
+        font-weight: bold;
+    }
+
+        .sidenav a:hover {
+            color: #282828;
+            font-family: Arial;
+        }
+
+
+
+
+
+
+.SocialNetworksLgStyle {
+    position: fixed;
+    margin-left: 95%;
+    margin-top: 5%;
+    z-index: 3;
+    height: 100%;
+    padding-right: 10%;
+}
+
+.SocialNetworksImgStyle1 {
+    height: 50px;
+    width: 50px;
+    background-image: url(../Resources/SocialNetworks/SocialNetworks11.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    transition: 1s;
+    opacity: 0.5;
+}
+
+    .SocialNetworksImgStyle1:hover {
+        height: 50px;
+        width: 50px;
+        background-image: url(../Resources/SocialNetworks/SocialNetworks1.png);
+        background-repeat: no-repeat;
+        background-size: 50px 50px;
+        transition: 1s;
+        opacity: 1;
+    }
+
+.SocialNetworksImgStyle2 {
+    margin-top: 10%;
+    height: 50px;
+    width: 50px;
+    background-image: url(../Resources/SocialNetworks/SocialNetworks22.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    transition: 1s;
+    opacity: 0.5;
+}
+
+    .SocialNetworksImgStyle2:hover {
+        height: 50px;
+        width: 50px;
+        background-image: url(../Resources/SocialNetworks/SocialNetworks2.png);
+        background-repeat: no-repeat;
+        background-size: 50px 50px;
+        transition: 1s;
+        opacity: 1;
+    }
+
+.SocialNetworksImgStyle3 {
+    margin-top: 10%;
+    height: 50px;
+    width: 50px;
+    background-image: url(../Resources/SocialNetworks/SocialNetworks33.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    transition: 1s;
+    opacity: 0.5;
+}
+
+    .SocialNetworksImgStyle3:hover {
+        height: 50px;
+        width: 50px;
+        background-image: url(../Resources/SocialNetworks/SocialNetworks3.png);
+        background-repeat: no-repeat;
+        background-size: 50px 50px;
+        transition: 1s;
+        opacity: 1;
+    }
+
+.SocialNetworksImgStyle4 {
+    margin-top: 10%;
+    height: 50px;
+    width: 50px;
+    background-image: url(../Resources/SocialNetworks/SocialNetworks44.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    transition: 1s;
+    opacity: 0.5;
+}
+
+    .SocialNetworksImgStyle4:hover {
+        height: 50px;
+        width: 50px;
+        background-image: url(../Resources/SocialNetworks/SocialNetworks4.png);
+        background-repeat: no-repeat;
+        background-size: 50px 50px;
+        transition: 1s;
+        opacity: 1;
+    }
+
+.SocialNetworksImgStyle5 {
+    margin-top: 10%;
+    height: 50px;
+    width: 50px;
+    background-image: url(../Resources/SocialNetworks/SocialNetworks55.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    transition: 1s;
+    opacity: 0.5;
+}
+
+    .SocialNetworksImgStyle5:hover {
+        height: 50px;
+        width: 50px;
+        background-image: url(../Resources/SocialNetworks/SocialNetworks5.png);
+        background-repeat: no-repeat;
+        background-size: 50px 50px;
+        transition: 1s;
+        opacity: 0.5;
+    }
+
+.SocialNetworksImgStyle6 {
+    margin-top: 10%;
+    height: 50px;
+    width: 50px;
+    background-image: url(../Resources/SocialNetworks/SocialNetworks66.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    transition: 1s;
+    opacity: 0.5;
+}
+
+    .SocialNetworksImgStyle6:hover {
+        height: 50px;
+        width: 50px;
+        background-image: url(../Resources/SocialNetworks/SocialNetworks6.png);
+        background-repeat: no-repeat;
+        background-size: 50px 50px;
+        transition: 1s;
+        opacity: 1;
+    }
+
+.SocialNetworksImgStyle7 {
+    margin-top: 10%;
+    height: 50px;
+    width: 50px;
+    background-image: url(../Resources/SocialNetworks/SocialNetworks77.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    transition: 1s;
+    opacity: 0.5;
+}
+
+    .SocialNetworksImgStyle7:hover {
+        height: 50px;
+        width: 50px;
+        background-image: url(../Resources/SocialNetworks/SocialNetworks7.png);
+        background-repeat: no-repeat;
+        background-size: 50px 50px;
+        transition: 1s;
+        opacity: 1;
+    }
+
+
+.SocialNetworksImgStyle7 {
+    margin-top: 10%;
+    height: 50px;
+    width: 50px;
+    background-image: url(../Resources/SocialNetworks/SocialNetworks77.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    transition: 1s;
+    opacity: 0.5;
+}
+
+    .SocialNetworksImgStyle7:hover {
+        height: 50px;
+        width: 50px;
+        background-image: url(../Resources/SocialNetworks/SocialNetworks7.png);
+        background-repeat: no-repeat;
+        background-size: 50px 50px;
+        transition: 1s;
+        opacity: 1;
+    }
+
+
+
+.FoathearImgBackgroundStyle {
+    width: 100%;
+}
+
+.PFoaterTitrStyle {
+    color: black;
+    font-family: Arial;
+    font-size: 1.3vw;
+    font-weight: bold;
+}
+
+.PFoaterFontsStyle {
+    color: black;
+    font-family: Arial;
+    font-size: 0.9vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*#Sm Style*/
+
+.SocialNetworksSmStyle {
+    /*width:5%;*/
+    position: fixed;
+    margin-left: 92%;
+    margin-top: 5%;
+    z-index: 3;
+    height: 100%;
+    /*width: 50px;*/
+    padding-right: 10%;
+}
+
+
+/*#Xs Style*/
+
+.SocialNetworksXsStyle {
+    /*width:5%;*/
+    position: fixed;
+    margin-left: 88%;
+    margin-top: 5%;
+    z-index: 3;
+    height: 100%;
+    /*width: 50px;*/
+    padding-right: 10%;
+}
+
+
+
+
+/*Sinin and Select Language*/
+
+.DivPositionTextSininAndSelectLanguageStyle {
+}
+
+
+.LblsinginStyle {
+    color: black;
+    font-size: 1.5em;
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.LbllanguageStyle {
+    color: black;
+    font-size: 1.5em;
+    text-decoration: none;
+    font-family: Arial;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+@media screen and (min-width: 100px) {
+
+    .LblsinginStyle {
+        color: black;
+        font-size: 0.8em;
+        text-decoration: none;
+        font-family: Arial;
+        font-weight: bold;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+        .LblsinginStyle:hover {
+            color: black;
+            font-size: 0.8em;
+            text-decoration: none;
+            font-family: Arial;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+    .LbllanguageStyle {
+        color: black;
+        font-size: 0.8em;
+        text-decoration: none;
+        font-family: Arial;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+        .LbllanguageStyle:hover {
+            color: black;
+            font-size: 0.8em;
+            text-decoration: none;
+            font-family: Arial;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+    .DivPositionTextSininStyle {
+        background-color: white;
+        height: 50px;
+        position: absolute;
+        margin-top: -9.5%;
+        margin-left: 10%;
+    }
+
+    .DivPositionTextSelectLanguageStyle {
+        background-color: white;
+        height: 50px;
+        position: absolute;
+        margin-top: -9.5%;
+        margin-left: 67%;
+        width: 30%;
+    }
+
+    .SelectLanguageImgStyle {
+        width: 15%;
+    }
+}
+
+@media screen and (min-width: 400px) {
+
+    .LblsinginStyle {
+        color: black;
+        font-size: 0.8em;
+        text-decoration: none;
+        font-family: Arial;
+        font-weight: bold;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+        .LblsinginStyle:hover {
+            color: black;
+            font-size: 0.8em;
+            text-decoration: none;
+            font-family: Arial;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+    .LbllanguageStyle {
+        color: black;
+        font-size: 0.8em;
+        text-decoration: none;
+        font-family: Arial;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+        .LbllanguageStyle:hover {
+            color: black;
+            font-size: 0.8em;
+            text-decoration: none;
+            font-family: Arial;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+    .DivPositionTextSininStyle {
+        background-color: white;
+        height: 50px;
+        position: absolute;
+        margin-top: -7.5%;
+        margin-left: 10%;
+    }
+
+    .DivPositionTextSelectLanguageStyle {
+        background-color: white;
+        height: 50px;
+        position: absolute;
+        margin-top: -7.5%;
+        margin-left: 67%;
+        width: 30%;
+    }
+
+    .SelectLanguageImgStyle {
+        width: 12%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+
+    .LblsinginStyle {
+        color: black;
+        font-size: 1.1em;
+        text-decoration: none;
+        font-family: Arial;
+        font-weight: bold;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+        .LblsinginStyle:hover {
+            color: black;
+            font-size: 1.1em;
+            text-decoration: none;
+            font-family: Arial;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+    .LbllanguageStyle {
+        color: black;
+        font-size: 1.1em;
+        text-decoration: none;
+        font-family: Arial;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+        .LbllanguageStyle:hover {
+            color: black;
+            font-size: 1.1em;
+            text-decoration: none;
+            font-family: Arial;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+    .DivPositionTextSininStyle {
+        background-color: white;
+        height: 50px;
+        position: absolute;
+        margin-top: -6%;
+        margin-left: 65%;
+        width: 15%;
+    }
+
+    .DivPositionTextSelectLanguageStyle {
+        background-color: white;
+        height: 50px;
+        position: absolute;
+        margin-top: -6%;
+        margin-left: 74%;
+        width: 26%;
+    }
+
+    .SelectLanguageImgStyle {
+        width: 15%;
+    }
+}
+
+@media screen and (min-width: 800px) {
+
+    .LblsinginStyle {
+        color: black;
+        font-size: 1.4em;
+        text-decoration: none;
+        font-family: Arial;
+        font-weight: bold;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+        .LblsinginStyle:hover {
+            color: black;
+            font-size: 1.4em;
+            text-decoration: none;
+            font-family: Arial;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+    .LbllanguageStyle {
+        color: black;
+        font-size: 1.3em;
+        text-decoration: none;
+        font-family: Arial;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+        .LbllanguageStyle:hover {
+            color: black;
+            font-size: 1.3em;
+            text-decoration: none;
+            font-family: Arial;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+    .DivPositionTextSininStyle {
+        background-color: white;
+        height: 50px;
+        position: absolute;
+        margin-top: -5%;
+        margin-left: 67%;
+        width: 15%;
+    }
+
+    .DivPositionTextSelectLanguageStyle {
+        background-color: white;
+        height: 50px;
+        position: absolute;
+        margin-top: -5%;
+        margin-left: 75%;
+        width: 24%;
+    }
+
+    .SelectLanguageImgStyle {
+        width: 16%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+
+    .LblsinginStyle {
+        color: black;
+        font-size: 1.4em;
+        text-decoration: none;
+        font-family: Arial;
+        font-weight: bold;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+        .LblsinginStyle:hover {
+            color: black;
+            font-size: 1.4em;
+            text-decoration: none;
+            font-family: Arial;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+    .LbllanguageStyle {
+        color: black;
+        font-size: 1.3em;
+        text-decoration: none;
+        font-family: Arial;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+        .LbllanguageStyle:hover {
+            color: black;
+            font-size: 1.3em;
+            text-decoration: none;
+            font-family: Arial;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+    .DivPositionTextSininStyle {
+        background-color: white;
+        height: 50px;
+        position: absolute;
+        margin-top: -4.5%;
+        margin-left: 71%;
+        width: 15%;
+    }
+
+    .DivPositionTextSelectLanguageStyle {
+        background-color: white;
+        height: 50px;
+        position: absolute;
+        margin-top: -4.5%;
+        margin-left: 79%;
+        width: 21%;
+    }
+
+    .SelectLanguageImgStyle {
+        width: 18%;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+
+    .LblsinginStyle {
+        color: black;
+        font-size: 1.4em;
+        text-decoration: none;
+        font-family: Arial;
+        font-weight: bold;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+        .LblsinginStyle:hover {
+            color: black;
+            font-size: 1.4em;
+            text-decoration: none;
+            font-family: Arial;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+    .LbllanguageStyle {
+        color: black;
+        font-size: 1.3em;
+        text-decoration: none;
+        font-family: Arial;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+        .LbllanguageStyle:hover {
+            color: black;
+            font-size: 1.3em;
+            text-decoration: none;
+            font-family: Arial;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+    .DivPositionTextSininStyle {
+        background-color: white;
+        height: 50px;
+        position: absolute;
+        margin-top: -3.7%;
+        margin-left: 75%;
+        width: 15%;
+    }
+
+    .DivPositionTextSelectLanguageStyle {
+        background-color: white;
+        height: 50px;
+        position: absolute;
+        margin-top: -3.8%;
+        margin-left: 82%;
+        width: 17%;
+    }
+
+    .SelectLanguageImgStyle {
+    }
+}
+
+@media screen and (min-width: 1300px) {
+
+    .LblsinginStyle {
+        color: black;
+        font-size: 1.4em;
+        text-decoration: none;
+        font-family: Arial;
+        font-weight: bold;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+        .LblsinginStyle:hover {
+            color: black;
+            font-size: 1.4em;
+            text-decoration: none;
+            font-family: Arial;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+    .LbllanguageStyle {
+        color: black;
+        font-size: 1.4em;
+        text-decoration: none;
+        font-family: Arial;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+        .LbllanguageStyle:hover {
+            color: black;
+            font-size: 1.4em;
+            text-decoration: none;
+            font-family: Arial;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+    .DivPositionTextSininStyle {
+        background-color: white;
+        height: 50px;
+        position: absolute;
+        margin-top: -3.7%;
+        margin-left: 75%;
+        width: 15%;
+    }
+
+    .DivPositionTextSelectLanguageStyle {
+        background-color: white;
+        height: 50px;
+        position: absolute;
+        margin-top: -3.8%;
+        margin-left: 80%;
+        width: 15%;
+    }
+
+    .SelectLanguageImgStyle {
+    }
+}
+
+@media screen and (min-width: 1400px) {
+
+    .LblsinginStyle {
+        color: black;
+        font-size: 1.5em;
+        text-decoration: none;
+        font-family: Arial;
+        font-weight: bold;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+        .LblsinginStyle:hover {
+            color: black;
+            font-size: 1.5em;
+            text-decoration: none;
+            font-family: Arial;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+    .LbllanguageStyle {
+        color: black;
+        font-size: 1.5em;
+        text-decoration: none;
+        font-family: Arial;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+        .LbllanguageStyle:hover {
+            color: black;
+            font-size: 1.5em;
+            text-decoration: none;
+            font-family: Arial;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+    .DivPositionTextSininStyle {
+        background-color: white;
+        height: 50px;
+        position: absolute;
+        margin-top: -3.7%;
+        margin-left: 75%;
+        width: 15%;
+    }
+
+    .DivPositionTextSelectLanguageStyle {
+        background-color: white;
+        height: 50px;
+        position: absolute;
+        margin-top: -3.8%;
+        margin-left: 80%;
+        width: 15%;
+    }
+
+    .SelectLanguageImgStyle {
+    }
+}
+
+
+
+
+/*#Social*/
+
+.SocialNetworksLgStyle {
+    position: fixed;
+    margin-left: 95%;
+    margin-top: 5%;
+    z-index: 3;
+    height: 100%;
+    padding-right: 10%;
+}
+
+.SocialNetworksImgStyle1 {
+    height: 50px;
+    width: 50px;
+    background-image: url(../../Resources/SocialNetworks/SocialNetworks11.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    opacity: 0.2;
+}
+
+    .SocialNetworksImgStyle1:hover {
+        height: 50px;
+        width: 50px;
+        background-image: url(../../Resources/SocialNetworks/SocialNetworks1.png);
+        background-repeat: no-repeat;
+        background-size: 50px 50px;
+        transition: 1s;
+        opacity: 1;
+    }
+
+.SocialNetworksImgStyle2 {
+    margin-top: 10%;
+    height: 50px;
+    width: 50px;
+    background-image: url(../../Resources/SocialNetworks/SocialNetworks22.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    transition: 1s;
+    opacity: 0.2;
+}
+
+    .SocialNetworksImgStyle2:hover {
+        height: 50px;
+        width: 50px;
+        background-image: url(../../Resources/SocialNetworks/SocialNetworks2.png);
+        background-repeat: no-repeat;
+        background-size: 50px 50px;
+        transition: 1s;
+        opacity: 1;
+    }
+
+.SocialNetworksImgStyle3 {
+    margin-top: 10%;
+    height: 50px;
+    width: 50px;
+    background-image: url(../../Resources/SocialNetworks/SocialNetworks33.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    transition: 1s;
+    opacity: 0.2;
+}
+
+    .SocialNetworksImgStyle3:hover {
+        height: 50px;
+        width: 50px;
+        background-image: url(../../Resources/SocialNetworks/SocialNetworks3.png);
+        background-repeat: no-repeat;
+        background-size: 50px 50px;
+        transition: 1s;
+        opacity: 1;
+    }
+
+.SocialNetworksImgStyle4 {
+    margin-top: 10%;
+    height: 50px;
+    width: 50px;
+    background-image: url(../../Resources/SocialNetworks/SocialNetworks44.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    transition: 1s;
+    opacity: 0.2;
+}
+
+    .SocialNetworksImgStyle4:hover {
+        height: 50px;
+        width: 50px;
+        background-image: url(../../Resources/SocialNetworks/SocialNetworks4.png);
+        background-repeat: no-repeat;
+        background-size: 50px 50px;
+        transition: 1s;
+        opacity: 1;
+    }
+
+.SocialNetworksImgStyle5 {
+    margin-top: 10%;
+    height: 50px;
+    width: 50px;
+    background-image: url(../../Resources/SocialNetworks/SocialNetworks55.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    transition: 1s;
+    opacity: 0.2;
+}
+
+    .SocialNetworksImgStyle5:hover {
+        height: 50px;
+        width: 50px;
+        background-image: url(../../Resources/SocialNetworks/SocialNetworks5.png);
+        background-repeat: no-repeat;
+        background-size: 50px 50px;
+        transition: 1s;
+        opacity: 1;
+    }
+
+.SocialNetworksImgStyle6 {
+    margin-top: 10%;
+    height: 50px;
+    width: 50px;
+    background-image: url(../../Resources/SocialNetworks/SocialNetworks66.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    transition: 1s;
+    opacity: 0.2;
+}
+
+    .SocialNetworksImgStyle6:hover {
+        height: 50px;
+        width: 50px;
+        background-image: url(../../Resources/SocialNetworks/SocialNetworks6.png);
+        background-repeat: no-repeat;
+        background-size: 50px 50px;
+        transition: 1s;
+        opacity: 1;
+    }
+
+.SocialNetworksImgStyle7 {
+    margin-top: 10%;
+    height: 50px;
+    width: 50px;
+    background-image: url(../../Resources/SocialNetworks/SocialNetworks77.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    transition: 1s;
+    opacity: 0.2;
+}
+
+    .SocialNetworksImgStyle7:hover {
+        height: 50px;
+        width: 50px;
+        background-image: url(../../Resources/SocialNetworks/SocialNetworks7.png);
+        background-repeat: no-repeat;
+        background-size: 50px 50px;
+        transition: 1s;
+        opacity: 1;
+    }
+
+
+.SocialNetworksImgStyle7 {
+    margin-top: 10%;
+    height: 50px;
+    width: 50px;
+    background-image: url(../../Resources/SocialNetworks/SocialNetworks77.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    transition: 1s;
+    opacity: 0.2;
+}
+
+    .SocialNetworksImgStyle7:hover {
+        height: 50px;
+        width: 50px;
+        background-image: url(../../Resources/SocialNetworks/SocialNetworks7.png);
+        background-repeat: no-repeat;
+        background-size: 50px 50px;
+        transition: 1s;
+        opacity: 1;
+    }
+
+
+/*#Footer Lg*/
+.FoteerStyle {
+    background-color: rgba(237,237,237,1);
+    padding: 0% 10% 0%;
+}
+
+.TitrTextFoteerStyle {
+    color: black;
+    font-size: 1.3em;
+    font-family: Arial;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+    .TitrTextFoteerStyle:hover {
+        color: black;
+        font-size: 1.3em;
+        font-family: Arial;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+.ZirTitrTextFoteerStyle {
+    color: rgba(0,0,0,0.8);
+    font-size: 1em;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+    .ZirTitrTextFoteerStyle:hover {
+        color: rgba(0,0,0,0.8);
+        font-size: 1em;
+        font-family: Arial;
+        text-decoration: none;
+    }
+
+/*#Md Foteer */
+.FoteerMdStyle {
+    background-color: rgba(237,237,237,1);
+    padding: 0% 10% 0%;
+}
+
+.TitrTextFoteerMdStyle {
+    color: black;
+    font-size: 1.3em;
+    font-family: Arial;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+    .TitrTextFoteerMdStyle:hover {
+        color: black;
+        font-size: 1.3em;
+        font-family: Arial;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+.ZirTitrTextFoteerMdStyle {
+    color: rgba(0,0,0,0.8);
+    font-size: 1em;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+    .ZirTitrTextFoteerMdStyle:hover {
+        color: rgba(0,0,0,0.8);
+        font-size: 1em;
+        font-family: Arial;
+        text-decoration: none;
+    }
+
+
+/*#Sm Foteer*/
+
+.FoteerSmStyle {
+    background-color: rgba(237,237,237,1);
+    padding: 0% 0% 0% 10%;
+}
+
+.TitrTextFoteerSmStyle {
+    color: black;
+    font-size: 1.3em;
+    font-family: Arial;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+    .TitrTextFoteerSmStyle:hover {
+        color: black;
+        font-size: 1.3em;
+        font-family: Arial;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+.ZirTitrTextFoteerSmStyle {
+    color: rgba(0,0,0,0.8);
+    font-size: 1.1em;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+    .ZirTitrTextFoteerSmStyle:hover {
+        color: rgba(0,0,0,0.8);
+        font-size: 1.1em;
+        font-family: Arial;
+        text-decoration: none;
+    }
+
+
+/*#Xs Foteer*/
+
+.FoteerXsStyle {
+    background-color: rgba(237,237,237,1);
+    padding: 0% 0% 0% 5%;
+}
+
+.TitrTextFoteerXsStyle {
+    color: black;
+    font-size: 1.2em;
+    font-family: Arial;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+    .TitrTextFoteerXsStyle:hover {
+        color: black;
+        font-size: 1.2em;
+        font-family: Arial;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+.ZirTitrTextFoteerXsStyle {
+    color: rgba(0,0,0,0.8);
+    font-size: 1em;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+    .ZirTitrTextFoteerXsStyle:hover {
+        color: rgba(0,0,0,0.8);
+        font-size: 1em;
+        font-family: Arial;
+        text-decoration: none;
+    }
+
+
+.Row1MainSliderStyle, .Row2MainLeftNewsStyle, .Row2MainRightMenuStyle {
+    display: none;
+    visibility: visible;
+}
+
+.Row2MainCenterContainStyle {
+    border: none;
+    width: 100%;
+}
+
+.Row2MainCenterContainStyle {
+    margin-top: -15%;
+}
+
+.dropbtn {
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+    .dropbtn:hover {
+        color: black;
+        text-decoration: none;
+    }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+        .dropdown-content a:hover {
+            background-color: white;
+        }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+}

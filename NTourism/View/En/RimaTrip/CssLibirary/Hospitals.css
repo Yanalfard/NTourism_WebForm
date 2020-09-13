@@ -1,0 +1,328 @@
+﻿.DivAslyHospitilsStyle {
+    margin-top: 2%;
+}
+
+.SliderDivTextHealthHospitilsStyle {
+    position: absolute;
+    margin-top: 0.9%;
+    margin-left: 7.5%;
+}
+
+.SliderTitrHealthHospitilsStyle {
+    font-size: 7vw;
+    font-weight: bold;
+    color: #00CED1;
+}
+
+.SliderZirDivTextHealthHospitilsStyle {
+    position: absolute;
+    margin-top: 8.5%;
+    margin-left: 7.5%;
+}
+
+.SliderZirTitrHealthHospitilsStyle {
+    font-size: 3vw;
+    font-weight: bold;
+    color: rgba(11,142,54,1);
+}
+
+.SliderDivIncludinTextTitrHospitilsStyle {
+    position: absolute;
+    margin-top: 14%;
+    margin-left: 7.5%;
+}
+
+.SliderIncludinTextTitrHospitilsStyle {
+    font-size: 1.8vw;
+    font-weight: bold;
+    color: rgba(0,76,52,1);
+}
+
+.SliderDivIncludinTextZirTitrHospitilsStyle {
+    position: absolute;
+    margin-top: 16.2%;
+    margin-left: 7.5%;
+}
+
+.SliderIncludinTextZirTitrHospitilsStyle {
+    font-size: 1.2vw;
+    font-weight: bold;
+    color: rgba(0,76,52,1);
+}
+
+.SliderBtnRegisterHospitilsStyle {
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 7%;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+    .SliderBtnRegisterHospitilsStyle:hover {
+        position: absolute;
+        margin-top: 20%;
+        margin-left: 7%;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.SliderBtnRegisterTextHospitilsStyle {
+    color: white;
+    background-color: rgba(141,198,63,1);
+    border-radius: 25px;
+    font-size: 1.4vw;
+    font-weight: bold;
+}
+
+    .SliderBtnRegisterTextHospitilsStyle:hover {
+        color: white;
+        background-color: rgba(141,198,63,1);
+        border-radius: 25px;
+        font-size: 1.4vw;
+        font-weight: bold;
+    }
+
+
+.SliderHospitilsStyle1 {
+    width: 55%;
+    position: absolute;
+    margin-top: 22%;
+    margin-left: 30%;
+    opacity: 0;
+}
+
+.SliderHospitilsStyle2 {
+    width: 37%;
+    position: absolute;
+    margin-top: -20%;
+    margin-left: 40%;
+    opacity: 0;
+}
+
+.SliderHospitilsStyle3 {
+    width:5.5%;
+    position: absolute;
+    margin-top: 17%;
+    margin-left: 72%;
+    opacity: 0;
+}
+
+.SliderHospitilsStyle4 {
+    width: 6%;
+    position: absolute;
+    margin-top: 19%;
+    margin-left: 20%;
+    opacity: 0;
+}
+.DivRow2HospitilsStyle {
+    margin-top: 32%;
+}
+
+.TitrNameHospitilsRow2TwoStyle {
+    color: #004a33;
+    font-size: 2.5em;
+    text-decoration: none;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+    .TitrNameHospitilsRow2TwoStyle:hover {
+        color: #004a33;
+        font-size: 2.5em;
+        text-decoration: none;
+        font-family: Arial;
+        text-decoration: none;
+    }
+
+.HospitilValiasrOneStyle {
+    width: 100%;
+}
+
+.DivAllTextHospitilValiasrStyle {
+    padding-left: 5%;
+}
+
+.DivHospitilValiasrTitrOneStyle {
+    position: absolute;
+    margin-top: -34%;
+}
+
+.InDivTextHospitilValiasrTitrOneStyle {
+    color: white;
+    font-size: 2em;
+    text-decoration: none;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+.DivHospitilValiasrZirTitrOneStyle {
+    position: absolute;
+    margin-top: -25%;
+}
+
+.InDivTextHospitilValiasrZirTitrOneStyle {
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+.LinkHospitilsReadmoreStyle {
+    text-decoration: none;
+    color: #7c7c7c;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+    .LinkHospitilsReadmoreStyle:hover {
+        text-decoration: none;
+        color: #7c7c7c;
+        text-decoration: none;
+        font-family: Arial;
+    }
+
+
+
+.DivImgAndTextImgHospitilTwoStyle {
+    margin-top: 1%;
+}
+
+
+.DivOthersHospitilsStyle {
+    margin-top: 1%;
+}
+
+.DivOthersHospitilsBorderStyle {
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+.DivOthersHospitilsInBorderStyle {
+    border-bottom: 2px solid #124908;
+    width: 40%;
+    margin-left: 30%
+}
+.DiuvTitrHospitilsStyle{
+    margin-top:1%;
+}
+
+.TitrNameOthersHospitilsStyle {
+    color: #004a33;
+    font-size: 1.5em;
+    text-decoration: none;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+.LinkOthersHospitilsStyle {
+    margin-top: 3%;
+}
+
+.MatnLinkOthersHospitilsStyle {
+    color: #004a33;
+    font-size: 1em;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+    .MatnLinkOthersHospitilsStyle:hover {
+        color: #004a33;
+        font-size: 1em;
+        text-decoration: none;
+        font-family: Arial;
+    }
+
+
+/*#Md*/
+.InDivTextHospitilValiasrTitrOneMdStyle {
+    color: white;
+    font-size: 1.9em;
+    text-decoration: none;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+.InDivTextHospitilValiasrZirTitrOneMdStyle {
+    color: white;
+    font-size: 1.4em;
+    text-decoration: none;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+/*#Sm*/
+.InDivTextHospitilValiasrTitrOneSmStyle {
+    color: white;
+    font-size: 1.7em;
+    text-decoration: none;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+.InDivTextHospitilValiasrZirTitrOneSmStyle {
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+
+/*#Xs*/
+.InDivTextHospitilValiasrTitrOneXsStyle {
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+.InDivTextHospitilValiasrZirTitrOneXsStyle {
+    color: white;
+    font-size: 0.9em;
+    text-decoration: none;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+.DivOthersHospitilsStyle {
+    margin-top: 1%;
+}
+
+.DivOthersHospitilsBorderStyle {
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+.DivOthersHospitilsInBorderStyle {
+    border-bottom: 2px solid #124908;
+    width: 40%;
+    margin-left: 30%
+}
+
+.TitrNameOthersHospitilsStyle {
+    color: #004a33;
+    font-size: 1.5em;
+    text-decoration: none;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+.LinkOthersHospitilsStyle {
+    margin-top: 3%;
+}
+
+.MatnLinkOthersHospitilsStyle {
+    color: #004a33;
+    font-size: 1em;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+    .MatnLinkOthersHospitilsStyle:hover {
+        color: #004a33;
+        font-size: 1em;
+        text-decoration: none;
+        font-family: Arial;
+    }

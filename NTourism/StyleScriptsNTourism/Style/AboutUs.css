@@ -1,0 +1,329 @@
+﻿/*Color Menu Right In one Page And others*/
+.accordion {
+    border-bottom: 1px solid #f7a600;
+}
+
+.accordion-panel {
+    border-color: #f7a600;
+}
+
+/**/
+
+
+.SliderPageHomeStyle {
+    display: none;
+}
+
+.SliderPageOurServicesStyle {
+    display: none;
+}
+
+.SliderPageAboutUsStyle {
+    display: normal;
+}
+
+.SliderPageDestinationsStyle {
+    display: none;
+}
+
+.SliderPageContactUsStyle {
+    display: none;
+}
+
+.SliderPageIranUsStyle {
+    display: none;
+}
+
+.SliderPageNewsStyle {
+    display: none;
+}
+
+.SliderPageTourguideStyle {
+    display: none;
+}
+
+.SliderPageEventStyle {
+    display: none;
+}
+
+.SliderPageTripstoryStyle {
+    display: none;
+}
+
+.SliderPageEventStyle {
+    display: none;
+}
+
+.SliderPageTripstoryStyle {
+    display: none;
+}
+
+.SliderPageGalleryStyle {
+    display: none;
+}
+/*City Display*/
+.SliderPageCityArasStyle {
+    display: none;
+}
+
+.SliderPageCityHamedanStyle {
+    display: none;
+}
+
+.SliderPageCityIsfahanStyle {
+    display: none;
+}
+
+.SliderPageCityKashanStyle {
+    display: none;
+}
+
+.SliderPageCityShirazStyle {
+    display: none;
+}
+
+.SliderPageCityRashtStyle {
+    display: none;
+}
+
+.SliderPageCityTabrizStyle {
+    display: none;
+}
+
+.SliderPageCityTehranStyle {
+    display: none;
+}
+
+.SliderPageCityYazdStyle {
+    display: none;
+}
+
+.SliderPageCityKishStyle {
+    display: none;
+}
+
+.SliderPageCitySariStyle {
+    display: none;
+}
+
+.SliderPageCityMashhadStyle {
+    display: none;
+}
+
+.SliderPageCityKermanStyle {
+    display: none;
+}
+
+.SliderPageCityQeshmStyle {
+    display: none;
+}
+
+/*#Row1*/
+.divRow1HomePageStyle {
+    margin-top: 0.5em;
+}
+
+.divInRow1TheRow1TextHomePageStyle {
+    text-align: center;
+}
+
+.textInRow1TheRow1TextHomePageStyle {
+    font-family: 'ZapfHumnst Ult BT';
+    color: black;
+    font-size: 3.5vw;
+    font-weight: bolder;
+    height: 4.5vw;
+}
+
+
+
+.divInRow1TheRow2HomePageStyle {
+    /*min-height: 30em;*/
+}
+
+
+
+/*#Row1*/
+.divInRow1TheRow2HomePageStyle p {
+    font-family: 'Myriad Pro';
+    font-size: 1.3em;
+}
+
+.divRow1ContactUsPageStyle {
+    margin-top: 0.5em;
+}
+
+.divInRow1TheRow1TextContactUsPageStyle {
+    text-align: center;
+}
+
+.textInRow1TheRow1TextContactUsPageStyle {
+    font-family: 'ZapfHumnst Ult BT';
+    color: black;
+    font-size: 3.5vw;
+    font-weight: bolder;
+    height: 4.5vw;
+}
+
+.ImgIconContactUsPageStyle {
+    width: 2em;
+}
+
+.TextImgIconContactUsPageStyle {
+    font-family: 'Myriad Pro';
+    font-size: 1.2em;
+    color: black;
+}
+
+    .TextImgIconContactUsPageStyle:hover {
+        color: black;
+    }
+
+.DivDynamicInImageAboutUs {
+    /*box-shadow: 5px 5px 10px 0.5px #c7c5c6;*/
+    padding: 0.5em;
+    /*height: 20vw;*/
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+.ImgDivDynamicInImageAboutUs0, .ImgDivDynamicInImageAboutUs1, .ImgDivDynamicInImageAboutUs2, .ImgDivDynamicInImageAboutUs3,
+.ImgDivDynamicInImageAboutUs4, .ImgDivDynamicInImageAboutUs5 {
+    box-shadow: 5px 5px 10px 0.5px #c7c5c6;
+    max-width: 100%;
+    text-align: center;
+    max-height: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+    object-position: center;
+}
+
+.ImgDivDynamicInImageAboutUs7, .ImgDivDynamicInImageAboutUs8,
+.ImgDivDynamicInImageAboutUs9, .ImgDivDynamicInImageAboutUs6 {
+    max-width: 100%;
+    text-align: center;
+    max-height: 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+    object-position: center;
+}
+
+.TagDivDynamicInImageAboutUs {
+    text-align: center;
+    font-size: 1.2em;
+    font-family: 'Myriad Pro';
+}
+
+
+
+/*Image Zoom*/
+
+.DivDynamicInImageAboutUs:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    z-index: 1;
+}
+
+
+.myImgAboutUs {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImgAboutUs:hover {
+    opacity: 0.7;
+}
+
+/* The modalAboutUs (background) */
+.modalAboutUs {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* modalAboutUs Content (image) */
+.modalAboutUs-content {
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 500px;
+}
+
+/* captionAboutUs of modalAboutUs Image */
+#captionAboutUs {
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+    height: 150px;
+    font-size: 2em;
+}
+
+/* Add Animation */
+.modalAboutUs-content, #captionAboutUs {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+/* The closeAboutUs Button */
+.closeAboutUs {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+    .closeAboutUs:hover,
+    .closeAboutUs:focus {
+        color: #bbb;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+    .modalAboutUs-content {
+        width: 100%;
+    }
+}

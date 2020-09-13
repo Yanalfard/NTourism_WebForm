@@ -1,0 +1,1340 @@
+﻿/*Color Menu Right In one Page And others*/
+/*.accordion {
+            border-bottom: 1px solid #C6A100;
+        }
+
+        .accordion-panel {
+            border-color: #C6A100;
+        }*/
+
+/**/
+
+
+/*Page Show and Hide*/
+.SliderPageHomeStyle {
+    display: normal;
+}
+
+.SliderPageAboutUsStyle {
+    display: none;
+}
+
+.SliderPageOurServicesStyle {
+    display: none;
+}
+
+.SliderPageDestinationsStyle {
+    display: none;
+}
+
+.SliderPageContactUsStyle {
+    display: none;
+}
+
+.SliderPageIranUsStyle {
+    display: none;
+}
+
+.SliderPageTourguideStyle {
+    display: none;
+}
+
+.SliderPageNewsStyle {
+    display: none;
+}
+
+.SliderPageEventStyle {
+    display: none;
+}
+
+.SliderPageTripstoryStyle {
+    display: none;
+}
+
+.SliderPageGalleryStyle {
+    display: none;
+}
+/**/
+
+/*City Display*/
+.SliderPageCityArasStyle {
+    display: none;
+}
+
+.SliderPageCityHamedanStyle {
+    display: none;
+}
+
+.SliderPageCityIsfahanStyle {
+    display: none;
+}
+
+.SliderPageCityKashanStyle {
+    display: none;
+}
+
+.SliderPageCityShirazStyle {
+    display: none;
+}
+
+.SliderPageCityRashtStyle {
+    display: none;
+}
+
+.SliderPageCityTabrizStyle {
+    display: none;
+}
+
+.SliderPageCityTehranStyle {
+    display: none;
+}
+
+.SliderPageCityYazdStyle {
+    display: none;
+}
+
+.SliderPageCityKishStyle {
+    display: none;
+}
+
+.SliderPageCitySariStyle {
+    display: none;
+}
+
+.SliderPageCityMashhadStyle {
+    display: none;
+}
+
+.SliderPageCityKermanStyle {
+    display: none;
+}
+
+.SliderPageCityQeshmStyle {
+    display: none;
+}
+
+
+
+
+.divRow1HomePageStyle {
+}
+
+
+/*#Row1*/
+
+.divInRow1TheRow1TextHomePageStyle {
+    text-align: center;
+}
+
+.textInRow1TheRow1TextHomePageStyle {
+    font-family: 'Myriad Pro';
+    color: black;
+    font-size: 3vw;
+    font-weight: bolder;
+    height: 4vw;
+}
+
+
+
+.divInRow1TheRow2HomePageStyle {
+}
+
+    .divInRow1TheRow2HomePageStyle > div {
+        float: left;
+    }
+
+.divInRow1TheRow2Col1HomePageStyle {
+    width: 50%;
+    height: 20em;
+    box-shadow: 5px 5px 10px 0.5px #c7c5c6;
+    padding: 0.5em;
+}
+
+.divInRow1TheRow2Col2HomePageStyle {
+    width: 50%;
+}
+
+    .divInRow1TheRow2Col2HomePageStyle > div {
+        width: 100%;
+    }
+
+        .divInRow1TheRow2Col2HomePageStyle > div > div {
+            width: 50%;
+            height: 10em;
+            box-shadow: 5px 5px 10px 0.5px #c7c5c6;
+            padding: 0.5em 0.5em 0 1em;
+        }
+
+.divInRow1TheRow2Col2Row1Col1HomePageStyle {
+    float: left;
+    line-height: 15px;
+}
+
+.divInRow1TheRow2Col2Row1Col2HomePageStyle {
+    float: right;
+    line-height: 15px;
+}
+
+
+@media only screen and (max-width : 1200px) {
+
+    .divInRow1TheRow1TextHomePageStyle {
+        text-align: center;
+    }
+
+    .textInRow1TheRow1TextHomePageStyle {
+        font-family: 'Myriad Pro';
+        color: black;
+        font-size: 3vw;
+        font-weight: bolder;
+        height: 4vw;
+    }
+
+    .divInRow1TheRow2HomePageStyle {
+    }
+
+        .divInRow1TheRow2HomePageStyle > div {
+            float: none;
+        }
+
+    .divInRow1TheRow2Col1HomePageStyle {
+        width: 100%;
+        height: 20em;
+        box-shadow: 5px 5px 10px 0.5px #c7c5c6;
+        padding: 0.5em;
+    }
+
+    .divInRow1TheRow2Col2HomePageStyle {
+        width: 100%;
+    }
+
+        .divInRow1TheRow2Col2HomePageStyle > div {
+            width: 100%;
+        }
+
+            .divInRow1TheRow2Col2HomePageStyle > div > div {
+                width: 50%;
+                height: 10em;
+                box-shadow: 5px 5px 10px 0.5px #c7c5c6;
+                padding: 1em 0.5em;
+            }
+
+    .divInRow1TheRow2Col2Row1Col1HomePageStyle {
+        float: left;
+        line-height: 15px;
+    }
+
+    .divInRow1TheRow2Col2Row1Col2HomePageStyle {
+        float: right;
+        line-height: 15px;
+    }
+}
+
+/*#Row2*/
+.divRow2HomePageStyle {
+    margin-top: 20em;
+}
+
+.divInRow2TheRow1TextHomePageStyle {
+    text-align: center;
+}
+
+.textInRow2TheRow1TextHomePageStyle {
+    font-family: 'Myriad Pro';
+    color: black;
+    font-size: 3vw;
+    font-weight: bolder;
+    height: 4.5vw;
+}
+
+
+
+.divInRow2TheRow2HomePageStyle {
+    height: 20em;
+    box-shadow: 5px 5px 10px 0.5px #c7c5c6;
+    padding: 1em;
+    /*overflow-x: auto;*/
+}
+
+    .divInRow2TheRow2HomePageStyle > div {
+        float: left;
+    }
+/*#Row3*/
+.divRow3HomePageStyle {
+    margin-top: 0.5em;
+}
+
+.divInRow3TheRow1TextHomePageStyle {
+    text-align: center;
+}
+
+.textInRow3TheRow1TextHomePageStyle {
+    font-family: 'Myriad Pro';
+    color: black;
+    font-size: 3vw;
+    font-weight: bolder;
+    height: 4.5vw;
+}
+
+
+
+.divInRow3TheRow2HomePageStyle {
+    height: 30em;
+    box-shadow: 5px 5px 10px 0.5px #c7c5c6;
+}
+
+/*#Row4*/
+.divRow4HomePageStyle {
+    margin-top: 0.5em;
+}
+
+.divInRow4TheRow1TextHomePageStyle {
+    text-align: center;
+}
+
+.textInRow4TheRow1TextHomePageStyle {
+    font-family: 'Myriad Pro';
+    color: black;
+    font-size: 3vw;
+    font-weight: bolder;
+    height: 4.5vw;
+}
+
+
+
+.divInRow4TheRow2HomePageStyle {
+    /*height: 10em;*/
+    box-shadow: 5px 5px 10px 0.5px #c7c5c6;
+    padding: 1em;
+}
+
+/*#Row5*/
+.divRow5HomePageStyle {
+    margin-top: 0.5em;
+}
+
+.divInRow5TheRow1TextHomePageStyle {
+    text-align: center;
+}
+
+.textInRow5TheRow1TextHomePageStyle {
+    font-family: 'Myriad Pro';
+    color: black;
+    font-size: 3vw;
+    font-weight: bolder;
+    height: 4.5vw;
+}
+
+
+.ImgRow1TheRow2Col1Style {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.link1Row1TheRow2Col1Style {
+    font-family: 'Myriad Pro';
+    font-size: 1em;
+    color: black;
+}
+
+    .link1Row1TheRow2Col1Style:hover {
+        text-decoration: none;
+        color: black;
+    }
+
+.link2Row1TheRow2Col1Style {
+    font-family: 'Myriad Pro';
+    font-size: 1em;
+    color: #808080;
+}
+
+    .link2Row1TheRow2Col1Style:hover {
+        text-decoration: none;
+        color: #808080;
+    }
+
+.ImgRow1TheRow2Col2Row1Col1HomePageRow1Style {
+    width: 100%;
+    height: 80%;
+}
+
+.link1Row1TheRow2Col2Row1Col1HomePageRow1Style {
+    font-family: 'Myriad Pro';
+    font-size: 0.7vw;
+    color: black;
+}
+
+    .link1Row1TheRow2Col2Row1Col1HomePageRow1Style:hover {
+        text-decoration: none;
+        color: black;
+    }
+
+.link2Row1TheRow2Col2Row1Col1HomePageRow1Style {
+    font-family: 'Myriad Pro';
+    font-size: 0.7vw;
+    color: #808080;
+}
+
+    .link2Row1TheRow2Col2Row1Col1HomePageRow1Style:hover {
+        text-decoration: none;
+        color: #808080;
+    }
+
+@media only screen and (max-width : 1200px) {
+    .link1Row1TheRow2Col2Row1Col1HomePageRow1Style {
+        font-family: 'Myriad Pro';
+        font-size: 1em;
+        color: black;
+    }
+
+    .link2Row1TheRow2Col2Row1Col1HomePageRow1Style {
+        font-family: 'Myriad Pro';
+        font-size: 1em;
+        color: #808080;
+    }
+}
+
+.DynamicdivInRow2TheRow2HomePage1style {
+    width: 50%;
+    padding: 0 0.5em;
+}
+
+.imgNews1divInRow2style {
+    width: 87%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.divImgnewstyle {
+    width: 100%;
+    height: 17em;
+}
+
+.TextNews2Style {
+    color: #B2B2B2;
+    font-size: 1em;
+    font-family: 'Myriad Pro';
+    text-align: center;
+}
+
+    .TextNews2Style:hover {
+        color: #B2B2B2;
+        text-decoration: none;
+    }
+
+.TextNewsStyle {
+    text-align: center;
+    color: black;
+    font-size: 1em;
+    font-family: 'Myriad Pro';
+}
+
+.DynamicdivInRow2TheRow2HomePage12style {
+    width: 50%;
+    text-align: right;
+}
+
+.imgNews1divInRow22style {
+    width: 87%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.divImgnew2style {
+    width: 100%;
+    height: 17em;
+}
+
+.TextNews22Style {
+    text-align: center;
+    color: #B2B2B2;
+    font-size: 1em;
+    font-family: 'Myriad Pro';
+}
+
+    .TextNews22Style:hover {
+        color: #B2B2B2;
+        text-decoration: none;
+    }
+
+.TextNewss2Style {
+    text-align: center;
+    color: black;
+    font-size: 1em;
+    font-family: 'Myriad Pro';
+}
+
+
+.DivHideShowFacilitiesDynamicRoom {
+}
+
+.divInRow1TheRow2OurServicesPageStyle {
+    box-shadow: 5px 5px 10px 0.5px #c7c5c6;
+    padding: 1em;
+    min-height: 20em;
+}
+
+.divFacilitiesOurServicesStyle > div {
+    float: left;
+    margin-left: 1%;
+    width: 15%;
+}
+
+    .divFacilitiesOurServicesStyle > div > img {
+        width: 90%;
+    }
+
+    .divFacilitiesOurServicesStyle > div > p {
+        text-align: center;
+    }
+
+.fa-usd {
+    font-size: 1.5em;
+}
+
+#Btnbooking {
+    float: right;
+    color: black;
+    background-color: #C6A100;
+    font-size: 1.5vw;
+    font-family: 'Myriad Pro';
+    font-weight: bolder;
+    outline: none;
+    border: none;
+    border-radius: 1.5em;
+    padding: 0em 1.5em;
+    box-shadow: 10px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+#divInRow1TheRow2OurServicesPageDivRow1 > div {
+    /*height: 20em;*/
+    /*float:left;*/
+}
+
+#divInRow1TheRow2OurServicesPageDivRow1Col1 {
+    height: 20em;
+    /*width: 45%;*/
+}
+
+#divInRow1TheRow2OurServicesPageDivRow1Col2 {
+    /*height: 20em;
+            width: 55%;*/
+    min-height: 20em;
+}
+
+#divInRow1TheRow2OurServicesPageDivRow2 {
+    /*clear:left;*/
+}
+
+.DynamicOurServicesstyle {
+}
+
+
+.ImgDynamicBigImgOurServicesstyle {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.DynamicRow2OurServicesstyle {
+    margin-top: 1em;
+}
+
+.DivAllImgRow2DynamicBigImgOurServicesStyle {
+    text-align: left;
+}
+
+.ImgRow2DynamicBigImgOurServicesStyle {
+    width: 15%;
+    height: 7em;
+    margin-left: 0.7em;
+    margin-top: 0.7em;
+    object-fit: cover;
+    object-position: center;
+}
+
+.DynamicTextOurServicesstyle {
+    clear: left;
+}
+
+.linkNameTextOurServicesstyle {
+    font-size: 1.2em;
+    font-family: 'Myriad Pro';
+}
+
+.DynamicTextFacilitiesOurServicesstyle {
+}
+
+.linkNameTextOurServicesstyle {
+}
+
+.DivRow3Comments {
+    border: 3px solid #C6A100;
+    height: 100%;
+    margin-top: 1em;
+    border-radius: 30px;
+    background: linear-gradient(to bottom, #C6A100 0%,#C6A100 2vw,white 2vw,white 100%);
+}
+
+.DivInRow3Row1Comments {
+    height: 30px;
+    padding: 0em 3em;
+}
+
+    .DivInRow3Row1Comments > p {
+        color: black;
+        font-size: 1.4em;
+        font-family: 'Myriad Pro';
+        font-weight: bolder;
+    }
+
+        .DivInRow3Row1Comments > p > i {
+            font-weight: bolder;
+            margin-right: 0.3em;
+        }
+
+.DivInRow3Row2Comments {
+    margin-top: 20px;
+    padding: 0 2%;
+}
+
+#TypeComment {
+    color: #B2B2B2;
+    font-size: 1.4em;
+    font-family: 'Myriad Pro';
+    font-weight: bolder;
+    margin-left: 1em;
+    width: 85%;
+    outline: none;
+    border: none;
+}
+
+.DivInRow3Row3Comments {
+    border-top: 3px solid #C6A100;
+}
+
+.BtnDivInRow3Row3Comments {
+    color: #B2B2B2;
+    font-size: 2em;
+    font-family: 'Myriad Pro';
+    font-weight: bolder;
+    margin-left: 1em;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+    .BtnDivInRow3Row3Comments:hover {
+        color: #B2B2B2;
+        font-size: 2.5em;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+.linkdataComment {
+    color: #B2B2B2;
+    font-size: 1.4em;
+    font-family: 'Myriad Pro';
+    margin-left: 1em;
+    border-bottom: 2px solid #C6A100;
+}
+
+    .linkdataComment:last-child {
+        border-bottom: none;
+    }
+
+.DayDolarandweekend1 {
+    margin-left: 1em;
+    color: black;
+    font-family: 'Myriad Pro';
+    font-size: 1.5em;
+}
+
+.DayDolarandweekend2 {
+    color: #c7c5c6;
+    font-family: 'Myriad Pro';
+    font-size: 1.3em;
+}
+
+.WeekendDolarandweekend1 {
+    margin-left: 1em;
+    color: black;
+    font-family: 'Myriad Pro';
+    font-size: 1.5em;
+}
+
+.WeekendDolarandweekend2 {
+    color: #c7c5c6;
+    font-family: 'Myriad Pro';
+    font-size: 1.3em;
+}
+
+.MoreEventsOurServices {
+    color: #019fe6;
+    font-family: 'Myriad Pro';
+    font-size: 1.5em;
+}
+
+    .MoreEventsOurServices:hover {
+        color: #019fe6;
+        text-decoration: none;
+    }
+
+.divRow3TourguideHomePageStyle {
+    margin-top: 0.5em;
+}
+
+.divInRow3TourguideTheRow1TextHomePageStyle {
+    text-align: center;
+}
+
+.textInRow3TourguideTheRow1TextHomePageStyle {
+    font-family: 'Myriad Pro';
+    color: black;
+    font-size: 3vw;
+    font-weight: bolder;
+    height: 4.5vw;
+}
+
+.DivHideShowEquipmentesDynamicRoomTourguideTourguide {
+}
+
+.divInRow1TheRow2TourguidePageStyle {
+    box-shadow: 5px 5px 10px 0.5px #c7c5c6;
+    padding: 1em;
+    min-height: 20em;
+}
+
+.divEquipmentesTourguideStyle > div {
+    float: left;
+    margin-left: 1%;
+    width: 15%;
+}
+
+    .divEquipmentesTourguideStyle > div > img {
+        width: 90%;
+    }
+
+    .divEquipmentesTourguideStyle > div > p {
+        text-align: center;
+    }
+
+.fa-usd {
+    font-size: 2em;
+    color: #b2b2b2;
+}
+
+#BtnbookingTourguide {
+    float: right;
+    color: black;
+    background-color: #C6A100;
+    font-size: 1.5vw;
+    font-family: 'Myriad Pro';
+    font-weight: bolder;
+    outline: none;
+    border: none;
+    border-radius: 1.5em;
+    padding: 0em 1.5em;
+    box-shadow: 10px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+#divInRow1TheRow2TourguidePageDivRow1 > div {
+    /*height: 20em;*/
+    /*float:left;*/
+}
+
+#divInRow1TheRow2TourguidePageDivRow1Col1 {
+    height: 20em;
+    /*width: 45%;*/
+}
+
+#divInRow1TheRow2TourguidePageDivRow1Col2 {
+    /*height: 20em;
+            width: 55%;*/
+    min-height: 20em;
+}
+
+#divInRow1TheRow2TourguidePageDivRow2 {
+    /*clear:left;*/
+}
+
+.DynamicTourguidestyle {
+}
+
+.DivHideShowEquipmentesDynamicRoomTourguide > p {
+    font-size: 1em;
+    font-family: 'Myriad Pro';
+    color: #b3b1b2;
+}
+
+.ImgDynamicBigImgTourguidestyle {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.DynamicRow2Tourguidestyle {
+    margin-top: 1em;
+}
+
+.DivAllImgRow2DynamicBigImgTourguideStyle {
+    text-align: left;
+}
+
+.ImgRow2DynamicBigImgTourguideStyle {
+    width: 15%;
+    height: 7em;
+    margin-left: 0.7em;
+    margin-top: 0.7em;
+    object-fit: cover;
+    object-position: center;
+}
+
+.DynamicTextTourguidestyle {
+    clear: left;
+}
+
+.linkNameTextTourguidestyle {
+    font-size: 1.4em;
+    font-family: 'Myriad Pro';
+    color: #b3b1b2;
+}
+
+.DynamicTextEquipmentesTourguidestyle {
+}
+
+.linkNameTextTourguidestyle {
+}
+
+.DivRow3CommentsTourguide {
+    border: 3px solid #C6A100;
+    height: 100%;
+    margin-top: 1em;
+    border-radius: 30px;
+    background: linear-gradient(to bottom, #C6A100 0%,#C6A100 2vw,white 2vw,white 100%);
+}
+
+.DivInRow3Row1CommentsTourguide {
+    height: 30px;
+    padding: 0em 3em;
+}
+
+    .DivInRow3Row1CommentsTourguide > p {
+        color: black;
+        font-size: 1.4em;
+        font-family: 'Myriad Pro';
+        font-weight: bolder;
+    }
+
+        .DivInRow3Row1CommentsTourguide > p > i {
+            font-weight: bolder;
+            margin-right: 0.3em;
+        }
+
+.DivInRow3Row2CommentsTourguide {
+    margin-top: 20px;
+    padding: 0 2%;
+}
+
+.DayDolarandweekend1Tourguide {
+    margin-left: 1em;
+    color: black;
+    font-family: 'Myriad Pro';
+    font-size: 1.5em;
+}
+
+.DayDolarandweekend2Tourguide {
+    color: #c7c5c6;
+    font-family: 'Myriad Pro';
+    font-size: 1.3em;
+}
+
+.WeekendDolarandweekend1Tourguide {
+    margin-left: 1em;
+    color: black;
+    font-family: 'Myriad Pro';
+    font-size: 1.5em;
+}
+
+.WeekendDolarandweekend2Tourguide {
+    color: #c7c5c6;
+    font-family: 'Myriad Pro';
+    font-size: 1.3em;
+}
+
+
+.divRow3EventdHomePageStyle {
+    margin-top: 0.5em;
+}
+
+.divInRow3EventdTheRow1TextHomePageStyle {
+    text-align: center;
+}
+
+.textInRow3EventdTheRow1TextHomePageStyle {
+    font-family: 'Myriad Pro';
+    color: black;
+    font-size: 3vw;
+    font-weight: bolder;
+    height: 4.5vw;
+}
+
+.DivHideShowEquipmentesDynamicRoomEventEvent {
+}
+
+.divInRow1TheRow2EventPageStyle {
+    box-shadow: 5px 5px 10px 0.5px #c7c5c6;
+    padding: 1em;
+    min-height: 20em;
+}
+
+.divEquipmentesEventStyle > div {
+    float: left;
+    margin-left: 1%;
+    width: 15%;
+}
+
+    .divEquipmentesEventStyle > div > img {
+        width: 90%;
+    }
+
+    .divEquipmentesEventStyle > div > p {
+        text-align: center;
+    }
+
+.fa-usd {
+    font-size: 1.5em;
+}
+
+#BtnbookingEvent {
+    float: right;
+    color: black;
+    background-color: #C6A100;
+    font-size: 1.5vw;
+    font-family: 'Myriad Pro';
+    font-weight: bolder;
+    outline: none;
+    border: none;
+    border-radius: 1.5em;
+    padding: 0em 1.5em;
+    box-shadow: 10px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+#divInRow1TheRow2EventPageDivRow1 > div {
+    /*height: 20em;*/
+    /*float:left;*/
+}
+
+#divInRow1TheRow2EventPageDivRow1Col1 {
+    height: 20em;
+    /*width: 45%;*/
+}
+
+#divInRow1TheRow2EventPageDivRow1Col2 {
+    /*height: 20em;
+            width: 55%;*/
+    min-height: 20em;
+}
+
+#divInRow1TheRow2EventPageDivRow2 {
+    /*clear:left;*/
+}
+
+.DynamicEventstyle {
+}
+
+.DivHideShowEquipmentesDynamicRoomEvent > p {
+    font-size: 1em;
+    font-family: 'Myriad Pro';
+    color: #b3b1b2;
+}
+
+.ImgDynamicBigImgEventstyle {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.DynamicRow2Eventstyle {
+    margin-top: 1em;
+}
+
+.DivAllImgRow2DynamicBigImgEventStyle {
+    text-align: left;
+}
+
+.ImgRow2DynamicBigImgEventStyle {
+    width: 15%;
+    height: 7em;
+    margin-left: 0.7em;
+    margin-top: 0.7em;
+    object-fit: cover;
+    object-position: center;
+}
+
+.DynamicTextEventstyle {
+    clear: left;
+}
+
+.linkNameTextEventstyle {
+    font-size: 1.4em;
+    font-family: 'Myriad Pro';
+    color: #b3b1b2;
+}
+
+.DynamicTextEquipmentesEventstyle {
+}
+
+.linkNameTextEventstyle {
+}
+
+.DivRow3CommentsEvent {
+    border: 3px solid #f29200;
+    height: 100%;
+    margin-top: 1em;
+    border-radius: 30px;
+    background: linear-gradient(to bottom, #f29200 0%,#f29200 2vw,white 2vw,white 100%);
+}
+
+.DivInRow3Row1CommentsEvent {
+    height: 30px;
+    padding: 0em 3em;
+}
+
+    .DivInRow3Row1CommentsEvent > p {
+        color: black;
+        font-size: 1.4em;
+        font-family: 'Myriad Pro';
+        font-weight: bolder;
+    }
+
+        .DivInRow3Row1CommentsEvent > p > i {
+            font-weight: bolder;
+            margin-right: 0.3em;
+        }
+.ShowComplateServices{
+    text-decoration:none;
+}
+.DivInRow3Row2CommentsEvent {
+    margin-top: 20px;
+    padding: 0 2%;
+}
+
+.DayDolarandweekend1Event {
+    margin-left: 1em;
+    color: black;
+    font-family: 'Myriad Pro';
+    font-size: 1.5em;
+}
+
+.DayDolarandweekend2Event {
+    color: #c7c5c6;
+    font-family: 'Myriad Pro';
+    font-size: 1.3em;
+}
+
+.WeekendDolarandweekend1Event {
+    margin-left: 1em;
+    color: black;
+    font-family: 'Myriad Pro';
+    font-size: 1.5em;
+}
+
+.WeekendDolarandweekend2Event {
+    color: #c7c5c6;
+    font-family: 'Myriad Pro';
+    font-size: 1.3em;
+}
+
+.MoreEventsEvent {
+    color: #019fe6;
+    font-family: 'Myriad Pro';
+    font-size: 1.5em;
+}
+
+    .MoreEventsEvent:hover {
+        color: #019fe6;
+        text-decoration: none;
+    }
+
+
+.TextInRow4TheRow2HomePageStyle {
+    font-family: 'Myriad Pro';
+    font-size: 1.2em;
+    color: black;
+}
+
+    .TextInRow4TheRow2HomePageStyle > a {
+        color: #019fe6;
+        font-family: 'Myriad Pro';
+        font-size: 1.2em;
+    }
+
+        .TextInRow4TheRow2HomePageStyle > a:hover {
+            color: #019fe6;
+            text-decoration: none;
+        }
+
+.divInRow5TheRow2HomePageStyle {
+    padding: 0 6vw;
+}
+
+.ImgServisesIndexStyle {
+    width: 70%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.TitrServicesStyle {
+    font-family: 'Myriad Pro';
+    color: black;
+    font-size: 1.4em;
+    font-weight: bolder;
+}
+
+
+
+.ZirTitrServicesStyle {
+    font-family: 'Myriad Pro';
+    color: black;
+    font-size: 0.9em;
+    font-weight: bolder;
+}
+
+
+a:hover {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+.HomeRow1Col1Style {
+    margin: 0;
+    padding: 0 0 0 1em;
+}
+
+.Box_ShadowEddect {
+    /*box-shadow: 4px 7px 20px 1px rgba(0, 0, 0,0.3);*/
+}
+
+.Box_ShadowEddect {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+    .Box_ShadowEddect:hover {
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    }
+
+.HomeRow1Col2Style {
+    height: 30vw;
+}
+
+.HomeRow1Col1Row1Style {
+    height: 15vw;
+}
+
+.HomeRow1Col1Row2Style {
+    display: flex;
+    justify-content: stretch;
+    height: 15vw;
+    margin: 0;
+    padding: 0;
+    padding-right: 0.5em;
+    padding-top: 1vw;
+}
+
+.HomeRow1Col1Row2Col1Style {
+    width: 100%;
+    height: 14vw;
+    padding-right: 0.2em;
+}
+
+.HomeRow1Col1Row2Col2Style {
+    height: 14vw;
+    width: 50%;
+    padding-left: 0.2em;
+}
+
+.HomeRow1AslyDivCol2Row1Style {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40vw;
+    padding: 0 0 0 0.5em;
+    margin: 0;
+}
+
+.HomeRow1DivCol2Row1Style {
+    height: 19.5vw;
+}
+
+.HomeRow1DivCol2Row2Style {
+    height: 19.5vw;
+}
+
+.HomeRow2Col1Style {
+    height: 9vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+.HomeRow2Col2Style {
+    height: 10vw;
+    margin: 0.5vw 0 0 0;
+}
+
+.HomeRow3Style {
+    height: 15vw;
+    margin: 1vw 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.HomeRow3Col1Style {
+    height: 15vw;
+    padding-right: 0.2em;
+}
+
+.HomeRow3Col2Style {
+    height: 15vw;
+    padding-left: 0.2em;
+}
+
+
+/*DynamicHomeImageAndText1*/
+.ImageHome1 {
+    width: 100%;
+    height: 15vw;
+}
+
+.TagAImageHome1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    width: 100%;
+    height: 15vw;
+    justify-content: flex-end;
+}
+
+.LinkImageHome1 {
+    position: absolute;
+    color: #c6c6c6;
+    font-size: 1.5vw;
+}
+
+/*DynamicHomeImageAndText2*/
+.ImageHome2 {
+    width: 100%;
+    height: 14vw;
+}
+
+.TagAImageHome2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    width: 100%;
+    height: 14vw;
+    justify-content: flex-end;
+}
+/*DynamicHomeImageAndText4*/
+.ImageHome4 {
+    width: 100%;
+    height: 30vw;
+}
+
+.TagAImageHome4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    width: 100%;
+    height: 30vw;
+    justify-content: flex-end;
+}
+
+.TagAImageHome4_1 {
+    display: flex;
+    align-items: center;
+    height: 30vw;
+    justify-content: center;
+    text-align: center;
+}
+
+.TextLinkImageHome4_1 {
+    color: #c6c6c6;
+    font-size: 4vw;
+}
+/*DynamicHomeImageAndText5*/
+.ImageHome5 {
+    width: 100%;
+    height: 9vw;
+}
+
+.TagAImageHome5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    width: 100%;
+    height: 9vw;
+    justify-content: flex-end;
+}
+/*DynamicHomeImageAndText6*/
+.ImageHome6 {
+    width: 100%;
+    height: 19.5vw;
+}
+
+.TagAImageHome6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    width: 100%;
+    height: 19.5vw;
+    justify-content: flex-end;
+}
+/*DynamicHomeImageAndText8*/
+.ImageHome8 {
+    width: 100%;
+    height: 10vw;
+}
+
+.TagAImageHome8 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    width: 100%;
+    height: 10vw;
+    justify-content: flex-end;
+}
+/*DynamicHomeImageAndText9*/
+.ImageHome9 {
+    width: 100%;
+    height: 15vw;
+}
+
+.TagAImageHome9 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    width: 100%;
+    height: 15vw;
+    justify-content: flex-end;
+}

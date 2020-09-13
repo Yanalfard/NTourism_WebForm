@@ -1,0 +1,228 @@
+﻿@model NTourism.Models.ObjectClass.OcRimatours
+
+@{
+    ViewBag.Title = "Create";
+}
+
+@using (Html.BeginForm("Create", "Rimatours", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h1>Create Rimatours</h1>
+        <hr />
+        @if (ViewBag.Message != null)
+        {
+            <h4 style="color:red;">
+                @ViewBag.Message
+            </h4>
+        }
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.FirstName, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.FirstName, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.FirstName, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.LastName, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.LastName, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.LastName, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.TellNo, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.TellNo, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.TellNo, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.MainImage, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <input type="file" name="ImageFile" id="ImageFile" />
+                @Html.HiddenFor(model => model.MainImage)
+                @Html.ValidationMessageFor(model => model.MainImage, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Description, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Description, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Username, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Username, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Username, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Password, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Password, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.City, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <select id="cityNames" name="cityNames" class="form-control">
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.Rate, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Rate, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Rate, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.Price, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Price, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Price, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.Discount, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Discount, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Discount, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-md-2">Images 1</label>
+            <div class="col-md-10">
+                <input type="file" name="FileImages1" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-md-2">Images 1 Key</label>
+            <div class="col-md-10">
+                <input type="text" name="ImageNameKey1" id="ImageNameKey1" class="form-control" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-md-2">Images 2</label>
+            <div class="col-md-10">
+                <input type="file" name="FileImages2" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-md-2">Images 2 Key</label>
+            <div class="col-md-10">
+                <input type="text" name="ImageNameKey2" id="ImageNameKey2" class="form-control" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-md-2">Images 3</label>
+            <div class="col-md-10">
+                <input type="file" name="FileImages3" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-md-2">Images 3 Key</label>
+            <div class="col-md-10">
+                <input type="text" name="ImageNameKey3" id="ImageNameKey3" class="form-control" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-md-2">Images 4</label>
+            <div class="col-md-10">
+                <input type="file" name="FileImages4" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-md-2">Images 4 Key</label>
+            <div class="col-md-10">
+                <input type="text" name="ImageNameKey4" id="ImageNameKey4" class="form-control" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-md-2">Images 5</label>
+            <div class="col-md-10">
+                <input type="file" name="FileImages5" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-md-2">Images 5 Key</label>
+            <div class="col-md-10">
+                <input type="text" name="ImageNameKey5" id="ImageNameKey5" class="form-control" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-md-2">Images 6</label>
+            <div class="col-md-10">
+                <input type="file" name="FileImages6" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-md-2">Images 6 Key</label>
+            <div class="col-md-10">
+                <input type="text" name="ImageNameKey6" id="ImageNameKey6" class="form-control" />
+            </div>
+        </div>
+
+
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts{
+    <script>
+
+        $('#MainImage').val("");
+
+        $("#cityNames").change(function () {
+            var selectedCountry = $("#cityNames option:selected").text();
+            $('.CityName').val(selectedCountry);
+        });
+
+        var selectedCities = SelectAllCitys();
+        //$('<option value="Empty"></option>').appendTo('#cityNames');
+        for (var i = 0; i < selectedCities.length; i++) {
+            $('<option value="' + selectedCities[i].Name + '">' + selectedCities[i].Name + '</option>').appendTo('#cityNames');
+        }
+        //var selectedCountry = $("#cityNames option:selected").val('Qeshm');
+        $(function () {
+            //$("#cityNames").val('Qeshm');
+        });
+        var inputimg1 = document.getElementById('ImageFile');
+        inputimg1.addEventListener('change', showFileNameImg1);
+        function showFileNameImg1(event) {
+            var input = event.srcElement;
+            var fileName = input.files[0].name;
+            $('#MainImage').val(fileName);
+        }
+    </script>
+}

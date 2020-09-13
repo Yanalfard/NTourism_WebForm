@@ -1,0 +1,744 @@
+﻿.PanelPagePopularTreatmentsStyle {
+    margin-top: 14%;
+}
+
+.SliderImgPopularTreatments1Style {
+    width: 80%;
+    margin-top: 15%;
+    margin-left: 10%;
+    opacity: 0;
+}
+
+.SliderImgPopularTreatments2Style {
+    width: 0;
+    position: absolute;
+    margin-top: -5%;
+    margin-left: -38%;
+    opacity: 0;
+}
+
+.SliderImgPopularTreatments3Style {
+    width: 22%;
+    position: absolute;
+    margin-top: 1%;
+    margin-left: -15%;
+    opacity: 0;
+}
+
+.SliderImgPopularTreatments4Style {
+    width: 24%;
+    position: absolute;
+    margin-top: -7%;
+    opacity: 0;
+    margin-left: -90%;
+}
+
+.SliderImgPopularTreatments5Style {
+    width: 18%;
+    position: absolute;
+    margin-top: -9.2%;
+    opacity: 0;
+    margin-left: -64.5%;
+}
+
+
+
+
+
+
+
+.BtnInCosmeticproceduresBoxStyle {
+    margin-bottom: 2%;
+}
+
+.BtnInMedicalTreatmentsBoxStyle {
+    margin-bottom: 2%;
+}
+
+.RowOneCosmeticproceduresStyle {
+    padding-right: 3%;
+    padding-left: 3%;
+    margin-top: 1%;
+}
+
+.RowTwoCosmeticproceduresStyle {
+    padding-right: 3%;
+    padding-left: 3%;
+    margin-top: 2%;
+}
+
+
+
+
+.RowOneMedicalTreatmentsStyle {
+    padding-right: 3%;
+    padding-left: 3%;
+    margin-top: 1%;
+}
+
+.RowTwoMedicalTreatmentsStyle {
+    padding-right: 3%;
+    padding-left: 3%;
+    margin-top: 2%;
+}
+
+
+
+
+.DivOthersTreatmentsBorderStyle {
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+.DivOthersTreatmentsInBorderStyle {
+    border-bottom: 2px solid #124908;
+    width: 40%;
+    margin-left: 30%
+}
+
+.DivOthersTreatmentsTextStyle {
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+
+
+
+
+
+
+
+.PanelCosmeticProceduresStyle {
+    margin-top: 2%;
+}
+
+.NameInCosmeticproceduresStyle {
+    color: #124908;
+    font-size: 2vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.BoxShadobPopularTreatmentsStyle {
+    /*box-shadow: 3px 3px 3px #aaaaaa;*/
+    box-shadow: rgba(0,0,0,0.2) 10px 10px 10px;
+    overflow: hidden;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+
+.ImagePopularTreatments1Style {
+    max-width: 100%;
+}
+
+.DivTitrInCosmeticproceduresBoxStyle {
+    margin-top: 2%;
+}
+
+.LinkTitrInCosmeticproceduresBoxStyle {
+    color: black;
+    font-size: 1.3vw;
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.DivZirTitrInCosmeticproceduresBoxStyle {
+    margin-top: 0%;
+    display: none;
+}
+
+.DivZirTitrInCosmeticproceduresBoxStyle2 {
+    margin-top: 0%;
+    /* ReSharper disable once InvalidValue */
+    display: normal;
+}
+
+.LinkZirTitrInCosmeticproceduresBoxStyle {
+    color: black;
+    font-size: 1.2vw;
+    text-decoration: none;
+    font-family: Arial;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+.BtnInCosmeticproceduresBoxStyle {
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.BtnImgCosmeticproceduresStyle {
+    width: 40%;
+}
+
+
+
+
+.PanelMedicalTreatmentsStyle {
+    margin-top: 3%;
+}
+
+.NameInMedicalTreatmentsStyle {
+    color: #124908;
+    font-size: 2vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.BoxShadobMedicalTreatmentsStyle {
+    /*box-shadow: 3px 3px 3px #aaaaaa;*/
+    box-shadow: rgba(0,0,0,0.2) 10px 10px 10px;
+    overflow: hidden;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+
+.ImageMedicalTreatments1Style {
+    max-width: 100%;
+}
+
+.DivTitrInMedicalTreatmentsBoxStyle {
+    margin-top: 2%;
+}
+
+.LinkTitrInMedicalTreatmentsBoxStyle {
+    color: black;
+    font-size: 1.3vw;
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.DivZirTitrInMedicalTreatmentsBoxStyle {
+    margin-top: 0%;
+    display: none;
+}
+
+.DivZirTitrInMedicalTreatmentsBoxStyle2 {
+    margin-top: 0%;
+    /* ReSharper disable once InvalidValue */
+    display: normal;
+}
+
+.LinkZirTitrInMedicalTreatmentsBoxStyle {
+    color: #545454;
+    font-size: 1.1vw;
+    text-decoration: none;
+    font-family: Arial;
+    padding-right: 1%;
+    padding-left: 1%;
+    font-weight: normal;
+}
+
+.BtnInMedicalTreatmentsBoxStyle {
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.BtnImgMedicalTreatmentsStyle {
+    width: 40%;
+    transition: 2s;
+}
+
+
+
+
+.PanelOthersTreatmentsStyle {
+    margin-top: 3%;
+}
+
+.LinkOthersTreatmentsStyle {
+    margin-top: 3%;
+}
+
+.MatnLinkOthersTreatmentsStyle {
+    color: #124908;
+    font-size: 1.2em;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+    .MatnLinkOthersTreatmentsStyle:hover {
+        color: #124908;
+        font-size: 1.2em;
+        text-decoration: none;
+        font-family: Arial;
+    }
+
+
+/*#Md*/
+
+
+.BtnInCosmeticproceduresBoxMdStyle {
+    margin-bottom: 2%;
+}
+
+.BtnInMedicalTreatmentsBoxMdStyle {
+    margin-bottom: 2%;
+}
+
+.RowOneCosmeticproceduresMdStyle {
+    padding-right: 3%;
+    padding-left: 3%;
+    margin-top: 1%;
+}
+
+.RowTwoCosmeticproceduresMdStyle {
+    padding-right: 3%;
+    padding-left: 3%;
+    margin-top: 2%;
+}
+
+
+
+
+.PanelCosmeticProceduresMdStyle {
+    margin-top: 2%;
+}
+
+.NameInCosmeticproceduresMdStyle {
+    color: #124908;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.BoxShadobPopularTreatmentsMdStyle {
+    /*box-shadow: 3px 3px 3px #aaaaaa;*/
+    box-shadow: rgba(0,0,0,0.2) 10px 10px 10px;
+    overflow: hidden;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+
+.ImagePopularTreatments1MdStyle {
+    max-width: 100%;
+}
+
+.DivTitrInCosmeticproceduresBoxMdStyle {
+    margin-top: 2%;
+}
+
+.LinkTitrInCosmeticproceduresBoxMdStyle {
+    color: black;
+    font-size: 1.3em;
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.DivZirTitrInCosmeticproceduresBoxMdStyle {
+    margin-top: 0%;
+    display: none;
+}
+
+.DivZirTitrInCosmeticproceduresBoxMdStyle2 {
+    margin-top: 0%;
+    /* ReSharper disable once InvalidValue */
+    display: normal;
+}
+
+.LinkZirTitrInCosmeticproceduresBoxMdStyle {
+    color: black;
+    font-size: 1.2em;
+    text-decoration: none;
+    font-family: Arial;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+.BtnInCosmeticproceduresBoxMdStyle {
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.BtnImgCosmeticproceduresMdStyle {
+    width: 50%;
+}
+
+
+
+
+.PanelMedicalTreatmentsMdStyle {
+    margin-top: 10%;
+}
+
+.NameInMedicalTreatmentsMdStyle {
+    color: #124908;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.BoxShadobMedicalTreatmentsMdStyle {
+    /*box-shadow: 3px 3px 3px #aaaaaa;*/
+    box-shadow: rgba(0,0,0,0.2) 10px 10px 10px;
+    overflow: hidden;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+
+.ImageMedicalTreatments1MdStyle {
+    max-width: 100%;
+}
+
+.DivTitrInMedicalTreatmentsBoxMdStyle {
+    margin-top: 2%;
+}
+
+.LinkTitrInMedicalTreatmentsBoxMdStyle {
+    color: black;
+    font-size: 1.3em;
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.DivZirTitrInMedicalTreatmentsBoxMdStyle {
+    margin-top: 0%;
+    display: none;
+}
+
+.DivZirTitrInMedicalTreatmentsBoxMdStyle2 {
+    margin-top: 0%;
+    /* ReSharper disable InvalidValue */
+    display: normal;
+    /* ReSharper restore InvalidValue */
+}
+
+.LinkZirTitrInMedicalTreatmentsBoxMdStyle {
+    color: #545454;
+    font-size: 1.1em;
+    text-decoration: none;
+    font-family: Arial;
+    padding-right: 1%;
+    padding-left: 1%;
+    font-weight: normal;
+}
+
+.BtnInMedicalTreatmentsBoxMdStyle {
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.BtnImgMedicalTreatmentsMdStyle {
+    width: 50%;
+    transition: 2s;
+}
+
+
+
+
+.PanelOthersTreatmentsMdStyle {
+    margin-top: 3%;
+}
+
+.LinkOthersTreatmentsMdStyle {
+    margin-top: 3%;
+}
+
+.MatnLinkOthersTreatmentsMdStyle {
+    color: #124908;
+    font-size: 1.2em;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+    .MatnLinkOthersTreatmentsMdStyle:hover {
+        color: #124908;
+        font-size: 1.2em;
+        text-decoration: none;
+        font-family: Arial;
+    }
+
+
+
+
+
+.RowOneMedicalTreatmentsMdStyle {
+    padding-right: 3%;
+    padding-left: 3%;
+    margin-top: 1%;
+}
+
+.RowTwoMedicalTreatmentsMdStyle {
+    padding-right: 3%;
+    padding-left: 3%;
+    margin-top: 2%;
+}
+
+.RowThreeMedicalTreatmentsMdStyle {
+    padding-right: 3%;
+    padding-left: 3%;
+    margin-top: 2%;
+}
+
+
+
+.DivOthersTreatmentsBorderMdStyle {
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+.DivOthersTreatmentsInBorderMdStyle {
+    border-bottom: 2px solid #124908;
+    width: 40%;
+    margin-left: 30%
+}
+
+.DivOthersTreatmentsTextMdStyle {
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+
+
+
+
+/*#Sm*/
+
+
+
+
+.BtnInCosmeticproceduresBoxSmStyle {
+    margin-bottom: 2%;
+}
+
+.BtnInMedicalTreatmentsBoxSmStyle {
+    margin-bottom: 2%;
+}
+
+.RowOneCosmeticproceduresSmStyle {
+    padding-right: 3%;
+    padding-left: 3%;
+    margin-top: 1%;
+}
+
+.RowTwoCosmeticproceduresSmStyle {
+    padding-right: 3%;
+    padding-left: 3%;
+    margin-top: 2%;
+}
+
+.RowThreeCosmeticproceduresSmStyle {
+    padding-right: 3%;
+    padding-left: 3%;
+    margin-top: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.PanelCosmeticProceduresSmStyle {
+    margin-top: 2%;
+}
+
+.NameInCosmeticproceduresSmStyle {
+    color: #124908;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.BoxShadobPopularTreatmentsSmStyle {
+    /*box-shadow: 3px 3px 3px #aaaaaa;*/
+    box-shadow: rgba(0,0,0,0.2) 10px 10px 10px;
+    overflow: hidden;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+
+.ImagePopularTreatments1SmStyle {
+    max-width: 100%;
+}
+
+.DivTitrInCosmeticproceduresBoxSmStyle {
+    margin-top: 2%;
+}
+
+.LinkTitrInCosmeticproceduresBoxSmStyle {
+    color: black;
+    font-size: 1.3em;
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.DivZirTitrInCosmeticproceduresBoxSmStyle {
+    margin-top: 0%;
+    display: none;
+}
+
+.DivZirTitrInCosmeticproceduresBoxMdStyle2 {
+    margin-top: 0%;
+    /* ReSharper disable InvalidValue */
+    display: normal;
+    /* ReSharper restore InvalidValue */
+}
+
+.LinkZirTitrInCosmeticproceduresBoxSmStyle {
+    color: black;
+    font-size: 1.2em;
+    text-decoration: none;
+    font-family: Arial;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+.BtnInCosmeticproceduresBoxSmStyle {
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.BtnImgCosmeticproceduresSmStyle {
+    width: 50%;
+}
+
+
+
+
+.PanelMedicalTreatmentsSmStyle {
+    margin-top: 10%;
+}
+
+.NameInMedicalTreatmentsSmStyle {
+    color: #124908;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.BoxShadobMedicalTreatmentsSmStyle {
+    /*box-shadow: 3px 3px 3px #aaaaaa;*/
+    box-shadow: rgba(0,0,0,0.2) 10px 10px 10px;
+    overflow: hidden;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+
+.ImageMedicalTreatments1SmStyle {
+    max-width: 100%;
+}
+
+.DivTitrInMedicalTreatmentsBoxSmStyle {
+    margin-top: 2%;
+}
+
+.LinkTitrInMedicalTreatmentsBoxSmStyle {
+    color: black;
+    font-size: 1.3em;
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.DivZirTitrInMedicalTreatmentsBoxSmStyle {
+    margin-top: 0%;
+    display: none;
+}
+
+.DivZirTitrInMedicalTreatmentsBoxMdStyle2 {
+    margin-top: 0%;
+    /* ReSharper disable once InvalidValue */
+    display: normal;
+}
+
+.LinkZirTitrInMedicalTreatmentsBoxSmStyle {
+    color: #545454;
+    font-size: 1.1em;
+    text-decoration: none;
+    font-family: Arial;
+    padding-right: 1%;
+    padding-left: 1%;
+    font-weight: normal;
+}
+
+.BtnInMedicalTreatmentsBoxSmStyle {
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.BtnImgMedicalTreatmentsSmStyle {
+    width: 50%;
+    transition: 2s;
+}
+
+
+
+
+.PanelOthersTreatmentsSmStyle {
+    margin-top: 3%;
+}
+
+.LinkOthersTreatmentsSmStyle {
+    margin-top: 3%;
+}
+
+.MatnLinkOthersTreatmentsSmStyle {
+    color: #124908;
+    font-size: 1em;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+.MatnLinkOthersTreatmentsMdStyle:hover {
+    color: #124908;
+    font-size: 1em;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+
+.RowOneMedicalTreatmentsSmStyle {
+    padding-right: 3%;
+    padding-left: 3%;
+    margin-top: 1%;
+}
+
+.RowTwoMedicalTreatmentsSmStyle {
+    padding-right: 3%;
+    padding-left: 3%;
+    margin-top: 2%;
+}
+
+.RowThreeMedicalTreatmentsSmStyle {
+    padding-right: 3%;
+    padding-left: 3%;
+    margin-top: 2%;
+}
+
+.RowFourMedicalTreatmentsSmStyle {
+    padding-right: 3%;
+    padding-left: 3%;
+    margin-top: 2%;
+}
+
+
+
+
+.DivOthersTreatmentsBorderSmStyle {
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+.DivOthersTreatmentsInBorderSmStyle {
+    border-bottom: 2px solid #124908;
+    width: 40%;
+    margin-left: 30%
+}
+
+.DivOthersTreatmentsTextSmStyle {
+    padding-right: 15%;
+    padding-left: 15%;
+}

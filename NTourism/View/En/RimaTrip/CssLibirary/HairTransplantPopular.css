@@ -1,0 +1,607 @@
+﻿.PanelHairTransplantStyle {
+}
+
+.ImgHeaderHairTransplantStyle {
+    width: 100%;
+}
+
+.DivVideoAndTextHairTransplantStyle {
+    margin-top: 5%;
+}
+
+.VideoHairTransplantStyle {
+    width: 100%;
+}
+
+.TitrTextVideoHairTransplantStyle {
+    font-family: Arial;
+    font-size: 1.5vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTextVideoHairTransplantStyle {
+    margin-top: 3%;
+}
+
+.ZirTextVideoHairTransplantStyle {
+    font-family: Arial;
+    font-size: 1.2vw;
+    color: black;
+}
+.SliderDivTextHairTransplantStyle {
+    position: absolute;
+    margin-top: -33%;
+    margin-left: 5%;
+}
+
+.SliderTitrHairTransplantStyle {
+    color: rgba(12,144,68,1);
+    font-size: 6vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderZirDivTextHairTransplantStyle {
+    position: absolute;
+    margin-top: -26%;
+    margin-left: 5%;
+}
+
+.SliderZirTitrHairTransplantStyle {
+    color: rgba(12,144,68,1);
+    font-size: 4vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderDivDescriptionHairTransplantTitrStyle {
+    position: absolute;
+    margin-top: -20%;
+    margin-left: 5.5%;
+}
+
+.SliderDescriptionHairTransplantTextTitrStyle {
+    color: rgba(0,76,52,1);
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.DivBtnHairTransplantSingInStyle {
+    position: absolute;
+    margin-top: -11.5%;
+    margin-left: 5%;
+    background-color: rgba(141,198,63,1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+    .DivBtnHairTransplantSingInStyle:hover {
+        position: absolute;
+        margin-top: -11.5%;
+        margin-left: 5%;
+        background-color: rgba(141,198,63,1);
+        border-radius: 30px;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.TextBtnHairTransplantStyle {
+    color: white;
+    font-size: 1.8vw;
+    font-weight: bold;
+}
+
+    .TextBtnHairTransplantStyle:hover {
+        color: white;
+        font-size: 1.8vw;
+        font-weight: bold;
+    }
+
+.DivZirHeadersImgTextHairTransplantStyle {
+    margin-top: 2%;
+}
+
+.ZirHeadersImgTextHairTransplantStyle {
+    font-family: Arial;
+    font-size: 1.5vw;
+    color: black;
+}
+
+.DescaptirionOrginalHairTransplantStyle {
+    margin-top: 8%;
+}
+
+.DescaptirionRowOneHairTransplantStyle {
+}
+
+.Pic3HairTransplantRowOneStyle {
+    width: 65%;
+}
+
+.TitrTextRowOneHairTransplantStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowOneHairTransplantStyle {
+    margin-top: 5%;
+}
+
+.ZirTitrTextRowOneHairTransplantStyle {
+    font-family: Arial;
+    font-size: 1.2vw;
+    color: black;
+}
+.DescaptirionRowTwoHairTransplantStyle {
+    margin-top: 10%;
+}
+
+.Pic1HairTransplantRowTwoStyle {
+    width: 70%;
+}
+
+.TitrTextRowTwoHairTransplantStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowTwoHairTransplantStyle {
+    margin-top: 5%;
+}
+
+.ZirTitrTextRowTwoHairTransplantStyle {
+    font-family: Arial;
+    font-size: 1.2vw;
+    color: black;
+}
+
+.DescaptirionRowThreeHairTransplantStyle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Pic2HairTransplantRowThreeStyle {
+    width: 65%;
+}
+
+.TitrTextRowThreeHairTransplantStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRoThreeHairTransplantStyle {
+    margin-top: 5%;
+}
+
+.ZirTitrTextRowThreeHairTransplantStyle {
+    font-family: Arial;
+    font-size: 1.2vw;
+    color: black;
+}
+
+
+
+
+/*#Sm*/
+.PanelHairTransplantSmStyle {
+}
+
+.ImgHeaderHairTransplantSmStyle {
+    width: 100%;
+}
+.SliderDivTextHairTransplantSmStyle {
+    position: absolute;
+    margin-top: -33%;
+    margin-left: 5%;
+}
+
+.SliderTitrHairTransplantSmStyle {
+    color: rgba(12,144,68,1);
+    font-size: 6vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderZirDivTextHairTransplantSmStyle {
+    position: absolute;
+    margin-top: -26%;
+    margin-left: 5%;
+}
+
+.SliderZirTitrHairTransplantSmStyle {
+    color: rgba(12,144,68,1);
+    font-size: 4vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderDivDescriptionHairTransplantTitrSmStyle {
+    position: absolute;
+    margin-top: -20%;
+    margin-left: 5.5%;
+}
+
+.SliderDescriptionHairTransplantTextTitrSmStyle {
+    color: rgba(0,76,52,1);
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.DivBtnHairTransplantSingInSmStyle {
+    position: absolute;
+    margin-top: -11.5%;
+    margin-left: 5%;
+    background-color: rgba(141,198,63,1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+    .DivBtnHairTransplantSingInSmStyle:hover {
+        position: absolute;
+        margin-top: -11.5%;
+        margin-left: 5%;
+        background-color: rgba(141,198,63,1);
+        border-radius: 30px;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.TextBtnHairTransplantSmStyle {
+    color: white;
+    font-size: 1.8vw;
+    font-weight: bold;
+}
+
+    .TextBtnHairTransplantSmStyle:hover {
+        color: white;
+        font-size: 1.8vw;
+        font-weight: bold;
+    }
+
+
+.DivZirHeadersImgTextHairTransplantSmStyle {
+    margin-top: 2%;
+}
+
+.ZirHeadersImgTextHairTransplantSmStyle {
+    font-family: Arial;
+    font-size: 1.7vw;
+    color: black;
+}
+.DivVideoAndTextHairTransplantSmStyle {
+    margin-top: 5%;
+}
+
+.VideoHairTransplantSmStyle {
+    width: 100%;
+}
+
+.DivZirVideoHairTransplantSmStyle {
+    margin-top: 2%;
+}
+
+.TitrTextVideoHairTransplantSmStyle {
+    font-family: Arial;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.ZirTextVideoHairTransplantSmStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+}
+
+.DescaptirionOrginalHairTransplantSmStyle {
+    margin-top: 8%;
+}
+
+.DescaptirionRowOneHairTransplantSmStyle {
+}
+
+.Pic3HairTransplantRowOneTransplantSmStyle {
+    width: 50%;
+}
+
+.DivTitrRowOneHairTransplantSmStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowOneHairTransplantSmStyle {
+    font-family: Arial;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowOneHairTransplantSmStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowOneHairTransplantSmStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+}
+
+.DescaptirionRowTwoHairTransplantSmStyle {
+    margin-top: 10%;
+}
+
+.Pic1HairTransplantRowTwoTransplantSmStyle {
+    width: 55%;
+}
+
+.DivTitrRowTwoHairTransplantSmStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowTwoHairTransplantSmStyle {
+    font-family: Arial;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowTwoHairTransplantSmStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowTwoHairTransplantSmStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+}
+
+.DescaptirionRowThreeHairTransplantSmStyle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Pic2HairTransplantRowThreeTransplantSmStyle {
+    width: 50%;
+}
+
+.DivTitrRowThreeHairTransplantSmStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowThreeHairTransplantSmStyle {
+    font-family: Arial;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRoThreeHairTransplantSmStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowThreeHairTransplantSmStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+}
+
+
+
+
+
+
+/*#Xs*/
+
+.PanelHairTransplantXsStyle {
+}
+
+.ImgHeaderHairTransplantXsStyle {
+    width: 100%;
+}
+
+.SliderDivTextHairTransplantXsStyle {
+    position: absolute;
+    margin-top: -33%;
+    margin-left: 5%;
+}
+
+.SliderTitrHairTransplantXsStyle {
+    color: rgba(12,144,68,1);
+    font-size: 6vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderZirDivTextHairTransplantXsStyle {
+    position: absolute;
+    margin-top: -26%;
+    margin-left: 5%;
+}
+
+.SliderZirTitrHairTransplantXsStyle {
+    color: rgba(12,144,68,1);
+    font-size: 4vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderDivDescriptionHairTransplantTitrXsStyle {
+    position: absolute;
+    margin-top: -20%;
+    margin-left: 5.5%;
+}
+
+.SliderDescriptionHairTransplantTextTitrXsStyle {
+    color: rgba(0,76,52,1);
+    font-size: 1.8vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.DivBtnHairTransplantSingInXsStyle {
+    position: absolute;
+    margin-top: -8%;
+    margin-left: 5%;
+    background-color: rgba(141,198,63,1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+    .DivBtnHairTransplantSingInXsStyle:hover {
+        position: absolute;
+        margin-top: -8%;
+        margin-left: 5%;
+        background-color: rgba(141,198,63,1);
+        border-radius: 30px;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.TextBtnHairTransplantXsStyle {
+    color: white;
+    font-size: 2.5vw;
+    font-weight: bold;
+}
+
+    .TextBtnHairTransplantXsStyle:hover {
+        color: white;
+        font-size: 2.5vw;
+        font-weight: bold;
+    }
+
+
+.DivZirHeadersImgTextHairTransplantXsStyle {
+    margin-top: 2%;
+}
+
+.ZirHeadersImgTextHairTransplantXsStyle {
+    font-family: Arial;
+    font-size: 2.5vw;
+    color: black;
+}
+
+.DivVideoAndTextHairTransplantXsStyle {
+    margin-top: 5%;
+}
+
+.VideoHairTransplantXsStyle {
+    width: 100%;
+}
+
+.DivZirVideoHairTransplantXsStyle {
+    margin-top: 2%;
+}
+
+.TitrTextVideoHairTransplantXsStyle {
+    font-family: Arial;
+    font-size: 3vw;
+    color: black;
+    font-weight: bold;
+}
+
+.ZirTextVideoHairTransplantXsStyle {
+    font-family: Arial;
+    font-size: 2.5vw;
+    color: black;
+}
+
+
+.DescaptirionOrginalHairTransplantXsStyle {
+    margin-top: 8%;
+}
+
+.DescaptirionRowOneHairTransplantXsStyle {
+}
+
+.Pic3HairTransplantTransplantRowOneTransplantXsStyle {
+    width: 50%;
+}
+
+.DivTitrRowOneHairTransplantXsStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowOneHairTransplantXsStyle {
+    font-family: Arial;
+    font-size: 3vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowOneHairTransplantXsStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowOneHairTransplantXsStyle {
+    font-family: Arial;
+    font-size: 2.5vw;
+    color: black;
+}
+
+.DescaptirionRowTwoHairTransplantXsStyle {
+    margin-top: 10%;
+}
+
+.Pic1HairTransplantRowTwoTransplantXsStyle {
+    width: 55%;
+}
+
+.DivTitrRowTwoHairTransplantXsStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowTwoHairTransplantXsStyle {
+    font-family: Arial;
+    font-size: 3vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowTwoHairTransplantXsStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowTwoHairTransplantXsStyle {
+    font-family: Arial;
+    font-size: 2.5vw;
+    color: black;
+}
+
+
+.DescaptirionRowThreeHairTransplantXsStyle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Pic2HairTransplantRowThreeTransplantXsStyle {
+    width: 50%;
+}
+
+.DivTitrRowThreeHairTransplantXsStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowThreeHairTransplantXsStyle {
+    font-family: Arial;
+    font-size: 3vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRoThreeHairTransplantXsStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowThreeHairTransplantXsStyle {
+    font-family: Arial;
+    font-size: 2.5vw;
+    color: black;
+}

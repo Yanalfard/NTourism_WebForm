@@ -1,0 +1,272 @@
+﻿@model NTourism.Models.ObjectClass.OcServices
+
+@{
+    ViewBag.Title = "Edit";
+}
+@using (Html.BeginForm("Edit", "OurServices", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h1>Edit OurServices</h1>
+        <hr />
+        @if (ViewBag.Message != null)
+        {
+            <h4 style="color:red;">
+                @ViewBag.Message
+            </h4>
+        }
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.id)
+        @Html.HiddenFor(model => model.Comments)
+        @Html.HiddenFor(model => model.CityId)
+        @Html.HiddenFor(model => model.MainImage)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.MainImage, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <img src="~/Resources/Imges/@Model.MainImage" class="thumbnail" style="max-width:150px;" />
+                <input type="file" name="ImageFile" id="ImageFile" />
+                @Html.ValidationMessageFor(model => model.MainImage, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.Client.Username, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <select id="UseNames" name="UseNames" class="form-control">
+                </select>
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Facility, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.ListBoxFor(model => model.Facility, Model.Facility, new { size = 10, style = "width:200px" })
+
+                @Html.ValidationMessageFor(model => model.Facility, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.PriceNormal, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.PriceNormal, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.PriceNormal, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.PriceWeekend, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.PriceWeekend, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.PriceWeekend, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.DaysOccupaid, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.DaysOccupaid, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.DaysOccupaid, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.OccupaidFrom, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.OccupaidFrom, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.OccupaidFrom, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.OccupaidTo, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.OccupaidTo, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.OccupaidTo, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.IsReserved, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <div class="checkbox">
+                    @Html.EditorFor(model => model.IsReserved)
+                    @Html.ValidationMessageFor(model => model.IsReserved, "", new { @class = "text-danger" })
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Description, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Description, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.IsSelected, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <div class="checkbox">
+                    @Html.EditorFor(model => model.IsSelected)
+                    @Html.ValidationMessageFor(model => model.IsSelected, "", new { @class = "text-danger" })
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.City, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <select id="cityNames" name="cityNames" class="form-control">
+                </select>
+            </div>
+        </div>
+
+        <style>
+            .DivRemoveImg {
+                position: relative;
+            }
+
+            a.remImage i {
+                color: red;
+                font-size: 2em;
+                box-shadow: none;
+                position: absolute;
+                left: 130px;
+                top: 0px;
+                margin-top: 4px;
+                opacity: 0;
+                display: block;
+                transition: all .5s ease-in-out;
+            }
+
+            .DivRemoveImg:hover a.remImage i {
+                opacity: 1;
+                z-index: 99;
+                position: absolute;
+                top: 5px;
+                display: block;
+            }
+        </style>
+        @if (Model.Images != null)
+        {
+            for (int i = 0; i < Model.Images.Count; i++)
+            {
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Images, "Images" + (i + 1), htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10 DivRemoveImg">
+                        @if (Model.Images[i] != null)
+                        {
+                            <img src="~/Resources/Imges/@Model.Images[i]" class="thumbnail" style="max-width:150px;" />
+                            <a class="remImage" href="#">
+                                <i class="fa fa-close"></i>
+                            </a>
+                        }
+                        <input type="hidden" class="IsFullImageOrEmpty" name="IsFullImageOrEmpty@(i+1)" value="0" />
+                        <input type="hidden" name="Images1Input@(i+1)" value="@Model.ImagesId[i]" />
+                        <input type="file" class="imguploadAgain" name="FileImages@(i+1)" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Images, "Images Key" + (i + 1), htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10 DivRemoveImg">
+                        @if (Model.ImagesName[i] != null)
+                        {
+                            <input type="text" name="ImageNameKey@(i+1)" id="ImageNameKey@(i+1)" value="@Model.ImagesName[i]" class="form-control" />
+                        }
+                    </div>
+                </div>
+            }
+
+        }
+        @{
+            int countImages = 6 - Model.Images.Count;
+
+        }
+        @for (int i = 0; i < countImages; i++)
+        {
+            int numimg = Model.Images.Count + 1;
+            <div class="form-group">
+                @Html.LabelFor(model => model.Images, "Images" + (numimg + i), htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    <input type="file" class="imguploadAgain" name="FileImages@(numimg+i)" />
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Images, "Images Key" + (numimg + i), htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    <input type="text" name="ImageNameKey@(numimg+i)" id="ImageNameKey@(numimg+i)" value="" class="form-control" />
+                </div>
+            </div>
+        }
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<input type="hidden" id="CityNameEdite" value="@ViewBag.CityName" />
+
+
+<input type="hidden" id="UseNamesEdite" value="@ViewBag.Client" />
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+@section Scripts{
+    <script>
+        // $('.remImage').hide();
+        $('.remImage').click(function () {
+            $(this).parent().children('input[class="IsFullImageOrEmpty"]').val("1");
+            $(this).parent().children('a').hide();
+            $(this).parent().children('img').remove();
+        });
+        $('.imguploadAgain').change(function () {
+            $(this).parent().children('input[class="IsFullImageOrEmpty"]').val("0");
+        });
+    </script>
+    <script>
+        var selectedCities = SelectAllCitys();
+        for (var i = 0; i < selectedCities.length; i++) {
+            $('<option value="' + selectedCities[i].Name + '">' + selectedCities[i].Name + '</option>').appendTo('#cityNames');
+        }
+        $(function () {
+            $("#cityNames").val($('#CityNameEdite').val());
+        });
+
+        var selectedUsername = SelectAllClients();
+        for (var i = 0; i < selectedUsername.length; i++) {
+            $('<option value="' + selectedUsername[i].Username + '">' + selectedUsername[i].Username + '</option>').appendTo('#UseNames');
+        }
+        $(function () {
+            $("#UseNames").val($('#UseNamesEdite').val());
+        });
+        var inputimg1 = document.getElementById('ImageFile');
+        inputimg1.addEventListener('change', showFileNameImg1);
+        function showFileNameImg1(event) {
+            var input = event.srcElement;
+            var fileName = input.files[0].name;
+            $('#MainImage').val(fileName);
+        }
+        var selectedFacilities = SelectFacilitiesByRoomHome(@Model.id);
+        if (selectedFacilities != null) {
+            for (var i = 0; i < selectedFacilities.length; i++) {
+
+                $("#Facility option[value='" + selectedFacilities[i].id + "']").attr("selected", "true");
+            }
+        }
+        
+    </script>
+}

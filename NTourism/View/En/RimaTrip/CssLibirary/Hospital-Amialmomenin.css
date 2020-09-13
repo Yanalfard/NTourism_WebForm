@@ -1,0 +1,354 @@
+﻿.DivAslyHospitalAmialmomeninStyle {
+    margin-top: 1%;
+}
+
+.SliderImgHospitalAmialmomeninStyle {
+    width: 100%;
+}
+
+.SliderDivTextHealthHospitalAmialmomeninStyle {
+    position: absolute;
+    margin-top: 0.9%;
+    margin-left: 7.5%;
+}
+
+.SliderTitrHealthHospitalAmialmomeninStyle {
+    font-size: 6.5vw;
+    font-weight: bold;
+    color: white;
+}
+
+.SliderZirDivTextHealthHospitalAmialmomeninStyle {
+    position: absolute;
+    margin-top: 8.5%;
+    margin-left: 7.5%;
+}
+
+.SliderZirTitrHealthHospitalAmialmomeninStyle {
+    font-size: 3.5vw;
+    font-weight: bold;
+    color: white;
+}
+
+.SliderDivIncludinTextTitrHospitalAmialmomeninStyle {
+    position: absolute;
+    margin-top: 14%;
+    margin-left: 7.5%;
+}
+
+.SliderIncludinTextTitrHospitalAmialmomeninStyle {
+    font-size: 1.8vw;
+    font-weight: bold;
+    color: #c6c6c6;
+}
+
+.SliderDivIncludinTextZirTitrHospitalAmialmomeninStyle {
+    position: absolute;
+    margin-top: 16.2%;
+    margin-left: 7.5%;
+}
+
+.SliderIncludinTextZirTitrHospitalAmialmomeninStyle {
+    font-size: 1.2vw;
+    font-weight: bold;
+    color: #c6c6c6;
+}
+
+.SliderBtnRegisterHospitalAmialmomeninStyle {
+    position: absolute;
+    margin-top: 22%;
+    margin-left: 7%;
+    transition: 0.5s;
+}
+
+    .SliderBtnRegisterHospitalAmialmomeninStyle:hover {
+        position: absolute;
+        margin-top: 22%;
+        margin-left: 7%;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.SliderBtnRegisterTextHospitalAmialmomeninStyle {
+    color: white;
+    background-color: rgba(141,198,63,1);
+    border-radius: 25px;
+    font-size: 1.4vw;
+    font-weight: bold;
+}
+
+    .SliderBtnRegisterTextHospitalAmialmomeninStyle:hover {
+        color: white;
+        background-color: rgba(141,198,63,1);
+        border-radius: 25px;
+        font-size: 1.4vw;
+        font-weight: bold;
+    }
+
+
+.DivZirSliderTextHospitalAmialmomeninStyle {
+    padding: 2% 4% 0% 4%;
+}
+
+.ZirSliderTextHospitalAmialmomeninStyle {
+    font-family: Arial;
+    font-size: 1.5em;
+    color: black;
+}
+
+.DivVideoAndTextHospitalAmialmomeninStyle {
+    margin-top: 4%;
+}
+
+.VideoTextHospitalAmialmomeninStyle {
+    font-family: Arial;
+    font-size: 1.1em;
+    color: black;
+}
+
+.DivRow3StyleHospitalAmialmomeninStyle {
+    margin-top: 1%;
+    padding: 0% 3% 0% 3%;
+}
+
+.TitrRow3TextHospitalAmialmomeninStyle {
+    font-family: Arial;
+    font-size: 1.5em;
+    color: black;
+    font-weight: bold;
+}
+
+.ZirTitrRow3TextHospitalAmialmomeninStyle {
+    font-family: Arial;
+    font-size: 1.3em;
+    color: black;
+}
+
+
+.DivOthersHospitalAmialmomeninStyle {
+    margin-top: 1%;
+}
+
+.DivOthersHospitilsBorderStyle {
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+.DivOthersHospitilsInBorderStyle {
+    border-bottom: 2px solid #124908;
+    width: 40%;
+    margin-left: 30%
+}
+
+.TitrNameOthersHospitalAmialmomeninStyle {
+    color: #004a33;
+    font-size: 1.5em;
+    text-decoration: none;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+
+.LinkOthersHospitalAmialmomeninStyle {
+    margin-top: 3%;
+}
+
+.MatnLinkOthersHospitalAmialmomeninStyle {
+    color: #004a33;
+    font-size: 1em;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+    .MatnLinkOthersHospitalAmialmomeninStyle:hover {
+        color: #004a33;
+        font-size: 1em;
+        text-decoration: none;
+        font-family: Arial;
+    }
+
+
+.DivZirSliderTextHospitalAmialmomeninMdStyle {
+    padding: 2% 4% 0% 4%;
+}
+
+.SliderImgHospitalAmialmomeninMdStyle {
+    width: 100%;
+}
+
+.ZirSliderTextHospitalAmialmomeninMdStyle {
+    font-family: Arial;
+    font-size: 1.3em;
+    color: black;
+}
+
+.DivVideoAndTextHospitalAmialmomeninMdStyle {
+    margin-top: 4%;
+}
+
+.VideoTextHospitalAmialmomeninMdStyle {
+    font-family: Arial;
+    font-size: 0.8em;
+    color: black;
+}
+
+
+.DivRow3StyleHospitalAmialmomeninMdStyle {
+    margin-top: 1%;
+    padding: 0% 3% 0% 3%;
+}
+
+.TitrRow3TextHospitalAmialmomeninMdStyle {
+    font-family: Arial;
+    font-size: 1.2em;
+    color: black;
+    font-weight: bold;
+}
+
+.ZirTitrRow3TextHospitalAmialmomeninMdStyle {
+    font-family: Arial;
+    font-size: 1em;
+    color: black;
+}
+
+
+.DivOthersHospitalAmialmomeninMdStyle {
+    margin-top: 1%;
+}
+
+.DivOthersHospitilsBorderStyle {
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+.DivOthersHospitilsInBorderStyle {
+    border-bottom: 2px solid #124908;
+    width: 40%;
+    margin-left: 30%
+}
+
+.TitrNameOthersHospitalAmialmomeninMdStyle {
+    color: #004a33;
+    font-size: 1.5em;
+    text-decoration: none;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+
+.LinkOthersHospitalAmialmomeninMdStyle {
+    margin-top: 3%;
+}
+
+.MatnLinkOthersHospitalAmialmomeninMdStyle {
+    color: #004a33;
+    font-size: 1em;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+    .MatnLinkOthersHospitalAmialmomeninMdStyle:hover {
+        color: #004a33;
+        font-size: 1em;
+        text-decoration: none;
+        font-family: Arial;
+    }
+
+
+.DivZirSliderTextHospitalAmialmomeninSmStyle {
+    padding: 2% 4% 0% 4%;
+}
+
+.SliderImgHospitalAmialmomeninSmStyle {
+    width: 100%;
+}
+
+.ZirSliderTextHospitalAmialmomeninSmStyle {
+    font-family: Arial;
+    font-size: 1em;
+    color: black;
+}
+
+.DivVideoAndTextHospitalAmialmomeninSmStyle {
+    margin-top: 4%;
+}
+
+.VideoTextHospitalAmialmomeninSmStyle {
+    font-family: Arial;
+    font-size: 1em;
+    color: black;
+}
+
+.DivZirVideoHospitalAmialmomeninSmStyle {
+    padding: 5% 5% 0% 5%;
+}
+
+.DivRow3StyleHospitalAmialmomeninSmStyle {
+    margin-top: 2%;
+    padding: 0% 3% 0% 3%;
+}
+
+.TitrRow3TextHospitalAmialmomeninSmStyle {
+    font-family: Arial;
+    font-size: 1.2em;
+    color: black;
+    font-weight: bold;
+}
+
+.ZirTitrRow3TextHospitalAmialmomeninSmStyle {
+    font-family: Arial;
+    font-size: 1em;
+    color: black;
+}
+
+.DivZirSliderTextHospitalAmialmomeninXsStyle {
+    padding: 2% 4% 0% 4%;
+}
+
+.SliderImgHospitalAmialmomeninXsStyle {
+    width: 100%;
+}
+
+.ZirSliderTextHospitalAmialmomeninXsStyle {
+    font-family: Arial;
+    font-size: 1em;
+    color: black;
+}
+
+.DivVideoAndTextHospitalAmialmomeninXsStyle {
+    margin-top: 4%;
+}
+
+.VideoTextHospitalAmialmomeninXsStyle {
+    font-family: Arial;
+    font-size: 1em;
+    color: black;
+}
+
+.DivZirVideoHospitalAmialmomeninXsStyle {
+    padding: 5% 5% 0% 5%;
+}
+
+
+.DivRow3StyleHospitalAmialmomeninXsStyle {
+    margin-top: 2%;
+    padding: 0% 3% 0% 3%;
+}
+
+.TitrRow3TextHospitalAmialmomeninXsStyle {
+    font-family: Arial;
+    font-size: 1.2em;
+    color: black;
+    font-weight: bold;
+}
+
+.ZirTitrRow3TextHospitalAmialmomeninXsStyle {
+    font-family: Arial;
+    font-size: 1em;
+    color: black;
+}
+
+
+.DiuvTitrHospitilsStyle {
+    margin-top: 1%;
+}

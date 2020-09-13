@@ -1,0 +1,127 @@
+﻿@model IEnumerable<NTourism.Models.ObjectClass.OcAttraction>
+
+<h1>
+    @Html.ActionLink("Add Event", "Create")
+</h1>
+
+
+<div class="text-center row">
+    <form action="/Admin/Event/Search" method="get" class="form-group">
+        <input class="inputSearch form-control" name="q" type="text" placeholder="Search.... ">
+        <button><i class="fa fa-search"></i></button>
+    </form>
+</div>
+<table class="table list-wrapper">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Title)
+        </th>
+
+        <th>
+            @Html.DisplayNameFor(model => model.IsText)
+        </th>
+
+        <th>
+            @Html.DisplayNameFor(model => model.Score)
+        </th>
+
+        <th>
+            @Html.DisplayNameFor(model => model.IsSelected)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.City)
+        </th>
+
+        <th>
+            @Html.DisplayNameFor(model => model.Image)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr class="list-item">
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title.Split(';')[0])
+            </td>
+
+
+            <td>
+                @Html.DisplayFor(modelItem => item.IsText)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Score)
+            </td>
+
+
+            <td>
+                @Html.DisplayFor(modelItem => item.IsSelected)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.City)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Image)
+            </td>
+            <td>
+                <a class="btn btn-danger btn-sm" onclick="editeGroup(@item.id)">
+                    <i class="glyphicon glyphicon-edit"></i>
+                </a>
+                <a class="btn btn-danger btn-sm" onclick="deleteGroup(@item.id)">
+                    <i class="glyphicon glyphicon-trash"></i>
+                </a>
+            </td>
+        </tr>
+    }
+
+</table>
+
+<div class="pagination-container"></div>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" id="myModalBody">
+
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--End Modal -->
+
+@section scripts{
+    <script src="~/Scripts/modal.js"></script>
+    <script>
+        function editeGroup(id) {
+            window.location = '/Admin/Event/Edit/' + id;
+        };
+        //function deleteGroup(id) {
+        //    window.location = '/Admin/Event/Delete/' + id;
+        //};
+        function deleteGroup(id) {
+            $.get('/Admin/Event/Delete/' + id, function (result) {
+                $('#myModal').modal();
+                $('#myModalLabel').html('Delete');
+                $('#myModalBody').html(result);
+            });
+        };
+    </script>
+
+
+
+}
+

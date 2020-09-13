@@ -1,0 +1,511 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="NTourism.master.cs" Inherits="NTourismWeb.View.En.Master.Index.NTourism" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title>Rima Trip <%: Page.Title %> </title>
+    <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="RimaTrip,RimaTrip,Tourist,Aras" />
+    <meta name="keywords" content="RimaTrip,RimaTrip,Tourist,Aras" />
+    <meta name="language" content="en-US" />
+    <link rel="icon" href="/Resources/En/Logo/Main.svg" />
+    <script src="https://www.google.com/recaptcha/api.js?render=put your site key here"></script>
+
+
+    <script src="/Bootstrap1/Scripts/jquery-1.9.1.min.js"></script>
+    <script src="/Bootstrap1/Scripts/bootstrap.min.js"></script>
+    <link href="/Bootstrap1/Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="/Bootstrap1/Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+
+    <script src="http://www.parsecdn.com/js/parse-1.2.2.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <%-- #Fa --%>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="/StyleScriptsNTourism/Script/Master.js"></script>
+    <link href="/StyleScriptsNTourism/Style/Master.css" rel="stylesheet" />
+
+    <script src="/JsDecoder/_4ServicesJore.js"></script>
+    <script src="/JsDecoder/AdJore.js"></script>
+    <script src="/JsDecoder/AttractionCommentsRelJore.js"></script>
+    <script src="/JsDecoder/AttractionEquipmentRelJore.js"></script>
+    <script src="/JsDecoder/AttractionJore.js"></script>
+    <script src="/JsDecoder/AttractionPollRelJore.js"></script>
+    <script src="/JsDecoder/BjaxLib.js"></script>
+    <script src="/JsDecoder/CityAttractionRelJore.js"></script>
+    <script src="/JsDecoder/CityJore.js"></script>
+    <script src="/JsDecoder/ClientJore.js"></script>
+    <script src="/JsDecoder/CommentsJore.js"></script>
+    <script src="/JsDecoder/CountryJore.js"></script>
+    <script src="/JsDecoder/EquipmentJore.js"></script>
+    <script src="/JsDecoder/FacilityJore.js"></script>
+    <script src="/JsDecoder/FirstPageJore.js"></script>
+    <script src="/JsDecoder/ImagesJore.js"></script>
+    <script src="/JsDecoder/MedicalServiceImagesRelJore.js"></script>
+    <script src="/JsDecoder/MedicalServiceJore.js"></script>
+    <script src="/JsDecoder/NewsJore.js"></script>
+    <script src="/JsDecoder/PollJore.js"></script>
+    <script src="/JsDecoder/ResumeJore.js"></script>
+    <script src="/JsDecoder/RoomHomeCommentsRelJore.js"></script>
+    <script src="/JsDecoder/RoomHomeFacilityRelJore.js"></script>
+    <script src="/JsDecoder/RoomHomeImageRelJore.js"></script>
+    <script src="/JsDecoder/RoomHomeJore.js"></script>
+    <script src="/JsDecoder/TextJore.js"></script>
+    <script src="/JsDecoder/TicketJore.js"></script>
+    <script src="/JsDecoder/TourGuideEquipmentRelJore.js"></script>
+    <script src="/JsDecoder/TourGuideImagesRelJore.js"></script>
+    <script src="/JsDecoder/TourGuideJore.js"></script>
+    <script src="/JsDecoder/TourGuideResumeRelJore.js"></script>
+    <script src="/JsDecoder/TripStoryCommentRelJore.js"></script>
+    <script src="/JsDecoder/TripStoryJore.js"></script>
+
+    <%-- Paging --%>
+    <script src="/StyleScriptsNTourism/PagingJs/jquery.simplePagination.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+
+<body>
+    <form id="form1" runat="server">
+        <section>
+            <header>
+                <div id="Header">
+                    <div class="MenuSmClickShowAndHideMenu" id="Button12">
+                        <div class="bar1"></div>
+                        <div class="bar3"></div>
+                        <div class="bar3"></div>
+                    </div>
+                </div>
+            </header>
+            <div id="MenuHeaderLeftLg" class="MenuHeaderLeftLgStyle" style="z-index: 3;">
+                <div class="DivLogoMenuHeaderLeftLgStyle">
+                    <a href="/Index.aspx">
+                        <img src="/Resources/En/Logo/Main.svg" class="ImgDivLogoMenuHeaderLeftLgStyle" alt="Rimatrip"  title="Rimatrip"/>
+                    </a>
+                </div>
+                <div class="DivTextMenuHeaderLeftLgStyle">
+                    <ul class="UlDivTextMenuHeaderLeftLgStyle list-unstyled ">
+                        <li>
+                            <a href="/Index.aspx">Home</a>
+                        </li>
+                        <li>
+                            <a href="/View/En/Destinations/Destinations-En.aspx">Destinations</a>
+                        </li>
+                        <li>
+                            <a href="/View/En/OurServices/OurServices-En.aspx">Our Services</a>
+                        </li>
+                        <li>
+                            <a href="/View/En/News/News-En.aspx">News</a>
+                        </li>
+                        <li>
+                            <a href="/View/En/Rimatours/Rimatours-En.aspx">Rimatours</a>
+                        </li>
+                        <li>
+                            <a href="/View/En/Event/Event-En.aspx">Event</a>
+                        </li>
+
+                        <li>
+                            <a href="/View/En/Gallery/Gallery-En.aspx">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="/View/En/AboutUs/AboutUs-En.aspx">About Us</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+
+
+                <div id="DivBtnMenuHeaderLeftLg" class="DivBtnMenuHeaderLeftLgStyle text-center">
+                    <a href="/View/En/SingIn/SingIn.aspx" id="BtnLogin" class="btn BtnStyleBtnMenuHeaderLeftLgStyle">Sign in</a>
+                </div>
+                <div id="DivBtnSingout" class="HideSingout text-center">
+                    <input id="BtnGoDashboard" class="BtnStyleBtnMenuHeaderLeftLgStyle" type="button" value="Dashboard" onclick="GoDashboard();" /><br />
+                    <input type="hidden" name="name" id="HiddenProfileName" value="" />
+                    <input id="BtnSingout" class="BtnStyleBtnMenuHeaderLeftLgStyle" type="button" value="Singout" onclick="SingOut();" /><br />
+                </div>
+            </div>
+
+
+            <div id="MainColRightLg" class="MainColRightLgStyle">
+
+                <%-- #Slider All Page --%>
+                <div class="Row1MainSliderStyle">
+                    <%-- #Home --%>
+                    <div class="SliderPageHomeStyle">
+                        <img id="Img1SliderPageHome" src="/Resources/En/Home/home-01.png" class="Img1SliderPageHomeStyle" alt="Home Image Tourism" title="Home Image Tourism" />
+                        <img id="Img2SliderPageHome" src="/Resources/En/Home/home-02.png" class="Img2SliderPageHomeStyle" alt="Home Image Tourism" title="Home Image Tourism" />
+                        <img id="Img3SliderPageHome" src="/Resources/En/Home/home-03.png" class="Img3SliderPageHomeStyle" alt="Home Image Tourism" title="Home Image Tourism" style="z-index: -1;" />
+                        <img id="Img4SliderPageHome" src="/Resources/En/Home/home-04.png" class="Img4SliderPageHomeStyle" alt="Home Image Tourism" title="Home Image Tourism" />
+
+                        <div class="text-left DivAllTextSliderPageStyle">
+                            <p class="Row1TextSliderPageStyle">
+                                FIND YOUR DREAMS ON THE
+                            </p>
+                            <p class="Row2TextSliderPageStyle">
+                                FOUR SEASON LAND
+                            </p>
+                            <p class="Row3TextSliderPageStyle">
+                                Authentic Experience In Iranian
+                            </p>
+                            <p class="Row4TextSliderPageStyle">
+                                Traditional Houses & Ecolodges With RIMATRIP
+                            </p>
+                            <div class="DivBtnBookingStyle">
+                                <input id="BtnBookingHome" type="button" value="BOOKING" class="BtnBookingHomeStyle" />
+                            </div>
+
+                        </div>
+                    </div>
+                    <%-- #OurServices --%>
+                    <div class="SliderPageOurServicesStyle">
+                        <img id="Img1SliderPageOurServices" src="/Resources/En/OurServices/OurServices-01.png" class="Img1SliderPageOurServicesStyle" alt="OurServices Image Tourism" title="OurServices Image Tourism" />
+                        <img id="Img3SliderPageOurServices" src="/Resources/En/OurServices/OurServices-03.png" class="Img3SliderPageOurServicesStyle" alt="OurServices Image Tourism" title="OurServices Image Tourism" />
+                        <img id="Img5SliderPageOurServices" src="/Resources/En/OurServices/OurServices-05.png" class="Img5SliderPageOurServicesStyle" alt="OurServices Image Tourism" title="OurServices Image Tourism" />
+                        <img id="Img6SliderPageOurServices" src="/Resources/En/OurServices/OurServices-06.png" class="Img6SliderPageOurServicesStyle" alt="OurServices Image Tourism" title="OurServices Image Tourism" />
+                        <div class="text-left DivAllTextSliderPageStyle">
+                            <p class="Row1TextSliderPageStyle">
+                                FIND YOUR DREAMS ON THE
+                            </p>
+                            <p class="Row2TextSliderPageStyle">
+                                FOUR SEASON LAND
+                            </p>
+                            <p class="Row3TextSliderPageStyle">
+                                Authentic Experience In Iranian
+                            </p>
+                            <p class="Row4TextSliderPageStyle">
+                                Traditional Houses & Ecolodges With RIMATRIP
+                            </p>
+                            <div class="DivBtnBookingStyle">
+                                <input id="BtnBookingOurServices" type="button" value="BOOKING" class="BtnBookingHomeStyle" />
+                            </div>
+                        </div>
+
+                    </div>
+                    <%-- #AboutUs --%>
+                    <div class="SliderPageAboutUsStyle" style="margin-top: -2em;">
+                        <img id="Img1SliderPageAboutUs" src="/Resources/En/AboutUs/aboutus-01.png" class="Img1SliderPageAboutUsStyle" alt="AboutUs Image Tourism" title="AboutUs Image Tourism" />
+                        <img id="Img2SliderPageAboutUs" src="/Resources/En/AboutUs/aboutus-02.png" class="Img2SliderPageAboutUsStyle" alt="AboutUs Image Tourism" title="AboutUs Image Tourism" />
+                        <img id="Img3SliderPageAboutUs" src="/Resources/En/AboutUs/aboutus-03.png" class="Img3SliderPageAboutUsStyle" alt="AboutUs Image Tourism" title="AboutUs Image Tourism" />
+                        <img id="Img4SliderPageAboutUs" src="/Resources/En/AboutUs/aboutus-04.png" class="Img4SliderPageAboutUsStyle" alt="AboutUs Image Tourism" title="AboutUs Image Tourism" />
+                        <img id="Img5SliderPageAboutUs" src="/Resources/En/AboutUs/aboutus-05.png" class="Img5SliderPageAboutUsStyle" alt="AboutUs Image Tourism" title="AboutUs Image Tourism" />
+                        <img id="Img6SliderPageAboutUs" src="/Resources/En/AboutUs/aboutus-06.png" class="Img6SliderPageAboutUsStyle" alt="AboutUs Image Tourism" title="AboutUs Image Tourism" />
+                        <img id="Img7SliderPageAboutUs" src="/Resources/En/AboutUs/aboutus-07.png" class="Img7SliderPageAboutUsStyle" alt="AboutUs Image Tourism" title="AboutUs Image Tourism" />
+                        <div class="text-left DivAllTextSliderPageStyle">
+                            <p class="Row1TextSliderPageStyle">
+                                FIND YOUR DREAMS ON THE
+                            </p>
+                            <p class="Row2TextSliderPageStyle">
+                                FOUR SEASON LAND
+                            </p>
+                            <p class="Row3TextSliderPageStyle">
+                                Authentic Experience In Iranian
+                            </p>
+                            <p class="Row4TextSliderPageStyle">
+                                Traditional Houses & Ecolodges With RIMATRIP
+                            </p>
+                            <div class="DivBtnBookingStyle">
+                                <input id="BtnBookingAboutUs" type="button" value="BOOKING" class="BtnBookingHomeStyle" />
+                            </div>
+                        </div>
+
+                    </div>
+                    <%-- #Event --%>
+                    <div class="SliderPageEventStyle">
+                        <img id="Img1SliderPageEvent" src="/Resources/En/Event/event-01.png" class="Img1SliderPageEventStyle" alt="Event Image Tourism" title="Event Image Tourism" />
+                        <img id="Img2SliderPageEvent" src="/Resources/En/Event/event-02.png" class="Img2SliderPageEventStyle" alt="Event Image Tourism" title="Event Image Tourism" />
+                        <img id="Img3SliderPageEvent" src="/Resources/En/Event/event-03.png" class="Img3SliderPageEventStyle" alt="Event Image Tourism" title="Event Image Tourism" />
+                        <img id="Img4SliderPageEvent" src="/Resources/En/Event/event-04.png" class="Img4SliderPageEventStyle" alt="Event Image Tourism" title="Event Image Tourism" />
+                        <img id="Img5SliderPageEvent" src="/Resources/En/Event/event-05.png" class="Img5SliderPageEventStyle" alt="Event Image Tourism" title="Event Image Tourism" />
+                        <div class="text-left DivAllTextSliderPageStyle">
+                            <p class="Row1TextSliderPageStyle">
+                                FIND YOUR DREAMS ON THE
+                            </p>
+                            <p class="Row2TextSliderPageStyle">
+                                FOUR SEASON LAND
+                            </p>
+                            <p class="Row3TextSliderPageStyle">
+                                Authentic Experience In Iranian
+                            </p>
+                            <p class="Row4TextSliderPageStyle">
+                                Traditional Houses & Ecolodges With RIMATRIP
+                            </p>
+                            <div class="DivBtnBookingStyle">
+                                <input id="BtnBookingEvent" type="button" value="BOOKING" class="BtnBookingHomeStyle" />
+                            </div>
+                        </div>
+
+                    </div>
+                    <%-- #Gallery --%>
+                    <div class="SliderPageGalleryStyle">
+                        <img id="Img1SliderPageGallery" src="/Resources/En/Gallery/Gallery-01.png" class="Img1SliderPageGalleryStyle" alt="Gallery Image Tourism" title="Gallery Image Tourism" />
+                        <img id="Img2SliderPageGallery" src="/Resources/En/Gallery/Gallery-02.png" class="Img2SliderPageGalleryStyle" alt="Gallery Image Tourism" title="Gallery Image Tourism" />
+
+
+
+                        <div class="text-left DivAllTextSliderPageStyle">
+                            <p class="Row1TextSliderPageStyle">
+                                FIND YOUR DREAMS ON THE
+                            </p>
+                            <p class="Row2TextSliderPageStyle">
+                                FOUR SEASON LAND
+                            </p>
+                            <p class="Row3TextSliderPageStyle">
+                                Authentic Experience In Iranian
+                            </p>
+                            <p class="Row4TextSliderPageStyle">
+                                Traditional Houses & Ecolodges With RIMATRIP
+                            </p>
+                            <div class="DivBtnBookingStyle">
+                                <input id="BtnBookingGallery" type="button" value="BOOKING" class="BtnBookingHomeStyle" />
+                            </div>
+                        </div>
+
+                    </div>
+                    <%-- #Destinations --%>
+                    <div class="SliderPageDestinationsStyle">
+                        <img id="Img1SliderPageDestinations" src="/Resources/En/Destinations/Destinations-01.png" class="Img1SliderPageDestinationsStyle" alt="Destinations Image Tourism" title="Destinations Image Tourism" />
+                        <img id="Img2SliderPageDestinations" src="/Resources/En/Destinations/Destinations-02.png" class="Img2SliderPageDestinationsStyle" alt="Destinations Image Tourism" title="Destinations Image Tourism" />
+                        <img id="Img3SliderPageDestinations" src="/Resources/En/Destinations/Destinations-03.png" class="Img3SliderPageDestinationsStyle" alt="Destinations Image Tourism" title="Destinations Image Tourism" />
+
+                        <div class="text-left DivAllTextSliderPageStyle">
+                            <p class="Row1TextSliderPageStyle">
+                                FIND YOUR DREAMS ON THE
+                            </p>
+                            <p class="Row2TextSliderPageStyle">
+                                FOUR SEASON LAND
+                            </p>
+                            <p class="Row3TextSliderPageStyle">
+                                Authentic Experience In Iranian
+                            </p>
+                            <p class="Row4TextSliderPageStyle">
+                                Traditional Houses & Ecolodges With RIMATRIP
+                            </p>
+                            <div class="DivBtnBookingStyle">
+                                <input id="BtnBookingDestinations" type="button" value="BOOKING" class="BtnBookingHomeStyle" />
+                            </div>
+                        </div>
+
+                    </div>
+                    <%-- #ContactUs --%>
+                    <div class="SliderPageContactUsStyle">
+
+                        <img id="Img1SliderPageContactUs" src="/Resources/En/ContactUs/ContactUs-01.png" class="Img1SliderPageContactUsStyle" alt="ContactUs Image Tourism" title="ContactUs Image Tourism" />
+                        <img id="Img2SliderPageContactUs" src="/Resources/En/ContactUs/ContactUs-02.png" class="Img2SliderPageContactUsStyle" alt="ContactUs Image Tourism" title="ContactUs Image Tourism" />
+                        <img id="Img3SliderPageContactUs" src="/Resources/En/ContactUs/ContactUs-03.png" class="Img3SliderPageContactUsStyle" alt="ContactUs Image Tourism" title="ContactUs Image Tourism" />
+                        <img id="Img4SliderPageContactUs" src="/Resources/En/ContactUs/ContactUs-04.png" class="Img4SliderPageContactUsStyle" alt="ContactUs Image Tourism" title="ContactUs Image Tourism" />
+                        <img id="Img5SliderPageContactUs" src="/Resources/En/ContactUs/ContactUs-05.png" class="Img5SliderPageContactUsStyle" alt="ContactUs Image Tourism" title="ContactUs Image Tourism" />
+                        <img id="Img6SliderPageContactUs" src="/Resources/En/ContactUs/ContactUs-06.png" class="Img6SliderPageContactUsStyle" alt="ContactUs Image Tourism" title="ContactUs Image Tourism" />
+                        <img id="Img7SliderPageContactUs" src="/Resources/En/ContactUs/ContactUs-07.png" class="Img7SliderPageContactUsStyle" alt="ContactUs Image Tourism" title="ContactUs Image Tourism" />
+                        <img id="Img8SliderPageContactUs" src="/Resources/En/ContactUs/ContactUs-08.png" class="Img8SliderPageContactUsStyle" alt="ContactUs Image Tourism" title="ContactUs Image Tourism" />
+
+                        <div class="text-left DivAllTextSliderPageStyle">
+                            <p class="Row1TextSliderPageStyle">
+                                FIND YOUR DREAMS ON THE
+                            </p>
+                            <p class="Row2TextSliderPageStyle">
+                                FOUR SEASON LAND
+                            </p>
+                            <p class="Row3TextSliderPageStyle">
+                                Authentic Experience In Iranian
+                            </p>
+                            <p class="Row4TextSliderPageStyle">
+                                Traditional Houses & Ecolodges With RIMATRIP
+                            </p>
+                            <div class="DivBtnBookingStyle">
+                                <input id="BtnBookingContactUs" type="button" value="BOOKING" class="BtnBookingHomeStyle" />
+                            </div>
+                        </div>
+
+                    </div>
+                    <%-- #News --%>
+                    <div class="SliderPageNewsStyle">
+                        <img id="Img1SliderPageNews" src="/Resources/En/News/News-01.png" class="Img1SliderPageNewsStyle" alt="News Image Tourism" title="News Image Tourism" />
+                        <img id="Img2SliderPageNews" src="/Resources/En/News/News-02.png" class="Img2SliderPageNewsStyle" alt="News Image Tourism" title="News Image Tourism" />
+                        <img id="Img3SliderPageNews" src="/Resources/En/News/News-03.png" class="Img3SliderPageNewsStyle" alt="News Image Tourism" title="News Image Tourism" />
+                        <img id="Img4SliderPageNews" src="/Resources/En/News/News-04.png" class="Img4SliderPageNewsStyle" alt="News Image Tourism" title="News Image Tourism" />
+                        <img id="Img5SliderPageNews" src="/Resources/En/News/News-05.png" class="Img5SliderPageNewsStyle" alt="News Image Tourism" title="News Image Tourism" />
+                        <img id="Img6SliderPageNews" src="/Resources/En/News/News-06.png" class="Img6SliderPageNewsStyle" alt="News Image Tourism" title="News Image Tourism" />
+                        <img id="Img7SliderPageNews" src="/Resources/En/News/News-07.png" class="Img7SliderPageNewsStyle" alt="News Image Tourism" title="News Image Tourism" />
+                        <img id="Img8SliderPageNews" src="/Resources/En/News/News-08.png" class="Img8SliderPageNewsStyle" alt="News Image Tourism" title="News Image Tourism" />
+                        <img id="Img9SliderPageNews" src="/Resources/En/News/News-09.png" class="Img9SliderPageNewsStyle" alt="News Image Tourism" title="News Image Tourism" />
+                        <img id="Img10SliderPageNews" src="/Resources/En/News/News-10.png" class="Img10SliderPageNewsStyle" alt="News Image Tourism" title="News Image Tourism" />
+                        <img id="Img12SliderPageNews" src="/Resources/En/News/News-12.png" class="Img12SliderPageNewsStyle" alt="News Image Tourism" title="News Image Tourism" />
+                        <img id="Img13SliderPageNews" src="/Resources/En/News/News-13.png" class="Img13SliderPageNewsStyle" alt="News Image Tourism" title="News Image Tourism" />
+
+                        <div class="text-left DivAllTextSliderPageStyle">
+                            <p class="Row1TextSliderPageStyle">
+                                FIND YOUR DREAMS ON THE
+                            </p>
+                            <p class="Row2TextSliderPageStyle">
+                                FOUR SEASON LAND
+                            </p>
+                            <p class="Row3TextSliderPageStyle">
+                                Authentic Experience In Iranian
+                            </p>
+                            <p class="Row4TextSliderPageStyle">
+                                Traditional Houses & Ecolodges With RIMATRIP
+                            </p>
+                            <div class="DivBtnBookingStyle">
+                                <input id="BtnBookingNews" type="button" value="BOOKING" class="BtnBookingHomeStyle" />
+                            </div>
+                        </div>
+
+                    </div>
+                    <%-- #Tourguide --%>
+                    <div class="SliderPageTourguideStyle">
+                        <img id="Img1SliderPageTourguide" src="/Resources/En/Tourguide/Tourguide-01.png" class="Img1SliderPageTourguideStyle" alt="Tourguide Image Tourism" title="Tourguide Image Tourism" />
+                        <img id="Img2SliderPageTourguide" src="/Resources/En/Tourguide/Tourguide-02.png" class="Img2SliderPageTourguideStyle" alt="Tourguide Image Tourism" title="Tourguide Image Tourism" />
+                        <img id="Img3SliderPageTourguide" src="/Resources/En/Tourguide/Tourguide-03.png" class="Img3SliderPageTourguideStyle" alt="Tourguide Image Tourism" title="Tourguide Image Tourism" />
+                        <img id="Img4SliderPageTourguide" src="/Resources/En/Tourguide/Tourguide-04.png" class="Img4SliderPageTourguideStyle" alt="Tourguide Image Tourism" title="Tourguide Image Tourism" />
+                        <div class="text-left DivAllTextSliderPageStyle">
+                            <p class="Row1TextSliderPageStyle">
+                                FIND YOUR DREAMS ON THE
+                            </p>
+                            <p class="Row2TextSliderPageStyle">
+                                FOUR SEASON LAND
+                            </p>
+                            <p class="Row3TextSliderPageStyle">
+                                Authentic Experience In Iranian
+                            </p>
+                            <p class="Row4TextSliderPageStyle">
+                                Traditional Houses & Ecolodges With RIMATRIP
+                            </p>
+                            <div class="DivBtnBookingStyle">
+                                <input id="BtnBookingTourguide" type="button" value="BOOKING" class="BtnBookingHomeStyle" />
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="Row2MainContainAndNewsAndMenuRightStyle">
+
+
+                    <div class="Row2MainLeftNewsStyle">
+                        <div id="DynamicAdsImg1">
+                        </div>
+                        <div class="divRow2MainLeftNewsStyle">
+                            <p class="textRow2MainLeftNewsStyle">News</p>
+                        </div>
+                        <div id="DivaslyDynamicLinkAllNewsIndex">
+                        </div>
+                        <div id="DynamicAdsImg3">
+                        </div>
+                        <div id="DynamicAdsImg4">
+                        </div>
+                    </div>
+                    <div></div>
+                    <div class="Row2MainCenterContainStyle ">
+
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <footer>
+                <div id="Footer" class="container-fluid">
+                    <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="divtitrfooterstyle">
+                                <p>
+                                    Sevises:
+                                </p>
+                            </div>
+                            <div class="divallzirtitrfooterstyle">
+                                <div class="divzirtitrfooterstyle">
+                                    <a href="/View/En/OurServices/OurServices-En.aspx">+OurServices</a>
+                                </div>
+                                <div class="divzirtitrfooterstyle">
+                                    <a href="/View/En/Rimatours/Rimatours-En.aspx">+Rimatours</a>
+                                </div>
+                                <div class="divzirtitrfooterstyle">
+                                    <a href="/View/En/Ticket/Ticket-En.aspx">+Public Service</a>
+                                </div>
+                                <div class="divzirtitrfooterstyle">
+                                    <a href="/View/En/Ticket/Ticket-En.aspx">+Cultural Educational Service</a>
+
+                                </div>
+                                <div class="divzirtitrfooterstyle">
+                                    <a href="/View/En/Ticket/Ticket-En.aspx">+Medical Tourism</a>
+                                </div>
+                                <div class="divzirtitrfooterstyle">
+                                    <a href="/View/En/Ticket/Ticket-En.aspx">+Business Service</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="divtitrfooterstyle">
+                                <p>
+                                    Contact Us:
+                                </p>
+                            </div>
+                            <div class="divallzirtitrfooterstyle">
+                                <div class="divzirtitrfooterstyle">
+                                    <a>Address:
+
+                                        <br />
+
+                                    </a>
+                                </div>
+                                <div class="divInRow1TheRow2ContactUsPageStyle">
+                                    <div class="col-lg-6 col-md-6 col-xs-6 col-sm-6">
+                                        <img src="/Resources/En/SocialNetworks/icon-11.png" class="ImgIconContactUsPageStyle" alt="Address" title="Address" />
+                                        <span class="TextImgIconContactUsPageStyleMaster">No.85 2nd Floor Mashahir Complex , Jolfa , Aras Free Zone , IRAN</span>
+                                    </div>
+                                    <div style="margin-top: 1em;" class="col-lg-6 col-md-6 col-xs-6 col-sm-6">
+                                        <img src="/Resources/En/SocialNetworks/icon-07.png" class="ImgIconContactUsPageStyle"alt="Address" title="Address" />
+                                        <span class="TextImgIconContactUsPageStyleMaster">+989120487833</span>
+                                    </div>
+                                    <div style="margin-top: 1em;" class="col-lg-6 col-md-6 col-xs-6 col-sm-6">
+                                        <img src="/Resources/En/SocialNetworks/icon-10.png" class="ImgIconContactUsPageStyle"alt="Address" title="Address" />
+                                        <span class="TextImgIconContactUsPageStyleMaster">+989120487833</span>
+                                    </div>
+                                    <div style="margin-top: 1em;" class="col-lg-6 col-md-6 col-xs-6 col-sm-6">
+                                        <img src="/Resources/En/SocialNetworks/icon-09.png" class="ImgIconContactUsPageStyle" alt="Address" title="Address"/>
+                                        <span class="TextImgIconContactUsPageStyleMaster"><a class="TextImgIconContactUsPageStyleMaster" target="_blank" href="https://www.instagram.com/rima.trip/">rima.trip</a></span>
+                                    </div>
+                                    <div style="margin-top: 1em;" class="col-lg-6 col-md-6 col-xs-6 col-sm-6">
+                                        <img src="/Resources/En/SocialNetworks/icon-08.png" class="ImgIconContactUsPageStyle"alt="Address" title="Address" />
+                                        <a href="mailto:rimatrip2020@gmail.com" class="TextImgIconContactUsPageStyleMaster">rimatrip2020@gmail.com</a>
+                                    </div>
+                                    <div style="margin-top: 1em;" class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+                                        <img src="/Resources/En/SocialNetworks/icon-08.png" class="ImgIconContactUsPageStyle"alt="Address" title="Address" />
+                                        <a href="mailto:rimatrip2020@gmail.com" class="TextImgIconContactUsPageStyleMaster">Info@rimatrip.com</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+   
+                </div>
+                <div class="FooterNameTeamStyle text-center">
+                    <a target="_blank" href="https://arvintavco.com/" class="TextImgIconContactUsPageStyleMaster">Copyright by:ARVINTAV</a>
+
+                </div>
+            </footer>
+        </section>
+    </form>
+    <button onclick="topFunction()" class="BtnScrollTop" id="myBtn" title="Go to top"><span class="glyphicon glyphicon-menu-up"></span></button>
+</body>
+</html>

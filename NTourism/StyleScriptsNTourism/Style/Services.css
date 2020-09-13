@@ -1,0 +1,126 @@
+﻿/*Page Show and Hide*/
+.SliderPageHomeStyle {
+    display: none;
+}
+
+.SliderPageAboutUsStyle {
+    display: none;
+}
+
+.SliderPageOurServicesStyle {
+    display: none;
+}
+
+.SliderPageDestinationsStyle {
+    display: none;
+}
+
+.SliderPageContactUsStyle {
+    display: none;
+}
+
+.SliderPageIranUsStyle {
+    display: none;
+}
+
+.SliderPageTourguideStyle {
+    display: none;
+}
+
+.SliderPageNewsStyle {
+    display: none;
+}
+
+.SliderPageEventStyle {
+    display: none;
+}
+
+.SliderPageTripstoryStyle {
+    display: none;
+}
+
+.SliderPageGalleryStyle {
+    display: none;
+}
+/**/
+
+/*City Display*/
+.SliderPageCityArasStyle {
+    display: none;
+}
+
+.SliderPageCityHamedanStyle {
+    display: none;
+}
+
+.SliderPageCityIsfahanStyle {
+    display: none;
+}
+
+.SliderPageCityKashanStyle {
+    display: none;
+}
+
+.SliderPageCityShirazStyle {
+    display: none;
+}
+
+.SliderPageCityRashtStyle {
+    display: none;
+}
+
+.SliderPageCityTabrizStyle {
+    display: none;
+}
+
+.SliderPageCityTehranStyle {
+    display: none;
+}
+
+.SliderPageCityYazdStyle {
+    display: none;
+}
+
+.SliderPageCityKishStyle {
+    display: none;
+}
+
+.SliderPageCitySariStyle {
+    display: none;
+}
+
+.SliderPageCityMashhadStyle {
+    display: none;
+}
+
+.SliderPageCityKermanStyle {
+    display: none;
+}
+
+.SliderPageCityQeshmStyle {
+    display: none;
+}
+
+
+.Row2MainContainAndNewsAndMenuRightStyle {
+    margin-top: 0;
+}
+
+.ImgServisesIndexStyle {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.TitrServicesStyle {
+    font-family: 'Myriad Pro';
+    color: black;
+    font-size: 300%;
+    font-weight: bold;
+}
+
+.ZirTitrServicesStyle {
+    font-family: 'Myriad Pro';
+    color: black;
+    font-size: 120%;
+}

@@ -1,0 +1,187 @@
+﻿
+
+/*---------------------------------------------------------#StartAds*/
+.AddAdsCol1 > div:nth-child(2) {
+    margin-top: 1em;
+}
+
+.AddAdsCol1TextTitrStyle > label {
+    color: #B2B2B2;
+    font-size: 3.5em;
+    font-weight: 500;
+    font-family: 'Myriad Pro';
+}
+
+
+
+
+.AddAdsCol1TextTitrStyle > a:hover {
+    text-decoration: none;
+}
+
+.AddAdsCol1ImageStyle {
+    margin: 0.5em;
+}
+
+    .AddAdsCol1ImageStyle > div > div > label {
+        font-size: 1.2em;
+        font-family: 'Myriad Pro';
+        background-color: #B2B2B2;
+        color: white;
+        border-radius: 10px;
+        padding: 0 0.5em;
+        font-weight: 700;
+    }
+
+.DivAddAdsImageSizeImgStyle {
+    width: 200px;
+    height: 148px;
+    background-color: #B2B2B2;
+}
+
+.ImgAddImageSizeImgStyle {
+    max-width: 200px;
+    max-height: 148px;
+}
+
+.DivAddAdsImageSizeImg2Style {
+    width: 190px;
+    height: 148px;
+    background-color: #B2B2B2;
+}
+
+.ImgAddImageSizeImg2Style {
+    max-width: 190px;
+    max-height: 148px;
+}
+
+.DivAddAdsImageSizeImg3Style {
+    width: 620px;
+    height: 200px;
+    background-color: #B2B2B2;
+}
+
+.ImgAddImageSizeImg3Style {
+    display: block;
+    max-width: 620px;
+    max-height: 200px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.DivBtnInputAddAdsCol1ImageStyle {
+    margin-top: 1em;
+}
+
+.TextAddAdsUnderImg {
+    border: 2px solid #B2B2B2;
+    border-radius: 30px;
+    padding: 0 0.5em;
+    outline: none;
+    color: #B2B2B2;
+}
+
+.AddAdsStyle {
+    margin: 0 auto;
+    width: 700px;
+}
+
+    .AddAdsStyle > div {
+        float: left;
+    }
+
+.BtnSaveADSStyle {
+    margin-top: 20px;
+    color: white;
+    background-color: #B2B2B2;
+    font-size: 2em;
+    font-family: 'Myriad Pro';
+    font-weight: 600;
+    outline: none;
+    border: none;
+    border-radius: 1.5em;
+    padding: 0 1.5em;
+    box-shadow: 10px 8px 15px rgba(0, 0, 0, 0.2);
+    float: right;
+    line-height: 35px;
+}
+
+.BtnSaveADSSaveStyle {
+    font-size: 1.2em;
+    font-family: 'Myriad Pro';
+    background-color: #B2B2B2;
+    color: white;
+    border-radius: 10px;
+    padding: 0 0.5em;
+    font-weight: 700;
+}
+
+
+/* Radial Out */
+.BtnAddAdsNamePage {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+    background: #e1e1e1;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+    .BtnAddAdsNamePage:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: #2098D1;
+        border-radius: 100%;
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        -webkit-transition-property: transform;
+        transition-property: transform;
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-timing-function: ease-out;
+        transition-timing-function: ease-out;
+    }
+
+    .BtnAddAdsNamePage:hover, .BtnAddAdsNamePage:focus, .BtnAddAdsNamePage:active {
+        color: white;
+        text-decoration: none;
+    }
+
+        .BtnAddAdsNamePage:hover:before, .BtnAddAdsNamePage:focus:before, .BtnAddAdsNamePage:active:before {
+            -webkit-transform: scale(2);
+            transform: scale(2);
+        }
+
+
+[class^="BtnAddAdsNamePage"] {
+    margin: .4em;
+    padding: 1em;
+    cursor: pointer;
+    background: #e1e1e1;
+    text-decoration: none;
+    color: #666;
+    /* Prevent highlight colour when element is tapped */
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    /* Smooth fonts */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.file-uploadImgAds {
+    z-index: -1;
+    position: absolute;
+    opacity: 0;
+}
+/*---------------------------------------------------------#EndAds*/
+

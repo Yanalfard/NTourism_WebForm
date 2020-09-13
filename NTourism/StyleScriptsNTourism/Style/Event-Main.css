@@ -1,0 +1,252 @@
+﻿/*Color Menu Right In one Page And others*/
+.accordion {
+    border-bottom: 1px solid #94c120;
+}
+
+.accordion-panel {
+    border-color: #94c120;
+}
+
+/**/
+
+.SliderPageHomeStyle {
+    display: none;
+}
+
+.SliderPageAboutUsStyle {
+    display: none;
+}
+
+.SliderPageDestinationsStyle {
+    display: none;
+}
+
+.SliderPageContactUsStyle {
+    display: none;
+}
+
+.SliderPageOurServicesStyle {
+    display: none;
+}
+
+.SliderPageIranUsStyle {
+    display: none;
+}
+
+.SliderPageNewsStyle {
+    display: none;
+}
+
+.SliderPageTourguideStyle {
+    display: none;
+}
+
+.SliderPageEventStyle {
+    display: none;
+}
+
+.SliderPageTripstoryStyle {
+    display: none;
+}
+
+.SliderPageGalleryStyle {
+    display: none;
+}
+
+/*City Display*/
+.SliderPageCityHamedanStyle {
+    display: none;
+}
+
+.SliderPageCityArasStyle {
+    display: none;
+}
+
+.SliderPageCityIsfahanStyle {
+    display: none;
+}
+
+.SliderPageCityKashanStyle {
+    display: none;
+}
+
+.SliderPageCityShirazStyle {
+    display: none;
+}
+
+.SliderPageCityRashtStyle {
+    display: none;
+}
+
+.SliderPageCityTabrizStyle {
+    display: none;
+}
+
+.SliderPageCityTehranStyle {
+    display: none;
+}
+
+.SliderPageCityYazdStyle {
+    display: none;
+}
+
+.SliderPageCityKishStyle {
+    display: none;
+}
+
+.SliderPageCitySariStyle {
+    display: none;
+}
+
+.SliderPageCityMashhadStyle {
+    display: none;
+}
+
+.SliderPageCityKermanStyle {
+    display: none;
+}
+
+.SliderPageCityQeshmStyle {
+    display: none;
+}
+
+
+
+/*#Row1*/
+.divRow1NewsPageStyle {
+    margin-top: 0.5em;
+}
+
+.divInRow1TheRow1TextNewsPageStyle {
+    text-align: center;
+}
+
+.textInRow1TheRow1TextNewsPageStyle {
+    font-family: 'ZapfHumnst Ult BT';
+    color: black;
+    font-size: 3.5vw;
+    font-weight: bolder;
+    height: 4.5vw;
+}
+
+.Row2MainContainAndNewsAndMenuRightStyle {
+    margin-top: 4em;
+}
+
+.Row2MainCenterContainStyle {
+    margin-top: -8em;
+}
+
+.TagPnameNewsTitrStyle {
+    font-size: 2em;
+    font-family: 'B Yekan';
+    color: black;
+}
+
+
+.DivImgDestinationsMainDynamic {
+    text-align: center;
+}
+
+.ImgDestinationsMainStatic {
+    text-align: center;
+    width: 65%;
+}
+
+
+
+
+.LinkDestinationsMainDynamicStyle {
+    font-size: 1.5em;
+    font-family: 'B Yekan';
+    color: black;
+}
+
+
+
+.textDestinations:focus {
+    box-shadow: 1px 1px 8px orange;
+}
+
+.submitDestinations {
+    padding: 10px;
+    height: 40px;
+    width: 80px;
+    font-size: 13px;
+    color: white;
+    background: #C6A100;
+    border: none;
+    margin: 10px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px orange;
+    outline: none;
+}
+
+    .submitDestinations:active {
+        box-shadow: 0px 0px 7px orange;
+    }
+
+.LinkOwlCityDestinationsOwl1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: black;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+    .LinkOwlCityDestinationsOwl1:hover {
+        color: black;
+        text-decoration: dashed;
+    }
+
+.ShowCitySeletOne {
+    margin-top: 50px;
+}
+
+
+.ImageShowCituTittr {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.mapouter {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    text-align: right;
+    height: 237px;
+    width: 100%;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 237px;
+    width: 100%;
+}
+
+.gmap_iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.FontCitySelect {
+    font-family: 'A Iranian Sans';
+    font-size: 1.5em;
+}
+
+    .FontCitySelect img {
+        display: block;
+        margin: 0 auto;
+    }
+
+#DivAslyNewsMainDynamic div {
+    margin-top: 1em;
+}
+
+.ImgOwlCityDestinationsOwl1 {
+    min-height: 17vw;
+}

@@ -1,0 +1,605 @@
+﻿.PanelNoseJobStyle {
+}
+
+.ImgHeaderNoseJobStyle {
+    width: 100%;
+}
+
+.DivVideoAndTextNoseJobStyle {
+    margin-top: 5%;
+}
+
+.VideoNoseJobStyle {
+    width: 100%;
+}
+
+.TitrTextVideoNoseJobStyle {
+    font-family: Arial;
+    font-size: 1.5vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTextVideoNoseJobStyle {
+    margin-top: 3%;
+}
+
+.ZirTextVideoNoseJobStyle {
+    font-family: Arial;
+    font-size: 1.2vw;
+    color: black;
+}
+
+.SliderDivTextNoseJobStyle {
+    position: absolute;
+    margin-top: -33%;
+    margin-left: 5%;
+}
+
+.SliderTitrNoseJobStyle {
+    color: rgba(12,144,68,1);
+    font-size: 4vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderZirDivTextNoseJobStyle {
+    position: absolute;
+    margin-top: -28%;
+    margin-left: 5%;
+}
+
+.SliderZirTitrNoseJobStyle {
+    color: rgba(12,144,68,1);
+    font-size: 3.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderDivDescriptionNoseJobTitrStyle {
+    position: absolute;
+    margin-top: -20%;
+    margin-left: 5.5%;
+}
+
+.SliderDescriptionNoseJobTextTitrStyle {
+    color: rgba(0,76,52,1);
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.DivBtnNoseJobSingInStyle {
+    position: absolute;
+    margin-top: -9.5%;
+    margin-left: 5%;
+    background-color: rgba(141,198,63,1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+    .DivBtnNoseJobSingInStyle:hover {
+        position: absolute;
+        margin-top: -9.5%;
+        margin-left: 5%;
+        background-color: rgba(141,198,63,1);
+        border-radius: 30px;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.TextBtnNoseJobStyle {
+    color: white;
+    font-size: 1.8vw;
+    font-weight: bold;
+}
+
+    .TextBtnNoseJobStyle:hover {
+        color: white;
+        font-size: 1.8vw;
+        font-weight: bold;
+    }
+
+.DivZirHeadersImgTextNoseJobStyle {
+    margin-top: 2%;
+}
+
+.ZirHeadersImgTextNoseJobStyle {
+    font-family: Arial;
+    font-size: 1.5vw;
+    color: black;
+}
+
+.DescaptirionOrginalNoseJobStyle {
+    margin-top: 8%;
+}
+
+.DescaptirionRowOneNoseJobStyle {
+}
+
+.Pic3NoseJobRowOneStyle {
+    width: 65%;
+}
+
+.TitrTextRowOneNoseJobStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowOneNoseJobStyle {
+    margin-top: 5%;
+}
+
+.ZirTitrTextRowOneNoseJobStyle {
+    font-family: Arial;
+    font-size: 1.2vw;
+    color: black;
+}
+
+.DescaptirionRowTwoNoseJobStyle {
+    margin-top: 10%;
+}
+
+.Pic1NoseJobRowTwoStyle {
+    width: 70%;
+}
+
+.TitrTextRowTwoNoseJobStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowTwoNoseJobStyle {
+    margin-top: 5%;
+}
+
+.ZirTitrTextRowTwoNoseJobStyle {
+    font-family: Arial;
+    font-size: 1.2vw;
+    color: black;
+}
+
+
+.DescaptirionRowThreeNoseJobStyle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Pic2NoseJobRowThreeStyle {
+    width: 65%;
+}
+
+.TitrTextRowThreeNoseJobStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRoThreeNoseJobStyle {
+    margin-top: 5%;
+}
+
+.ZirTitrTextRowThreeNoseJobStyle {
+    font-family: Arial;
+    font-size: 1.2vw;
+    color: black;
+}
+
+
+/*#Sm*/
+.PanelNoseJobSmStyle {
+}
+
+.ImgHeaderNoseJobSmStyle {
+    width: 100%;
+}
+
+
+.SliderDivTextNoseJobSmStyle {
+    position: absolute;
+    margin-top: -33%;
+    margin-left: 5%;
+}
+
+.SliderTitrNoseJobSmStyle {
+    color: rgba(12,144,68,1);
+    font-size: 4vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderZirDivTextNoseJobSmStyle {
+    position: absolute;
+    margin-top: -28%;
+    margin-left: 5%;
+}
+
+.SliderZirTitrNoseJobSmStyle {
+    color: rgba(12,144,68,1);
+    font-size: 3.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderDivDescriptionNoseJobTitrSmStyle {
+    position: absolute;
+    margin-top: -20%;
+    margin-left: 5.5%;
+}
+
+.SliderDescriptionNoseJobTextTitrSmStyle {
+    color: rgba(0,76,52,1);
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.DivBtnNoseJobSingInSmStyle {
+    position: absolute;
+    margin-top: -9.5%;
+    margin-left: 5%;
+    background-color: rgba(141,198,63,1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+    .DivBtnNoseJobSingInSmStyle:hover {
+        position: absolute;
+        margin-top: -9.5%;
+        margin-left: 5%;
+        background-color: rgba(141,198,63,1);
+        border-radius: 30px;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.TextBtnNoseJobSmStyle {
+    color: white;
+    font-size: 1.8vw;
+    font-weight: bold;
+}
+
+    .TextBtnNoseJobSmStyle:hover {
+        color: white;
+        font-size: 1.8vw;
+        font-weight: bold;
+    }
+
+
+.DivZirHeadersImgTextNoseJobSmStyle {
+    margin-top: 2%;
+}
+
+.ZirHeadersImgTextNoseJobSmStyle {
+    font-family: Arial;
+    font-size: 1.7vw;
+    color: black;
+}
+
+
+.DivVideoAndTextNoseJobSmStyle {
+    margin-top: 5%;
+}
+
+.VideoNoseJobSmStyle {
+    width: 100%;
+}
+
+.DivZirVideoNoseJobSmStyle {
+    margin-top: 2%;
+}
+
+.TitrTextVideoNoseJobSmStyle {
+    font-family: Arial;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.ZirTextVideoNoseJobSmStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+}
+
+
+.DescaptirionOrginalNoseJobSmStyle {
+    margin-top: 8%;
+}
+
+.DescaptirionRowOneNoseJobSmStyle {
+}
+
+.Pic3NoseJobRowOneTransplantSmStyle {
+    width: 50%;
+}
+
+.DivTitrRowOneNoseJobSmStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowOneNoseJobSmStyle {
+    font-family: Arial;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowOneNoseJobSmStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowOneNoseJobSmStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+}
+
+.DescaptirionRowTwoNoseJobSmStyle {
+    margin-top: 10%;
+}
+
+.Pic1NoseJobRowTwoTransplantSmStyle {
+    width: 55%;
+}
+
+.DivTitrRowTwoNoseJobSmStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowTwoNoseJobSmStyle {
+    font-family: Arial;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowTwoNoseJobSmStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowTwoNoseJobSmStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+}
+
+.DescaptirionRowThreeNoseJobSmStyle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Pic2NoseJobRowThreeTransplantSmStyle {
+    width: 50%;
+}
+
+.DivTitrRowThreeNoseJobSmStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowThreeNoseJobSmStyle {
+    font-family: Arial;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRoThreeNoseJobSmStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowThreeNoseJobSmStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+}
+
+
+/*#Xs*/
+.PanelNoseJobXsStyle {
+}
+
+.ImgHeaderNoseJobXsStyle {
+    width: 100%;
+}
+
+.SliderDivTextNoseJobXsStyle {
+    position: absolute;
+    margin-top: -33%;
+    margin-left: 5%;
+}
+
+.SliderTitrNoseJobXsStyle {
+    color: rgba(12,144,68,1);
+    font-size: 4vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderZirDivTextNoseJobXsStyle {
+    position: absolute;
+    margin-top: -28%;
+    margin-left: 5%;
+}
+
+.SliderZirTitrNoseJobXsStyle {
+    color: rgba(12,144,68,1);
+    font-size: 3.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderDivDescriptionNoseJobTitrXsStyle {
+    position: absolute;
+    margin-top: -20%;
+    margin-left: 5.5%;
+}
+
+.SliderDescriptionNoseJobTextTitrXsStyle {
+    color: rgba(0,76,52,1);
+    font-size: 1.8vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.DivBtnNoseJobSingInXsStyle {
+    position: absolute;
+    margin-top: -8%;
+    margin-left: 5%;
+    background-color: rgba(141,198,63,1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+    .DivBtnNoseJobSingInXsStyle:hover {
+        position: absolute;
+        margin-top: -8%;
+        margin-left: 5%;
+        background-color: rgba(141,198,63,1);
+        border-radius: 30px;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.TextBtnNoseJobXsStyle {
+    color: white;
+    font-size: 2.4vw;
+    font-weight: bold;
+}
+
+    .TextBtnNoseJobXsStyle:hover {
+        color: white;
+        font-size: 2.4vw;
+        font-weight: bold;
+    }
+
+.DivZirHeadersImgTextNoseJobXsStyle {
+    margin-top: 2%;
+}
+
+.ZirHeadersImgTextNoseJobXsStyle {
+    font-family: Arial;
+    font-size: 2.3vw;
+    color: black;
+}
+
+.DivVideoAndTextNoseJobXsStyle {
+    margin-top: 5%;
+}
+
+.VideoNoseJobXsStyle {
+    width: 100%;
+}
+
+.DivZirVideoNoseJobXsStyle {
+    margin-top: 2%;
+}
+
+.TitrTextVideoNoseJobXsStyle {
+    font-family: Arial;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.ZirTextVideoNoseJobXsStyle {
+    font-family: Arial;
+    font-size: 2.2vw;
+    color: black;
+}
+
+.DescaptirionOrginalNoseJobXsStyle {
+    margin-top: 8%;
+}
+
+.DescaptirionRowOneNoseJobXsStyle {
+}
+
+.Pic3NoseJobTransplantRowOneTransplantXsStyle {
+    width: 50%;
+}
+
+.DivTitrRowOneNoseJobXsStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowOneNoseJobXsStyle {
+    font-family: Arial;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowOneNoseJobXsStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowOneNoseJobXsStyle {
+    font-family: Arial;
+    font-size: 2.2vw;
+    color: black;
+}
+
+.DescaptirionRowTwoNoseJobXsStyle {
+    margin-top: 10%;
+}
+
+.Pic1NoseJobRowTwoTransplantXsStyle {
+    width: 55%;
+}
+
+.DivTitrRowTwoNoseJobXsStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowTwoNoseJobXsStyle {
+    font-family: Arial;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowTwoNoseJobXsStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowTwoNoseJobXsStyle {
+    font-family: Arial;
+    font-size: 2.2vw;
+    color: black;
+}
+
+.DescaptirionRowThreeNoseJobXsStyle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Pic2NoseJobRowThreeTransplantXsStyle {
+    width: 50%;
+}
+
+.DivTitrRowThreeNoseJobXsStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowThreeNoseJobXsStyle {
+    font-family: Arial;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRoThreeNoseJobXsStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowThreeNoseJobXsStyle {
+    font-family: Arial;
+    font-size: 2.2vw;
+    color: black;
+}

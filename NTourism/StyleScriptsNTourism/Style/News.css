@@ -1,0 +1,258 @@
+﻿/*Color Menu Right In one Page And others*/
+.accordion {
+    border-bottom: 1px solid #94c120;
+}
+
+.accordion-panel {
+    border-color: #94c120;
+}
+
+/**/
+
+.SliderPageHomeStyle {
+    display: none;
+}
+
+.SliderPageAboutUsStyle {
+    display: none;
+}
+
+.SliderPageDestinationsStyle {
+    display: none;
+}
+
+.SliderPageContactUsStyle {
+    display: none;
+}
+
+.SliderPageOurServicesStyle {
+    display: none;
+}
+
+.SliderPageIranUsStyle {
+    display: none;
+}
+
+.SliderPageNewsStyle {
+    display: normal;
+}
+
+.SliderPageTourguideStyle {
+    display: none;
+}
+
+.SliderPageEventStyle {
+    display: none;
+}
+
+.SliderPageTripstoryStyle {
+    display: none;
+}
+
+.SliderPageGalleryStyle {
+    display: none;
+}
+
+/*City Display*/
+.SliderPageCityHamedanStyle {
+    display: none;
+}
+
+.SliderPageCityArasStyle {
+    display: none;
+}
+
+.SliderPageCityIsfahanStyle {
+    display: none;
+}
+
+.SliderPageCityKashanStyle {
+    display: none;
+}
+
+.SliderPageCityShirazStyle {
+    display: none;
+}
+
+.SliderPageCityRashtStyle {
+    display: none;
+}
+
+.SliderPageCityTabrizStyle {
+    display: none;
+}
+
+.SliderPageCityTehranStyle {
+    display: none;
+}
+
+.SliderPageCityYazdStyle {
+    display: none;
+}
+
+.SliderPageCityKishStyle {
+    display: none;
+}
+
+.SliderPageCitySariStyle {
+    display: none;
+}
+
+.SliderPageCityMashhadStyle {
+    display: none;
+}
+
+.SliderPageCityKermanStyle {
+    display: none;
+}
+
+.SliderPageCityQeshmStyle {
+    display: none;
+}
+
+
+
+/*#Row1*/
+.divRow1NewsPageStyle {
+    margin-top: 0.5em;
+}
+
+.divInRow1TheRow1TextNewsPageStyle {
+    text-align: center;
+}
+
+.textInRow1TheRow1TextNewsPageStyle {
+    font-family: 'ZapfHumnst Ult BT';
+    color: black;
+    font-size: 3.5vw;
+    font-weight: bolder;
+    height: 4.5vw;
+}
+
+.divInRow1TheRow2NewsPageStyle {
+}
+
+.divInRow1TheRow2NewsPageStyle {
+    box-shadow: 5px 5px 10px 0.5px #c7c5c6;
+    padding: 1em;
+    min-height: 20em;
+    margin-top: 2em;
+}
+
+
+
+#divInRow1TheRow2NewsPageDivRow1 > div {
+    /*height: 20em;*/
+    /*float:left;*/
+}
+
+#divInRow1TheRow2NewsPageDivRow1Col1 {
+    height: 20em;
+    /*width: 45%;*/
+}
+
+#divInRow1TheRow2NewsPageDivRow1Col2 {
+    /*height: 20em;
+            width: 55%;*/
+    min-height: 20em;
+}
+
+#divInRow1TheRow2NewsPageDivRow1Zoj > div {
+    /*height: 20em;*/
+    /*float:left;*/
+}
+
+#divInRow1TheRow2NewsPageDivRow1Col1Zoj {
+    height: 20em;
+    /*width: 45%;*/
+}
+
+#divInRow1TheRow2NewsPageDivRow1Col2Zoj {
+    /*height: 20em;
+            width: 55%;*/
+    min-height: 20em;
+}
+
+#divInRow1TheRow2NewsPageDivRow2 {
+    /*clear:left;*/
+}
+
+.DynamicNewsstyle {
+}
+
+.ImgDynamicBigImgNewsstyle {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    max-height: 25em;
+}
+
+
+
+
+.linkNameTextNewsstyle {
+    font-size: 1.4em;
+    font-family: 'Myriad Pro';
+    color: #b3b1b2;
+}
+
+.DivTagJquery {
+    cursor: pointer;
+}
+/*Paging*/
+
+.list-wrapper {
+    padding: 15px;
+    overflow: hidden;
+}
+
+.list-item {
+    border: 1px solid #EEE;
+    background: #FFF;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px 0px #EEE;
+}
+
+    .list-item h4 {
+        color: #FF7182;
+        font-size: 18px;
+        margin: 0 0 5px;
+    }
+
+    .list-item p {
+        margin: 0;
+    }
+
+.simple-pagination ul {
+    margin: 0 0 20px;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.simple-pagination li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+    .simple-pagination li a,
+    .simple-pagination li span {
+        color: #666;
+        padding: 5px 10px;
+        text-decoration: none;
+        border: 1px solid #EEE;
+        background-color: #FFF;
+        box-shadow: 0px 0px 10px 0px #EEE;
+    }
+
+.simple-pagination .current {
+    color: #FFF;
+    background-color: #C6A100;
+    border-color: #C6A100;
+}
+
+.simple-pagination .prev.current,
+.simple-pagination .next.current {
+    background: #C6A100;
+}

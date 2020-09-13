@@ -1,0 +1,608 @@
+﻿.PanelWeightLossStyle {
+}
+
+.ImgHeaderWeightLossStyle {
+    width: 100%;
+}
+
+.DivVideoAndTextWeightLossStyle {
+    margin-top: 5%;
+}
+
+.VideoWeightLossStyle {
+    width: 100%;
+}
+
+.TitrTextVideoWeightLossStyle {
+    font-family: Arial;
+    font-size: 1.5vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTextVideoWeightLossStyle {
+    margin-top: 3%;
+}
+
+.ZirTextVideoWeightLossStyle {
+    font-family: Arial;
+    font-size: 1.2vw;
+    color: black;
+}
+
+.SliderDivTextWeightLossStyle {
+    position: absolute;
+    margin-top: -33%;
+    margin-left: 5%;
+}
+
+.SliderTitrWeightLossStyle {
+    color: rgba(12,144,68,1);
+    font-size: 4vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderZirDivTextWeightLossStyle {
+    position: absolute;
+    margin-top: -29%;
+    margin-left: 5%;
+}
+
+.SliderZirTitrWeightLossStyle {
+    color: rgba(12,144,68,1);
+    font-size: 3.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderDivDescriptionWeightLossTitrStyle {
+    position: absolute;
+    margin-top: -20%;
+    margin-left: 5.5%;
+}
+
+.SliderDescriptionWeightLossTextTitrStyle {
+    color: rgba(0,76,52,1);
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.DivBtnWeightLossSingInStyle {
+    position: absolute;
+    margin-top: -9.5%;
+    margin-left: 5%;
+    background-color: rgba(141,198,63,1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+    .DivBtnWeightLossSingInStyle:hover {
+        position: absolute;
+        margin-top: -9.5%;
+        margin-left: 5%;
+        background-color: rgba(141,198,63,1);
+        border-radius: 30px;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.TextBtnWeightLossStyle {
+    color: white;
+    font-size: 1.8vw;
+    font-weight: bold;
+}
+
+    .TextBtnWeightLossStyle:hover {
+        color: white;
+        font-size: 1.8vw;
+        font-weight: bold;
+    }
+
+.DivZirHeadersImgTextWeightLossStyle {
+    margin-top: 2%;
+}
+
+.ZirHeadersImgTextWeightLossStyle {
+    font-family: Arial;
+    font-size: 1.5vw;
+    color: black;
+}
+
+.DescaptirionOrginalWeightLossStyle {
+    margin-top: 8%;
+}
+
+.DescaptirionRowOneWeightLossStyle {
+}
+
+.Pic3WeightLossRowOneStyle {
+    width: 65%;
+}
+
+.TitrTextRowOneWeightLossStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowOneWeightLossStyle {
+    margin-top: 5%;
+}
+
+.ZirTitrTextRowOneWeightLossStyle {
+    font-family: Arial;
+    font-size: 1.2vw;
+    color: black;
+}
+
+.DescaptirionRowTwoWeightLossStyle {
+    margin-top: 10%;
+}
+
+.Pic1WeightLossRowTwoStyle {
+    width: 70%;
+}
+
+.TitrTextRowTwoWeightLossStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowTwoWeightLossStyle {
+    margin-top: 5%;
+}
+
+.ZirTitrTextRowTwoWeightLossStyle {
+    font-family: Arial;
+    font-size: 1.2vw;
+    color: black;
+}
+
+
+.DescaptirionRowThreeWeightLossStyle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Pic2WeightLossRowThreeStyle {
+    width: 65%;
+}
+
+.TitrTextRowThreeWeightLossStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRoThreeWeightLossStyle {
+    margin-top: 5%;
+}
+
+.ZirTitrTextRowThreeWeightLossStyle {
+    font-family: Arial;
+    font-size: 1.2vw;
+    color: black;
+}
+
+
+/*#Sm*/
+.PanelWeightLossSmStyle {
+}
+
+.ImgHeaderWeightLossSmStyle {
+    width: 100%;
+}
+
+.SliderDivTextWeightLossSmStyle {
+    position: absolute;
+    margin-top: -33%;
+    margin-left: 5%;
+}
+
+.SliderTitrWeightLossSmStyle {
+    color: rgba(12,144,68,1);
+    font-size: 4vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderZirDivTextWeightLossSmStyle {
+    position: absolute;
+    margin-top: -29%;
+    margin-left: 5%;
+}
+
+.SliderZirTitrWeightLossSmStyle {
+    color: rgba(12,144,68,1);
+    font-size: 3.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderDivDescriptionWeightLossTitrSmStyle {
+    position: absolute;
+    margin-top: -20%;
+    margin-left: 5.5%;
+}
+
+.SliderDescriptionWeightLossTextTitrSmStyle {
+    color: rgba(0,76,52,1);
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.DivBtnWeightLossSingInSmStyle {
+    position: absolute;
+    margin-top: -9.5%;
+    margin-left: 5%;
+    background-color: rgba(141,198,63,1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+    .DivBtnWeightLossSingInSmStyle:hover {
+        position: absolute;
+        margin-top: -9.5%;
+        margin-left: 5%;
+        background-color: rgba(141,198,63,1);
+        border-radius: 30px;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.TextBtnWeightLossSmStyle {
+    color: white;
+    font-size: 1.8vw;
+    font-weight: bold;
+}
+
+    .TextBtnWeightLossSmStyle:hover {
+        color: white;
+        font-size: 1.8vw;
+        font-weight: bold;
+    }
+
+.DivZirHeadersImgTextWeightLossSmStyle {
+    margin-top: 2%;
+}
+
+.ZirHeadersImgTextWeightLossSmStyle {
+    font-family: Arial;
+    font-size: 1.7vw;
+    color: black;
+}
+
+
+.DivVideoAndTextWeightLossSmStyle {
+    margin-top: 5%;
+}
+
+.VideoWeightLossSmStyle {
+    width: 100%;
+}
+
+.DivZirVideoWeightLossSmStyle {
+    margin-top: 2%;
+}
+
+.TitrTextVideoWeightLossSmStyle {
+    font-family: Arial;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.ZirTextVideoWeightLossSmStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+}
+
+
+.DescaptirionOrginalWeightLossSmStyle {
+    margin-top: 8%;
+}
+
+.DescaptirionRowOneWeightLossSmStyle {
+}
+
+.Pic3WeightLossRowOneTransplantSmStyle {
+    width: 50%;
+}
+
+.DivTitrRowOneWeightLossSmStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowOneWeightLossSmStyle {
+    font-family: Arial;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowOneWeightLossSmStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowOneWeightLossSmStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+}
+
+
+.DescaptirionRowTwoWeightLossSmStyle {
+    margin-top: 10%;
+}
+
+.Pic1WeightLossRowTwoTransplantSmStyle {
+    width: 55%;
+}
+
+.DivTitrRowTwoWeightLossSmStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowTwoWeightLossSmStyle {
+    font-family: Arial;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowTwoWeightLossSmStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowTwoWeightLossSmStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+}
+
+
+.DescaptirionRowThreeWeightLossSmStyle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Pic2WeightLossRowThreeTransplantSmStyle {
+    width: 50%;
+}
+
+.DivTitrRowThreeWeightLossSmStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowThreeWeightLossSmStyle {
+    font-family: Arial;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRoThreeWeightLossSmStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowThreeWeightLossSmStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+}
+
+/*#Xs*/
+
+.PanelWeightLossXsStyle {
+}
+
+.ImgHeaderWeightLossXsStyle {
+    width: 100%;
+}
+
+.SliderDivTextWeightLossXsStyle {
+    position: absolute;
+    margin-top: -33%;
+    margin-left: 5%;
+}
+
+.SliderTitrWeightLossXsStyle {
+    color: rgba(12,144,68,1);
+    font-size: 4vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderZirDivTextWeightLossXsStyle {
+    position: absolute;
+    margin-top: -29%;
+    margin-left: 5%;
+}
+
+.SliderZirTitrWeightLossXsStyle {
+    color: rgba(12,144,68,1);
+    font-size: 3.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderDivDescriptionWeightLossTitrXsStyle {
+    position: absolute;
+    margin-top: -20%;
+    margin-left: 5.5%;
+}
+
+.SliderDescriptionWeightLossTextTitrXsStyle {
+    color: rgba(0,76,52,1);
+    font-size: 1.8vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.DivBtnWeightLossSingInXsStyle {
+    position: absolute;
+    margin-top: -8%;
+    margin-left: 5%;
+    background-color: rgba(141,198,63,1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+    .DivBtnWeightLossSingInXsStyle:hover {
+        position: absolute;
+        margin-top: -8%;
+        margin-left: 5%;
+        background-color: rgba(141,198,63,1);
+        border-radius: 30px;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.TextBtnWeightLossXsStyle {
+    color: white;
+    font-size: 2.4vw;
+    font-weight: bold;
+}
+
+    .TextBtnWeightLossXsStyle:hover {
+        color: white;
+        font-size: 2.4vw;
+        font-weight: bold;
+    }
+
+
+.DivZirHeadersImgTextWeightLossXsStyle {
+    margin-top: 2%;
+}
+
+.ZirHeadersImgTextWeightLossXsStyle {
+    font-family: Arial;
+    font-size: 2.3vw;
+    color: black;
+}
+
+
+.DivVideoAndTextWeightLossXsStyle {
+    margin-top: 5%;
+}
+
+.VideoWeightLossXsStyle {
+    width: 100%;
+}
+
+.DivZirVideoWeightLossXsStyle {
+    margin-top: 2%;
+}
+
+.TitrTextVideoWeightLossXsStyle {
+    font-family: Arial;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.ZirTextVideoWeightLossXsStyle {
+    font-family: Arial;
+    font-size: 2.2vw;
+    color: black;
+}
+
+
+.DescaptirionOrginalWeightLossXsStyle {
+    margin-top: 8%;
+}
+
+.DescaptirionRowOneWeightLossXsStyle {
+}
+
+.Pic3WeightLossTransplantRowOneTransplantXsStyle {
+    width: 50%;
+}
+
+.DivTitrRowOneWeightLossXsStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowOneWeightLossXsStyle {
+    font-family: Arial;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowOneWeightLossXsStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowOneWeightLossXsStyle {
+    font-family: Arial;
+    font-size: 2.2vw;
+    color: black;
+}
+
+
+.DescaptirionRowTwoWeightLossXsStyle {
+    margin-top: 10%;
+}
+
+.Pic1WeightLossRowTwoTransplantXsStyle {
+    width: 55%;
+}
+
+.DivTitrRowTwoWeightLossXsStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowTwoWeightLossXsStyle {
+    font-family: Arial;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowTwoWeightLossXsStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowTwoWeightLossXsStyle {
+    font-family: Arial;
+    font-size: 2.2vw;
+    color: black;
+}
+.DescaptirionRowThreeWeightLossXsStyle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Pic2WeightLossRowThreeTransplantXsStyle {
+    width: 50%;
+}
+
+.DivTitrRowThreeWeightLossXsStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowThreeWeightLossXsStyle {
+    font-family: Arial;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRoThreeWeightLossXsStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowThreeWeightLossXsStyle {
+    font-family: Arial;
+    font-size: 2.2vw;
+    color: black;
+}

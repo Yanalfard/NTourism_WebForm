@@ -1,0 +1,403 @@
+﻿.Row1MainSliderStyle, .Row2MainLeftNewsStyle, .Row2MainRightMenuStyle {
+    display: none;
+    visibility: visible;
+}
+
+.Row2MainCenterContainStyle {
+    border: none;
+    width: 100%;
+}
+
+.Row2MainCenterContainStyle {
+    margin-top: -15%;
+}
+
+.DivPage1OurServices {
+    display: normal;
+}
+
+.DivPage2OurServices {
+    display: none;
+}
+
+.container-fluid {
+    padding: 1% 4%;
+}
+
+.divcol1style > div:nth-child(2) {
+    margin-top: 1em;
+}
+
+#UserImg {
+    color: #B2B2B2;
+    font-size: 16em;
+}
+
+
+
+.groupcol1amnstyle > label {
+    color: #B2B2B2;
+    font-size: 2em;
+    font-family: 'Myriad Pro';
+}
+
+    .groupcol1amnstyle > label:nth-child(2) {
+        margin-left: 10px;
+    }
+
+.groupcol1amnstyle > a {
+    color: #36A9E1;
+    font-size: 2em;
+    font-family: 'Myriad Pro';
+    cursor: pointer;
+}
+
+    .groupcol1amnstyle > a:hover {
+        text-decoration: none;
+    }
+
+.divcol1row2style {
+    margin-top: 1.5em;
+    border-top: 3px solid #B2B2B2;
+}
+
+    .divcol1row2style > div > label {
+        color: #B2B2B2;
+        font-size: 2.2em;
+        font-family: 'Myriad Pro';
+    }
+
+.DivRemoveImg {
+    position: relative;
+    float: left;
+}
+
+a.remImage i {
+    color: red;
+    font-size: 2em;
+    box-shadow: none;
+    position: absolute;
+    right: 7px;
+    top: -5px;
+    margin-top: 4px;
+    opacity: 0;
+    display: block;
+    transition: all .5s ease-in-out;
+}
+
+.DivRemoveImg:hover a.remImage i {
+    opacity: 1;
+    z-index: 99;
+    position: absolute;
+    top: 5px;
+}
+
+#SendImageTodataSave {
+    margin-top: 5%;
+    color: white;
+    text-align: center;
+    background-color: #009FE3;
+    font-size: 2em;
+    font-family: 'Myriad Pro';
+    font-weight: bolder;
+    outline: none;
+    border: none;
+    border-radius: 1.5em;
+    padding: 0em 0.5em;
+    box-shadow: 10px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.DivAslyInGallery > div {
+    float: left;
+}
+
+.imgload {
+    height: 10em;
+    width: 100%;
+}
+
+.LblAddImageStyle {
+    outline: 2px solid #B2B2B2;
+    width: 30%;
+    height: 10em;
+    text-align: center;
+}
+
+    .LblAddImageStyle input[type="file"] {
+        z-index: -1;
+        position: absolute;
+        opacity: 0;
+    }
+
+.divcol2style {
+    border: 3px solid #B2B2B2;
+    /*height: 750px;*/
+    margin-top: 100px;
+    border-radius: 30px;
+    background: linear-gradient(to bottom, #B2B2B2 0%,#B2B2B2 6%,white 6%,white 100%);
+}
+
+.divcol2rw1style {
+    height: 30px;
+    padding: 0em 3em;
+}
+
+    .divcol2rw1style > p {
+        color: white;
+        font-size: 2.2em;
+        font-family: 'Myriad Pro';
+        font-weight: 500;
+    }
+
+.Imgfagroupinformstyle {
+}
+
+.formProfileOurServices {
+    margin-top: 30px;
+    padding: 0 8%;
+    margin-bottom: 4em;
+}
+
+.groupinformProfileOurServicesstyle {
+    border-bottom: 2px solid #B2B2B2;
+    margin-top: 0em;
+}
+
+    .groupinformProfileOurServicesstyle:last-child {
+        border-bottom: none;
+    }
+
+.fagroupinformstyle {
+    color: #B2B2B2;
+    font-size: 3em;
+}
+
+.Lblgroupinformstyle {
+    margin-left: 2%;
+    color: #B2B2B2;
+    font-size: 1.3em;
+    font-family: 'Myriad Pro';
+    font-weight: 200;
+}
+
+.CheckinFacilitesstyle {
+    margin-left: 50%;
+    font-size: 50em;
+    width: 60%;
+}
+
+.fatruegroupinformstyle {
+    float: right;
+    color: #B2B2B2;
+    font-size: 3em;
+}
+
+.divcol3rw1style {
+    height: 30px;
+    padding: 0em 3em;
+}
+
+    .divcol3rw1style > p {
+        color: white;
+        font-size: 2em;
+        font-family: 'Myriad Pro';
+        font-weight: 500;
+    }
+
+.divImgOurServicesstyle {
+    padding: 0 15%;
+}
+
+.ImgOurServicesstyle {
+    width: 100%;
+}
+
+.TextOurServicesstyle {
+    margin-top: 1em;
+    font-family: 'Myriad Pro';
+    font-weight: 200;
+    font-size: 1em;
+    cursor: default;
+}
+
+.TextOurServicesstyleMore {
+    margin-top: 1em;
+    font-family: 'Myriad Pro';
+    font-weight: 200;
+    font-size: 1em;
+    cursor: pointer;
+    color: #B2B2B2;
+}
+
+    .TextOurServicesstyleMore:hover {
+        color: #B2B2B2;
+        text-decoration: none;
+        cursor: pointer;
+    }
+.divrow2style {
+    border: 3px solid #B2B2B2;
+    margin-top: 100px;
+    border-radius: 50px;
+    background: linear-gradient(to bottom, #B2B2B2 0%,#B2B2B2 50px,white 50px,white 100%);
+}
+
+.divRow2rw1style {
+    height: 30px;
+    padding: 0em 3em;
+}
+
+    .divRow2rw1style > p {
+        color: white;
+        font-size: 2.2em;
+        font-family: 'Myriad Pro';
+        font-weight: 500;
+    }
+
+.formProfileCommentsStyle {
+    overflow: auto;
+    max-height: 300px;
+}
+
+.formProfileCommentsStyle2 {
+    margin-top: 10px;
+    padding: 30px 2%;
+}
+
+.DynamicgroupinformProfileOurServicesstyle {
+    border-bottom: 2px solid #B2B2B2;
+    margin-top: 2em;
+}
+
+    .DynamicgroupinformProfileOurServicesstyle:last-child {
+        border-bottom: none;
+    }
+
+#btnsubmit {
+    margin-left: 20%;
+    text-align: center;
+    color: white;
+    background-color: #009FE3;
+    font-size: 2em;
+    font-family: 'Myriad Pro';
+    font-weight: bolder;
+    outline: none;
+    border: none;
+    border-radius: 1.5em;
+    padding: 0em 0.5em;
+    box-shadow: 10px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+form > label {
+    color: #9D9D9C;
+    font-family: 'Myriad Pro';
+    font-size: 2em;
+    font-weight: bold;
+    pointer-events: none;
+    margin-left: 5px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+#form_container {
+    margin-top: 5em;
+}
+
+    #form_container .group {
+        margin-top: -35px;
+    }
+
+        #form_container .group:nth-child(2) {
+            margin-top: 1px;
+        }
+/* form starting stylings ------------------------------- */
+.group {
+    position: relative;
+    margin-bottom: 45px;
+}
+
+    .group > input {
+        font-size: 18px;
+        padding: 10px 10px 10px 5px;
+        display: block;
+        width: 80%;
+        border: none;
+        border-bottom: 1px solid #757575;
+        /*margin-top: -35px;*/
+    }
+
+        .group > input:focus {
+            outline: none;
+        }
+
+    /* LABEL ======================================= */
+    .group > label {
+        color: #999;
+        font-family: 'Myriad Pro';
+        font-size: 1.7em;
+        font-weight: normal;
+        position: absolute;
+        pointer-events: none;
+        left: 5px;
+        top: 15px;
+        transition: 0.2s ease all;
+        -moz-transition: 0.2s ease all;
+        -webkit-transition: 0.2s ease all;
+    }
+
+    /* active state */
+    .group > input:focus ~ label, input:valid ~ label {
+        top: -5px;
+        font-size: 14px;
+        color: #5264AE;
+    }
+
+/* BOTTOM BARS ================================= */
+.bar {
+    position: relative;
+    display: block;
+    width: 80%;
+}
+
+    .bar:before, .bar:after {
+        content: '';
+        height: 2px;
+        width: 0;
+        bottom: 1px;
+        position: absolute;
+        background: black;
+        transition: 0.2s ease all;
+        -moz-transition: 0.2s ease all;
+        -webkit-transition: 0.2s ease all;
+    }
+
+    .bar:before {
+        left: 50%;
+    }
+
+    .bar:after {
+        right: 50%;
+    }
+
+/* active state */
+.group > input:focus ~ .bar:before, input:focus ~ .bar:after {
+    width: 50%;
+}
+
+/* HIGHLIGHTER ================================== */
+.highlight {
+    position: absolute;
+    height: 60%;
+    width: 100px;
+    top: 25%;
+    left: 0;
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+/* active state */
+.group > input:focus ~ .highlight {
+    -webkit-animation: inputHighlighter 0.3s ease;
+    -moz-animation: inputHighlighter 0.3s ease;
+    animation: inputHighlighter 0.3s ease;
+}

@@ -1,0 +1,422 @@
+﻿/*Color Menu Right In one Page And others*/
+.accordion {
+    border-bottom: 1px solid #C6A100;
+}
+
+.accordion-panel {
+    border-color: #C6A100;
+}
+
+/**/
+
+.SliderPageHomeStyle {
+    display: none;
+}
+
+.SliderPageAboutUsStyle {
+    display: none;
+}
+
+.SliderPageDestinationsStyle {
+    display: none;
+}
+
+.SliderPageContactUsStyle {
+    display: none;
+}
+
+.SliderPageOurServicesStyle {
+    display: normal;
+}
+
+.SliderPageIranUsStyle {
+    display: none;
+}
+
+.SliderPageNewsStyle {
+    display: none;
+}
+
+.SliderPageTourguideStyle {
+    display: none;
+}
+
+.SliderPageEventStyle {
+    display: none;
+}
+
+.SliderPageTripstoryStyle {
+    display: none;
+}
+
+.SliderPageGalleryStyle {
+    display: none;
+}
+
+/*City Display*/
+.SliderPageCityArasStyle {
+    display: none;
+}
+
+.SliderPageCityHamedanStyle {
+    display: none;
+}
+
+.SliderPageCityIsfahanStyle {
+    display: none;
+}
+
+.SliderPageCityKashanStyle {
+    display: none;
+}
+
+.SliderPageCityShirazStyle {
+    display: none;
+}
+
+.SliderPageCityRashtStyle {
+    display: none;
+}
+
+.SliderPageCityTabrizStyle {
+    display: none;
+}
+
+.SliderPageCityTehranStyle {
+    display: none;
+}
+
+.SliderPageCityYazdStyle {
+    display: none;
+}
+
+.SliderPageCityKishStyle {
+    display: none;
+}
+
+.SliderPageCitySariStyle {
+    display: none;
+}
+
+.SliderPageCityMashhadStyle {
+    display: none;
+}
+
+.SliderPageCityKermanStyle {
+    display: none;
+}
+
+.SliderPageCityQeshmStyle {
+    display: none;
+}
+
+
+/*#Row1*/
+.divRow1OurServicesPageStyle {
+    margin-top: 0.5em;
+}
+
+.divInRow1TheRow1TextOurServicesPageStyle {
+    text-align: center;
+}
+
+.textInRow1TheRow1TextOurServicesPageStyle {
+    font-family: 'ZapfHumnst Ult BT';
+    color: black;
+    font-size: 3.5vw;
+    font-weight: bolder;
+    height: 4.5vw;
+}
+
+
+.DivHideShowFacilitiesDynamicRoom {
+}
+
+.divInRow1TheRow2OurServicesPageStyle {
+    box-shadow: 5px 5px 10px 0.5px #c7c5c6;
+    padding: 1em;
+    min-height: 20em;
+}
+
+.divFacilitiesOurServicesStyle {
+    padding-right: 1em;
+}
+
+    .divFacilitiesOurServicesStyle > div > p {
+        text-align: center;
+        font-family: 'ZapfHumnst Ult BT';
+        color: black;
+        font-size: 100%;
+    }
+
+    .divFacilitiesOurServicesStyle > div > img {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+.fa-usd {
+    font-size: 1.5em;
+}
+
+#Btnbooking {
+    float: right;
+    color: black;
+    background-color: #C6A100;
+    font-size: 120%;
+    font-family: 'Myriad Pro';
+    font-weight: bolder;
+    outline: none;
+    border: none;
+    border-radius: 1.5em;
+    padding: 0em 1.5em;
+    box-shadow: 10px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+
+#divInRow1TheRow2OurServicesPageDivRow1Col1 {
+    min-height: 20em;
+    /*width: 45%;*/
+}
+
+#divInRow1TheRow2OurServicesPageDivRow1Col2 {
+    /*height: 20em;
+            width: 55%;*/
+    min-height: 20em;
+}
+
+#divInRow1TheRow2OurServicesPageDivRow2 {
+    /*clear:left;*/
+}
+
+.DynamicOurServicesstyle {
+}
+
+
+.ImgDynamicBigImgOurServicesstyle {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.DynamicRow2OurServicesstyle {
+    margin-top: 1em;
+    text-align: left;
+}
+
+.DivAllImgRow2DynamicBigImgOurServicesStyle {
+}
+
+.ImgRow2DynamicBigImgOurServicesStyle {
+    width: 100%;
+    /*height: 7em;*/
+    margin-left: 0.7em;
+    margin-top: 0.7em;
+    object-fit: cover;
+    object-position: center;
+}
+
+.DynamicTextOurServicesstyle {
+    clear: left;
+}
+
+.linkNameTextOurServicesstyle {
+    font-size: 1.2em;
+    font-family: 'Myriad Pro';
+}
+
+
+.DivRow3Comments {
+    border: 3px solid #C6A100;
+    height: 100%;
+    margin-top: 1em;
+    border-radius: 30px;
+    background: linear-gradient(to bottom, #C6A100 0%,#C6A100 30px,white 2vw,white 100%);
+}
+
+.DivInRow3Row1Comments {
+    height: 30px;
+    padding: 0em 3em;
+}
+
+    .DivInRow3Row1Comments > p {
+        color: black;
+        font-size: 1.4em;
+        font-family: 'Myriad Pro';
+        font-weight: bolder;
+    }
+
+        .DivInRow3Row1Comments > p > i {
+            font-weight: bolder;
+            margin-right: 0.3em;
+        }
+
+.DivInRow3Row2Comments {
+    margin-top: 20px;
+    padding: 0 2%;
+}
+
+.TypeComment {
+    color: #B2B2B2;
+    font-size: 1.4em;
+    font-family: 'Myriad Pro';
+    font-weight: bolder;
+    margin-left: 1em;
+    /*width: 85%;*/
+    outline: none;
+    border: none;
+}
+
+.DivInRow3Row3Comments {
+    border-top: 3px solid #C6A100;
+}
+
+.BtnDivInRow3Row3Comments {
+    color: #B2B2B2;
+    font-size: 2em;
+    font-family: 'Myriad Pro';
+    font-weight: bolder;
+    margin-left: 1em;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+    .BtnDivInRow3Row3Comments:hover {
+        color: #B2B2B2;
+        font-size: 2.5em;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+.linkdataComment {
+    color: #B2B2B2;
+    font-size: 1.4em;
+    font-family: 'Myriad Pro';
+    margin-left: 1em;
+    border-bottom: 2px solid #C6A100;
+}
+
+    .linkdataComment:last-child {
+        border-bottom: none;
+    }
+
+.DayDolarandweekend1 {
+    margin-left: 1em;
+    color: black;
+    font-family: 'Myriad Pro';
+    font-size: 1.5em;
+}
+
+.DayDolarandweekend2 {
+    color: #c7c5c6;
+    font-family: 'Myriad Pro';
+    font-size: 1.3em;
+}
+
+.WeekendDolarandweekend1 {
+    margin-left: 1em;
+    color: black;
+    font-family: 'Myriad Pro';
+    font-size: 1.5em;
+}
+
+.WeekendDolarandweekend2 {
+    color: #c7c5c6;
+    font-family: 'Myriad Pro';
+    font-size: 1.3em;
+}
+
+/*Paging Style Start*/
+.list-wrapper {
+    padding: 15px;
+    overflow: hidden;
+}
+
+.list-item {
+    border: 1px solid #EEE;
+    background: #FFF;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px 0px #EEE;
+}
+
+    .list-item h4 {
+        color: #FF7182;
+        font-size: 18px;
+        margin: 0 0 5px;
+    }
+
+    .list-item p {
+        margin: 0;
+    }
+
+
+
+
+
+
+
+.simple-pagination ul {
+    margin: 0 0 20px;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.simple-pagination li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+    .simple-pagination li a,
+    .simple-pagination li span {
+        color: #666;
+        padding: 5px 10px;
+        text-decoration: none;
+        border: 1px solid #EEE;
+        background-color: #FFF;
+        box-shadow: 0px 0px 10px 0px #EEE;
+    }
+
+.simple-pagination .current {
+    color: #FFF;
+    background-color: #C6A100;
+    border-color: #C6A100;
+}
+
+.simple-pagination .prev.current,
+.simple-pagination .next.current {
+    background: #C6A100;
+}
+
+
+
+/*Comment 2*/
+.list-wrapper2 {
+    padding: 15px;
+    overflow: hidden;
+}
+
+.list-item2 {
+    border: 1px solid #EEE;
+    background: #FFF;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px 0px #EEE;
+}
+
+    .list-item2 h4 {
+        color: #FF7182;
+        font-size: 18px;
+        margin: 0 0 5px;
+    }
+
+    .list-item2 p {
+        margin: 0;
+    }
+
+#pagination-container2 {
+    margin-top: 1em;
+}
+/*Paging Style End*/

@@ -1,0 +1,606 @@
+﻿.PanelOsteoarthritsStyle {
+}
+
+.ImgHeaderOsteoarthritsStyle {
+    width: 100%;
+}
+
+.DivVideoAndTextOsteoarthritsStyle {
+    margin-top: 5%;
+}
+
+.VideoOsteoarthritsStyle {
+    width: 100%;
+}
+
+.TitrTextVideoOsteoarthritsStyle {
+    font-family: Arial;
+    font-size: 1.5vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTextVideoOsteoarthritsStyle {
+    margin-top: 3%;
+}
+
+.ZirTextVideoOsteoarthritsStyle {
+    font-family: Arial;
+    font-size: 1.2vw;
+    color: black;
+}
+
+.SliderDivTextOsteoarthritsStyle {
+    position: absolute;
+    margin-top: -33%;
+    margin-left: 5%;
+}
+
+.SliderTitrOsteoarthritsStyle {
+    color: rgba(12,144,68,1);
+    font-size: 5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderZirDivTextOsteoarthritsStyle {
+    position: absolute;
+    margin-top: -28%;
+    margin-left: 5%;
+}
+
+.SliderZirTitrOsteoarthritsStyle {
+    color: rgba(12,144,68,1);
+    font-size: 3.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderDivDescriptionOsteoarthritsTitrStyle {
+    position: absolute;
+    margin-top: -20%;
+    margin-left: 5.5%;
+}
+
+.SliderDescriptionOsteoarthritsTextTitrStyle {
+    color: rgba(0,76,52,1);
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.DivBtnOsteoarthritsSingInStyle {
+    position: absolute;
+    margin-top: -9.5%;
+    margin-left: 5%;
+    background-color: rgba(141,198,63,1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+    .DivBtnOsteoarthritsSingInStyle:hover {
+        position: absolute;
+        margin-top: -9.5%;
+        margin-left: 5%;
+        background-color: rgba(141,198,63,1);
+        border-radius: 30px;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.TextBtnOsteoarthritsStyle {
+    color: white;
+    font-size: 1.8vw;
+    font-weight: bold;
+}
+
+    .TextBtnOsteoarthritsStyle:hover {
+        color: white;
+        font-size: 1.8vw;
+        font-weight: bold;
+    }
+
+.DivZirHeadersImgTextOsteoarthritsStyle {
+    margin-top: 2%;
+}
+
+.ZirHeadersImgTextOsteoarthritsStyle {
+    font-family: Arial;
+    font-size: 1.5vw;
+    color: black;
+}
+
+.DescaptirionOrginalOsteoarthritsStyle {
+    margin-top: 8%;
+}
+
+.DescaptirionRowOneOsteoarthritsStyle {
+}
+
+.Pic3OsteoarthritsRowOneStyle {
+    width: 65%;
+}
+
+.TitrTextRowOneOsteoarthritsStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowOneOsteoarthritsStyle {
+    margin-top: 5%;
+}
+
+.ZirTitrTextRowOneOsteoarthritsStyle {
+    font-family: Arial;
+    font-size: 1.2vw;
+    color: black;
+}
+
+.DescaptirionRowTwoOsteoarthritsStyle {
+    margin-top: 10%;
+}
+
+.Pic1OsteoarthritsRowTwoStyle {
+    width: 70%;
+}
+
+.TitrTextRowTwoOsteoarthritsStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowTwoOsteoarthritsStyle {
+    margin-top: 5%;
+}
+
+.ZirTitrTextRowTwoOsteoarthritsStyle {
+    font-family: Arial;
+    font-size: 1.2vw;
+    color: black;
+}
+
+.DescaptirionRowThreeOsteoarthritsStyle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Pic2OsteoarthritsRowThreeStyle {
+    width: 65%;
+}
+
+.TitrTextRowThreeOsteoarthritsStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRoThreeOsteoarthritsStyle {
+    margin-top: 5%;
+}
+
+.ZirTitrTextRowThreeOsteoarthritsStyle {
+    font-family: Arial;
+    font-size: 1.2vw;
+    color: black;
+}
+
+
+/*#Sm*/
+.PanelOsteoarthritsSmStyle {
+}
+
+.ImgHeaderOsteoarthritsSmStyle {
+    width: 100%;
+}
+
+.SliderDivTextOsteoarthritsSmStyle {
+    position: absolute;
+    margin-top: -33%;
+    margin-left: 5%;
+}
+
+.SliderTitrOsteoarthritsSmStyle {
+    color: rgba(12,144,68,1);
+    font-size: 5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderZirDivTextOsteoarthritsSmStyle {
+    position: absolute;
+    margin-top: -28%;
+    margin-left: 5%;
+}
+
+.SliderZirTitrOsteoarthritsSmStyle {
+    color: rgba(12,144,68,1);
+    font-size: 3.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderDivDescriptionOsteoarthritsTitrSmStyle {
+    position: absolute;
+    margin-top: -20%;
+    margin-left: 5.5%;
+}
+
+.SliderDescriptionOsteoarthritsTextTitrSmStyle {
+    color: rgba(0,76,52,1);
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.DivBtnOsteoarthritsSingInSmStyle {
+    position: absolute;
+    margin-top: -9.5%;
+    margin-left: 5%;
+    background-color: rgba(141,198,63,1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+    .DivBtnOsteoarthritsSingInSmStyle:hover {
+        position: absolute;
+        margin-top: -9.5%;
+        margin-left: 5%;
+        background-color: rgba(141,198,63,1);
+        border-radius: 30px;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.TextBtnOsteoarthritsSmStyle {
+    color: white;
+    font-size: 1.8vw;
+    font-weight: bold;
+}
+
+    .TextBtnOsteoarthritsSmStyle:hover {
+        color: white;
+        font-size: 1.8vw;
+        font-weight: bold;
+    }
+
+.DivZirHeadersImgTextOsteoarthritsSmStyle {
+    margin-top: 2%;
+}
+
+.ZirHeadersImgTextOsteoarthritsSmStyle {
+    font-family: Arial;
+    font-size: 1.7vw;
+    color: black;
+}
+
+.DivVideoAndTextOsteoarthritsSmStyle {
+    margin-top: 5%;
+}
+
+.VideoOsteoarthritsSmStyle {
+    width: 100%;
+}
+
+.DivZirVideoOsteoarthritsSmStyle {
+    margin-top: 2%;
+}
+
+.TitrTextVideoOsteoarthritsSmStyle {
+    font-family: Arial;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.ZirTextVideoOsteoarthritsSmStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+}
+
+
+.DescaptirionOrginalOsteoarthritsSmStyle {
+    margin-top: 8%;
+}
+
+.DescaptirionRowOneOsteoarthritsSmStyle {
+}
+
+.Pic3OsteoarthritsRowOneTreatmentSmStyle {
+    width: 50%;
+}
+
+.DivTitrRowOneOsteoarthritsSmStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowOneOsteoarthritsSmStyle {
+    font-family: Arial;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowOneOsteoarthritsSmStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowOneOsteoarthritsSmStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+}
+
+.DescaptirionRowTwoOsteoarthritsSmStyle {
+    margin-top: 10%;
+}
+
+.Pic1OsteoarthritsRowTwoTreatmentSmStyle {
+    width: 55%;
+}
+
+.DivTitrRowTwoOsteoarthritsSmStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowTwoOsteoarthritsSmStyle {
+    font-family: Arial;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowTwoOsteoarthritsSmStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowTwoOsteoarthritsSmStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+}
+
+.DescaptirionRowThreeOsteoarthritsSmStyle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Pic2OsteoarthritsRowThreeTreatmentSmStyle {
+    width: 50%;
+}
+
+.DivTitrRowThreeOsteoarthritsSmStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowThreeOsteoarthritsSmStyle {
+    font-family: Arial;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRoThreeOsteoarthritsSmStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowThreeOsteoarthritsSmStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+}
+
+
+/* #Xs*/
+
+
+.PanelOsteoarthritsXsStyle {
+}
+
+.ImgHeaderOsteoarthritsXsStyle {
+    width: 100%;
+}
+
+.SliderDivTextOsteoarthritsXsStyle {
+    position: absolute;
+    margin-top: -33%;
+    margin-left: 5%;
+}
+
+.SliderTitrOsteoarthritsXsStyle {
+    color: rgba(12,144,68,1);
+    font-size: 6vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderZirDivTextOsteoarthritsXsStyle {
+    position: absolute;
+    margin-top: -26%;
+    margin-left: 5%;
+}
+
+.SliderZirTitrOsteoarthritsXsStyle {
+    color: rgba(12,144,68,1);
+    font-size: 4.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderDivDescriptionOsteoarthritsTitrXsStyle {
+    position: absolute;
+    margin-top: -19%;
+    margin-left: 5.5%;
+}
+
+.SliderDescriptionOsteoarthritsTextTitrXsStyle {
+    color: rgba(0,76,52,1);
+    font-size: 2.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.DivBtnOsteoarthritsSingInXsStyle {
+    position: absolute;
+    margin-top: -8%;
+    margin-left: 40%;
+    background-color: rgba(141,198,63,1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+    .DivBtnOsteoarthritsSingInXsStyle:hover {
+        position: absolute;
+        margin-top: -8%;
+        margin-left: 40%;
+        background-color: rgba(141,198,63,1);
+        border-radius: 30px;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.TextBtnOsteoarthritsXsStyle {
+    color: white;
+    font-size: 2.4vw;
+    font-weight: bold;
+}
+
+    .TextBtnOsteoarthritsXsStyle:hover {
+        color: white;
+        font-size: 2.4vw;
+        font-weight: bold;
+    }
+
+
+.DivZirHeadersImgTextOsteoarthritsXsStyle {
+    margin-top: 3%;
+}
+
+.ZirHeadersImgTextOsteoarthritsXsStyle {
+    font-family: Arial;
+    font-size: 2.3vw;
+    color: black;
+}
+
+.DivVideoAndTextOsteoarthritsXsStyle {
+    margin-top: 5%;
+}
+
+.VideoOsteoarthritsXsStyle {
+    width: 100%;
+}
+
+.DivZirVideoOsteoarthritsXsStyle {
+    margin-top: 2%;
+}
+
+.TitrTextVideoOsteoarthritsXsStyle {
+    font-family: Arial;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.ZirTextVideoOsteoarthritsXsStyle {
+    font-family: Arial;
+    font-size: 2.2vw;
+    color: black;
+}
+
+.DescaptirionOrginalOsteoarthritsXsStyle {
+    margin-top: 8%;
+}
+
+.DescaptirionRowOneOsteoarthritsXsStyle {
+}
+
+.Pic3OsteoarthritsTreatmentRowOneTreatmentXsStyle {
+    width: 50%;
+}
+
+.DivTitrRowOneOsteoarthritsXsStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowOneOsteoarthritsXsStyle {
+    font-family: Arial;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowOneOsteoarthritsXsStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowOneOsteoarthritsXsStyle {
+    font-family: Arial;
+    font-size: 2.2vw;
+    color: black;
+}
+
+
+.DescaptirionRowTwoOsteoarthritsXsStyle {
+    margin-top: 10%;
+}
+
+.Pic1OsteoarthritsRowTwoTreatmentXsStyle {
+    width: 55%;
+}
+
+.DivTitrRowTwoOsteoarthritsXsStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowTwoOsteoarthritsXsStyle {
+    font-family: Arial;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowTwoOsteoarthritsXsStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowTwoOsteoarthritsXsStyle {
+    font-family: Arial;
+    font-size: 2.2vw;
+    color: black;
+}
+
+
+.DescaptirionRowThreeOsteoarthritsXsStyle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Pic2OsteoarthritsRowThreeTreatmentXsStyle {
+    width: 50%;
+}
+
+.DivTitrRowThreeOsteoarthritsXsStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowThreeOsteoarthritsXsStyle {
+    font-family: Arial;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRoThreeOsteoarthritsXsStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowThreeOsteoarthritsXsStyle {
+    font-family: Arial;
+    font-size: 2.2vw;
+    color: black;
+}

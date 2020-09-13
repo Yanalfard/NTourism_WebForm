@@ -1,0 +1,89 @@
+﻿@model NTourism.Models.ObjectClass.OcMedical
+
+@{
+    ViewBag.Title = "Show";
+}
+
+<h2>Show</h2>
+
+<div>
+
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FirstName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LastName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LastName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SicknessName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SicknessName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SicknessDesc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SicknessDesc)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PassNo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PassNo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PassportImageId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PassportImageId)
+        </dd>
+
+        <dt>
+            @*@Html.DisplayNameFor(model => model.ImageName)*@
+            @Html.LabelFor(model => model.Images, "Image")
+        </dt>
+
+        <dd>
+            <img src="~/Resources/Imges/@Model.ImageName" class="thumbnail" style="max-width:150px;" />
+        </dd>
+        @if (Model.Images != null)
+        {
+            for (int i = 0; i < Model.Images.Count; i++)
+            {
+                <dt>
+                    @Html.LabelFor(model => model.Images, "Images" + (i + 1))
+                </dt>
+                <dd>
+                    @if (Model.Images[i] != null)
+                    {
+                        <img src="~/Resources/Imges/@Model.Images[i]" class="thumbnail" style="max-width:150px;" />
+                    }
+                </dd>
+            }
+
+        }
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Back to List", "Index")
+</p>

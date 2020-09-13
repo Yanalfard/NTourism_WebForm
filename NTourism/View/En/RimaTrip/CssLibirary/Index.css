@@ -1,0 +1,765 @@
+﻿.SliderDivTextHealthStyle {
+    position: absolute;
+    margin-top: 0.9%;
+    margin-left: 7.5%;
+}
+
+.SliderTitrHealthStyle {
+    font-size: 7vw;
+    font-weight: bold;
+    color: #00CED1;
+}
+
+.SliderZirDivTextHealthStyle {
+    position: absolute;
+    margin-top: 9.5%;
+    margin-left: 7.5%;
+}
+
+.SliderZirTitrHealthStyle {
+    font-size: 3vw;
+    font-weight: bold;
+    color: rgba(11,142,54,1);
+}
+
+.SliderDivIncludinTextTitrStyle {
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 7.5%;
+}
+
+.SliderIncludinTextTitrStyle {
+    font-size: 1.8vw;
+    font-weight: bold;
+    color: rgba(0,76,52,1);
+}
+
+.SliderDivIncludinTextZirTitrStyle {
+    position: absolute;
+    margin-top: 17.2%;
+    margin-left: 7.5%;
+}
+
+.SliderIncludinTextZirTitrStyle {
+    font-size: 1.2vw;
+    font-weight: bold;
+    color: rgba(0,76,52,1);
+}
+
+.SliderBtnRegisterStyle {
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 7%;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+    .SliderBtnRegisterStyle:hover {
+        position: absolute;
+        margin-top: 20%;
+        margin-left: 7%;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.SliderBtnRegisterTextStyle {
+    color: white;
+    background-color: rgba(141,198,63,1);
+    border-radius: 25px;
+    font-size: 1.4vw;
+    font-weight: bold;
+}
+
+    .SliderBtnRegisterTextStyle:hover {
+        color: white;
+        background-color: rgba(141,198,63,1);
+        border-radius: 25px;
+        font-size: 1.4vw;
+        font-weight: bold;
+    }
+
+
+.Slider1Style {
+    width: 70%;
+    position: absolute;
+    margin-top: 22%;
+    margin-left: 25%;
+    opacity: 0;
+}
+
+.Slider2Style {
+    width: 50%;
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 42%;
+    opacity: 0;
+}
+
+.Slider7Style {
+    width: 28%;
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 56%;
+    opacity: 0;
+}
+
+.Slider4Style {
+    width: 9%;
+    position: absolute;
+    margin-top: 16%;
+    margin-left: 58%;
+    opacity: 0;
+}
+
+.Slider3Style {
+    width: 10%;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 86%;
+    opacity: 0;
+}
+
+.Slider5Style {
+    width: 12%;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 20%;
+    opacity: 0;
+}
+
+.Slider6Style {
+    width: 9%;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 7%;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+    .Slider6Style:hover {
+        width: 12%;
+        position: absolute;
+        margin-top: 20%;
+        margin-left: 7%;
+        transition: 0.5s;
+    }
+
+.Slider9Style {
+    width: 30%;
+    position: absolute;
+    margin-top: 2.5%;
+    margin-left: 7%;
+}
+
+.Slider8Style {
+    width: 14%;
+    position: absolute;
+    margin-top: 14%;
+    margin-left: 7%;
+}
+
+
+
+
+
+
+
+
+
+
+.PanelLblPopularTreatmentsStyle {
+}
+
+.LblPopularTreatmentsStyle {
+    color: #004a33;
+    font-size: 3vw;
+    text-decoration: none;
+    font-family: Arial;
+    text-align: center;
+}
+
+    .LblPopularTreatmentsStyle:hover {
+        color: #004a33;
+        font-size: 3vw;
+        text-decoration: none;
+        font-family: Arial;
+        text-align: center;
+    }
+
+.PanelPopularTreatmentsBoxStyle {
+    margin-top: 47%;
+}
+
+.BoxShadobPopularTreatmentsStyle {
+    /*box-shadow: 3px 3px 3px #aaaaaa;*/
+    /*overflow: hidden;*/
+    /*border-radius:20%;*/
+}
+
+.MarginLeftBoxShadobPopularTreatmentsStyle {
+    margin-left: 15%;
+}
+
+.MarginMLeftBoxShadobPopularTreatmentsStyle {
+    margin-left: -15%;
+}
+
+.ImagePopularTreatments1Style {
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 5px 5px 5px #e0e0e0;
+    border-radius: 35px;
+    /* box-shadow */
+    box-shadow: rgba(0,0,0,0.3) 5px 5px 3px;
+    border-collapse: collapse;
+}
+
+.ImagePopularTreatments2Style {
+    width: 50%;
+    margin-top: -15%;
+    transition: 1s;
+    margin-left: 13%;
+}
+
+    .ImagePopularTreatments2Style:hover {
+        transition: 1s;
+        transform: scale(1.1);
+    }
+
+
+.DivBtnSeeMoreStyle {
+    margin-top: 2%;
+}
+
+.BtnSeeMoreStyle {
+    background-color: #8dc63f;
+    color: white;
+    font-size: 1.2vw;
+    border: none;
+    font-family: Arial;
+    border-radius: 25px;
+}
+
+    .BtnSeeMoreStyle:hover {
+        background-color: #8dc63f;
+        color: white;
+        font-size: 1.2vw;
+        border: none;
+        font-family: Arial;
+    }
+
+
+.DivVideos {
+    margin-top: 7%;
+}
+
+.VideobackgroundStyle {
+    width: 100%;
+  
+}
+
+.LblTextVideoStyle {
+    color: #004a33;
+    font-size: 2vw;
+    text-decoration: none;
+    font-family: Arial;
+    text-align: center;
+   
+}
+
+    .LblTextVideoStyle:hover {
+        color: #004a33;
+        font-size: 2vw;
+        text-decoration: none;
+        font-family: Arial;
+        text-align: center;
+    }
+
+.ImagevidetextStyle {
+    width: 100%;
+}
+
+.DivArvatebServicesStyle {
+    margin-top: 5%;
+}
+
+.ArvatebServicesImgStyle {
+    width: 100%;
+    transition: 0.5s;
+}
+
+    .ArvatebServicesImgStyle:hover {
+        width: 100%;
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+
+.VideosImgStyle {
+ 
+}
+
+
+.FontWellcomeTabrizVideoStyle {
+    font-size: 5em;
+    font-weight: bold;
+    margin-top: 1%;
+    font-family: Arial;
+}
+
+.ZirFontWellcomeTabrizVideoStyle {
+    font-size: 1em;
+    font-family: Arial;
+}
+
+.ArvatebBoxImgTextStyle {
+    overflow: hidden;
+    height: 100%;
+}
+
+.Row2ArvatebBoxImgTextStyle {
+    margin-top: 5%;
+}
+
+
+.PanelMapAddresStyle {
+    margin-bottom: -14.8%;
+    margin-top: 5%;
+}
+
+.PayinePanelMapAddresStyle {
+}
+
+
+
+
+
+
+.LblNameLogoArvatebServicesStyle {
+    color: black;
+    font-size: 1.2vw;
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+    .LblNameLogoArvatebServicesStyle:hover {
+        color: black;
+        font-size: 1.2vw;
+        text-decoration: none;
+        font-family: Arial;
+        font-weight: bold;
+    }
+
+.LblZirNameLogoArvatebServicesStyle {
+    color: black;
+    font-size: 0.9vw;
+    text-decoration: none;
+    font-family: Arial;
+    text-align: justify;
+}
+
+    .LblZirNameLogoArvatebServicesStyle:hover {
+        color: black;
+        font-size: 0.9vw;
+        text-decoration: none;
+        font-family: Arial;
+        text-align: justify;
+    }
+
+.DivZirNameLogoArvatebServices {
+    overflow: hidden;
+}
+
+.DivNameLogoArvatebServices {
+    margin-top: 3%;
+}
+
+
+
+
+/*---#MapStyle*/
+
+.gmap_mapAddressLgStyle {
+    overflow: hidden;
+    background: none !important;
+}
+
+.gmap_mapAddressSmiframeLgStyle {
+    height: 300px;
+}
+
+
+.VideosImgLgStyle {
+    width: 70%;
+    margin-top: 1%;
+}
+
+.DivVideoTextImgLgStyle {
+    margin-left: -9%;
+    margin-top: 2%;
+}
+
+.DivTextVideoPubularLgStyle {
+    margin-top: 3%;
+    margin-left: -8%;
+}
+
+.TextVideoPubularLgStyle {
+    color: black;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+    .TextVideoPubularLgStyle:hover {
+        color: black;
+        font-weight: bold;
+        font-family: Arial;
+        font-size: 1.2em;
+        text-decoration: none;
+    }
+
+        
+
+.FontWellcomeTabrizVideoLgStyle {
+    color: #004a33;
+    font-size: 2vw;
+    text-decoration: none;
+    font-family: Arial;
+    text-align: center;
+}
+
+.ZirFontWellcomeTabrizVideoLgStyle {
+    color: black;
+    font-family: Arial;
+    font-size: 1.2em;
+}
+
+
+
+/*Abut us Lg*/
+.DivAboutLgStyle {
+    margin-top: 5%;
+    z-index: 2;
+}
+
+.DivZirSliderAboutUsTitrLgStyle {
+}
+
+.TitrAboutUsLgStyle {
+    color: #004a33;
+    font-size: 3vw;
+    text-decoration: none;
+    font-family: Arial;
+    text-align: center;
+    z-index: 2;
+}
+
+.DivZirAboutUsZirTitrLgStyle {
+    padding: 0% 2% 0%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.ZirTitrAboutUsLgStyle {
+    color: black;
+    font-family: Arial;
+    font-size: 1.2em;
+    z-index: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#Sm Style*/
+
+.DivBtnSeeMoreSmStyle {
+    margin-top: 2%;
+}
+
+.BtnSeeMoreSmStyle {
+    background-color: #8dc63f;
+    color: white;
+    font-size: 1.6vw;
+    border: none;
+    font-family: Arial;
+    border-radius: 25px;
+}
+
+
+.DivArvatebServicesSmStyle {
+    margin-top: 5%;
+    padding-left: 5%;
+}
+
+
+.LblNameLogoArvatebServicesSmStyle {
+    color: black;
+    font-size: 2vw;
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+    .LblNameLogoArvatebServicesSmStyle:hover {
+        color: black;
+        font-size: 2vw;
+        text-decoration: none;
+        font-family: Arial;
+        font-weight: bold;
+    }
+
+.LblZirNameLogoArvatebServicesSmStyle {
+    color: black;
+    font-size: 1.4vw;
+    text-decoration: none;
+    font-family: Arial;
+    text-align: justify;
+}
+
+    .LblZirNameLogoArvatebServicesSmStyle:hover {
+        color: black;
+        font-size: 1.4vw;
+        text-decoration: none;
+        font-family: Arial;
+        text-align: justify;
+    }
+
+
+
+.FontWellcomeTabrizVideoSmStyle {
+    color: #004a33;
+    font-size: 2vw;
+    text-decoration: none;
+    font-family: Arial;
+    text-align: center;
+    margin-top: 1%;
+}
+
+.ZirFontWellcomeTabrizVideoSmStyle {
+    color: black;
+    font-family: Arial;
+    font-size: 1.1em;
+}
+.VideosImgSmStyle {
+    width: 70%;
+    margin-top: 1%;
+}
+
+.DivVideoTextImgSmStyle {
+    margin-left: -17%;
+    margin-top: 1%;
+}
+
+.DivTextVideoPubularSmStyle {
+    margin-top: 3%;
+    margin-left: -12%;
+}
+
+.TextVideoPubularSmStyle {
+    color: black;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+    .TextVideoPubularSmStyle:hover {
+        color: black;
+        font-weight: bold;
+        font-family: Arial;
+        font-size: 0.8em;
+        text-decoration: none;
+    }
+
+
+
+/*---#MapStyle*/
+
+.gmap_mapAddressSmStyle {
+    overflow: hidden;
+    background: none !important;
+}
+
+.gmap_mapAddressSmiframeSmStyle {
+    height: 200px;
+}
+
+
+/*#Abut Us SM*/
+.DivAboutSmStyle {
+    margin-top: 5%;
+    z-index: 2;
+}
+
+.DivZirSliderAboutUsTitrSmStyle {
+}
+
+.TitrAboutUsSmStyle {
+    color: #004a33;
+    font-size: 3vw;
+    text-decoration: none;
+    font-family: Arial;
+    text-align: center;
+    z-index: 2;
+}
+
+.DivZirAboutUsZirTitrSmStyle {
+    padding: 0% 2% 0%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.ZirTitrAboutUsSmStyle {
+    color: black;
+    font-family: Arial;
+    font-size: 1.1em;
+    z-index: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*----#Xs*/
+
+
+.LblNameLogoArvatebServicesXsStyle {
+    color: black;
+    font-size: 3vw;
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+    .LblNameLogoArvatebServicesXsStyle:hover {
+        color: black;
+        font-size: 3vw;
+        text-decoration: none;
+        font-family: Arial;
+        font-weight: bold;
+    }
+
+.LblZirNameLogoArvatebServicesXsStyle {
+    color: black;
+    font-size: 2vw;
+    text-decoration: none;
+    font-family: Arial;
+    text-align: justify;
+}
+
+    .LblZirNameLogoArvatebServicesXsStyle:hover {
+        color: black;
+        font-size: 2.1vw;
+        text-decoration: none;
+        font-family: Arial;
+        text-align: justify;
+    }
+
+
+.DivArvatebServicesXsStyle {
+    margin-top: 5%;
+}
+
+
+
+.VideosImgXsStyle {
+    width: 100%;
+    margin-top: 1%;
+
+}
+
+.DivVideoTextImgXsStyle {
+}
+
+.DivTextVideoPubularXsStyle {
+    margin-left: -13%;
+    margin-top: 5%;
+}
+
+.TextVideoPubularXsStyle {
+    color: black;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 0.9em;
+    text-decoration: none;
+}
+
+    .TextVideoPubularXsStyle:hover {
+        color: black;
+        font-weight: bold;
+        font-family: Arial;
+        font-size: 0.9em;
+        text-decoration: none;
+    }
+
+.VideosImgXsStyle {
+    width: 80%;
+}
+
+.FontWellcomeTabrizVideoXsStyle {
+    color: #004a33;
+    font-size: 2vw;
+    text-decoration: none;
+    font-family: Arial;
+    text-align: center;
+    margin-top: 1%;
+}
+
+.ZirFontWellcomeTabrizVideoXsStyle {
+    color: black;
+    font-family: Arial;
+    font-size: 0.9em;
+}
+
+
+/*#About Us*/
+
+.DivAboutXsStyle {
+    margin-top: 5%;
+    z-index: 2;
+}
+
+.DivZirSliderAboutUsTitrXsStyle {
+}
+
+.TitrAboutUsXsStyle {
+    color: #004a33;
+    font-size: 3vw;
+    text-decoration: none;
+    font-family: Arial;
+    text-align: center;
+    z-index: 2;
+}
+
+.DivZirAboutUsZirTitrXsStyle {
+    padding: 0% 2% 0%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.ZirTitrAboutUsStyle {
+    color: black;
+    font-family: Arial;
+    font-size: 0.9em;
+    z-index: 2;
+}

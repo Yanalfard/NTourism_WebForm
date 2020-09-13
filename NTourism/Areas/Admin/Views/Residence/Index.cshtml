@@ -1,0 +1,59 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+    <h1 onclick="editeGroup();" class="text-center">Residence</h1>
+<style>
+    h1 {
+        cursor: pointer;
+    }
+</style>
+<table class="table  list-wrapper">
+    <tr>
+        <th>
+            <label>File</label>
+        </th>
+
+        <th></th>
+    </tr>
+
+    @foreach (string item in Model)
+    {
+        <tr class="list-item">
+            <td>
+                @{
+                    int cap = item.Split('\\').Length;
+                    string stp2 = item.Split('\\')[cap - 1];
+                    string stp3 = "~\\" + item.Split('\\')[cap - 3] + "\\" + item.Split('\\')[cap - 2] + "\\" + item.Split('\\')[cap - 1];
+                    string NamePdf = "/Resources/Residence/" + stp2;
+                }
+                <a href="@NamePdf" target="_blank" download>@stp2</a>
+            </td>
+            <td>
+                <form action="/Admin/Residence/Delete/" method="get">
+                    <input type="hidden" name="filename" value="@stp2" />
+                    <input type="submit" value="Delete" class=" btn btn-danger btn-sm" />
+                </form>
+            </td>
+        </tr>
+    }
+</table>
+<div class="pagination-container"></div>
+
+
+<!--End Modal -->
+@section scripts{
+    <script>
+        function editeGroup() {
+            window.location = '/Admin/Residence/Edit/';
+        };
+        function deleteGroup(id) {
+            $.get('/Admin/Residence/Delete/' + id, function (result) {
+
+            });
+        };
+
+    </script>
+
+
+
+}

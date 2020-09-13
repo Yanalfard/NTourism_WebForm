@@ -1,0 +1,222 @@
+﻿.DivAslyTicketStyle {
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.SliderTicket1Style {
+    width: 80%;
+    position: absolute;
+    margin-top: 60%;
+    margin-left: -5%;
+    z-index: 1;
+    opacity: 0;
+}
+
+.SliderTicket2Style {
+    width: 50%;
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 50%;
+    z-index: -1;
+    opacity: 0;
+}
+
+.SliderTicket3Style {
+    width: 5%;
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 20%;
+    z-index: -2;
+    opacity: 0;
+}
+
+.SliderTicket4Style {
+    width: 5%;
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 20%;
+    z-index: -2;
+    opacity: 0;
+}
+
+.DivColOneTicketStyle {
+    padding: 0% 5% 0% 5%;
+}
+
+.DivTicketSendTextAndBackStyle {
+    border-radius: 10%;
+    background-color: rgba(0,135,183,0.2);
+    padding: 4% 2% 4%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-right: 25%;
+    margin-top: 3%;
+}
+
+.TxtTicketStyle {
+    width: 100%;
+    border-radius: 25px;
+    outline: none;
+    border: 0;
+    padding: 0;
+    padding-left: 20px;
+    font-size: 1.5em;
+    height: 50px;
+}
+
+.DivMarginTopStyle {
+    margin-top: 2%;
+}
+
+.DivRowTwoTextboxStyle {
+}
+
+.TxtTicketMultiLineStyle {
+    width: 100%;
+    border-radius: 25px;
+    outline: none;
+    border: 0;
+    padding: 0;
+    padding-left: 20px;
+    font-size: 1.5em;
+    height: 200px;
+    min-height: 200px;
+    max-height: 200px;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.BtnTicketStyle {
+    color: white;
+    font-size: 1.8em;
+    font-weight: bold;
+    width: 35%;
+    border: none;
+    font-family: Arial;
+    border-radius: 25px;
+}
+
+    .BtnTicketStyle:hover {
+        color: white;
+        font-size: 1.8em;
+        font-weight: bold;
+        width: 35%;
+        border: none;
+        font-family: Arial;
+        border-radius: 25px;
+    }
+
+
+
+/*#Sm*/
+
+.DivAslyTicketSmStyle {
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.SliderTicket1SmStyle {
+    width: 80%;
+    position: absolute;
+    margin-top: 60%;
+    margin-left: 10%;
+    z-index: 1;
+    opacity: 0;
+}
+
+.SliderTicket2SmStyle {
+    width: 50%;
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 50%;
+    z-index: -1;
+    opacity: 0;
+}
+
+.SliderTicket3SmStyle {
+    width: 5%;
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 20%;
+    z-index: -2;
+    opacity: 0;
+}
+
+.SliderTicket4SmStyle {
+    width: 5%;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 35%;
+    z-index: -2;
+    opacity: 0;
+}
+
+DivColOneTicketSmStyle {
+    padding: 0% 5% 0% 5%;
+    margin-top: 80%;
+}
+.DivTableTicketSmStyle {
+    margin-top: 80%;
+}
+.DivTicketSendTextAndBackSmStyle {
+    border-radius: 10%;
+    background-color: rgba(0,135,183,0.2);
+    padding: 4% 2% 4%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-right: 25%;
+    margin-top: 3%;
+}
+
+.TxtTicketSmStyle {
+    width: 100%;
+    border-radius: 25px;
+    outline: none;
+    border: 0;
+    padding: 0;
+    padding-left: 20px;
+    font-size: 1em;
+    height: 50px;
+}
+
+.DivMarginTopSmStyle {
+    margin-top: 2%;
+}
+
+.DivRowTwoTextboxSmStyle {
+}
+
+.TxtTicketMultiLineSmStyle {
+    width: 100%;
+    border-radius: 25px;
+    outline: none;
+    border: 0;
+    padding: 0;
+    padding-left: 20px;
+    font-size: 1.2em;
+    height: 200px;
+    min-height: 200px;
+    max-height: 200px;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.BtnTicketSmStyle {
+    color: white;
+    font-size: 1.4em;
+   
+    width: 35%;
+    border: none;
+    font-family: Arial;
+    border-radius: 25px;
+}
+
+    .BtnTicketSmStyle:hover {
+        color: white;
+        font-size: 1.4em;
+        
+        width: 35%;
+        border: none;
+        font-family: Arial;
+        border-radius: 25px;
+    }

@@ -1,0 +1,606 @@
+﻿.PanelLumbarDiskStyle {
+}
+
+.ImgHeaderLumbarDiskStyle {
+    width: 100%;
+}
+
+.DivVideoAndTextLumbarDiskStyle {
+    margin-top: 5%;
+}
+
+.VideoLumbarDiskStyle {
+    width: 100%;
+}
+
+.TitrTextVideoLumbarDiskStyle {
+    font-family: Arial;
+    font-size: 1.5vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTextVideoLumbarDiskStyle {
+    margin-top: 3%;
+}
+
+.ZirTextVideoLumbarDiskStyle {
+    font-family: Arial;
+    font-size: 1.2vw;
+    color: black;
+}
+
+.SliderDivTextLumbarDiskStyle {
+    position: absolute;
+    margin-top: -33%;
+    margin-left: 5%;
+}
+
+.SliderTitrLumbarDiskStyle {
+    color: rgba(12,144,68,1);
+    font-size: 5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderZirDivTextLumbarDiskStyle {
+    position: absolute;
+    margin-top: -28%;
+    margin-left: 5%;
+}
+
+.SliderZirTitrLumbarDiskStyle {
+    color: rgba(12,144,68,1);
+    font-size: 3.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderDivDescriptionLumbarDiskTitrStyle {
+    position: absolute;
+    margin-top: -20%;
+    margin-left: 5.5%;
+}
+
+.SliderDescriptionLumbarDiskTextTitrStyle {
+    color: rgba(0,76,52,1);
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.DivBtnLumbarDiskSingInStyle {
+    position: absolute;
+    margin-top: -9.5%;
+    margin-left: 5%;
+    background-color: rgba(141,198,63,1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+    .DivBtnLumbarDiskSingInStyle:hover {
+        position: absolute;
+        margin-top: -9.5%;
+        margin-left: 5%;
+        background-color: rgba(141,198,63,1);
+        border-radius: 30px;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.TextBtnLumbarDiskStyle {
+    color: white;
+    font-size: 1.8vw;
+    font-weight: bold;
+}
+
+    .TextBtnLumbarDiskStyle:hover {
+        color: white;
+        font-size: 1.8vw;
+        font-weight: bold;
+    }
+
+.DivZirHeadersImgTextLumbarDiskStyle {
+    margin-top: 2%;
+}
+
+.ZirHeadersImgTextLumbarDiskStyle {
+    font-family: Arial;
+    font-size: 1.5vw;
+    color: black;
+}
+
+.DescaptirionOrginalLumbarDiskStyle {
+    margin-top: 8%;
+}
+
+.DescaptirionRowOneLumbarDiskStyle {
+}
+
+.Pic3LumbarDiskRowOneStyle {
+    width: 65%;
+}
+
+.TitrTextRowOneLumbarDiskStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowOneLumbarDiskStyle {
+    margin-top: 5%;
+}
+
+.ZirTitrTextRowOneLumbarDiskStyle {
+    font-family: Arial;
+    font-size: 1.2vw;
+    color: black;
+}
+
+.DescaptirionRowTwoLumbarDiskStyle {
+    margin-top: 10%;
+}
+
+.Pic1LumbarDiskRowTwoStyle {
+    width: 70%;
+}
+
+.TitrTextRowTwoLumbarDiskStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowTwoLumbarDiskStyle {
+    margin-top: 5%;
+}
+
+.ZirTitrTextRowTwoLumbarDiskStyle {
+    font-family: Arial;
+    font-size: 1.2vw;
+    color: black;
+}
+
+.DescaptirionRowThreeLumbarDiskStyle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Pic2LumbarDiskRowThreeStyle {
+    width: 65%;
+}
+
+.TitrTextRowThreeLumbarDiskStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRoThreeLumbarDiskStyle {
+    margin-top: 5%;
+}
+
+.ZirTitrTextRowThreeLumbarDiskStyle {
+    font-family: Arial;
+    font-size: 1.2vw;
+    color: black;
+}
+
+
+/*#Sm*/
+.PanelLumbarDiskSmStyle {
+}
+
+.ImgHeaderLumbarDiskSmStyle {
+    width: 100%;
+}
+
+.SliderDivTextLumbarDiskSmStyle {
+    position: absolute;
+    margin-top: -33%;
+    margin-left: 5%;
+}
+
+.SliderTitrLumbarDiskSmStyle {
+    color: rgba(12,144,68,1);
+    font-size: 5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderZirDivTextLumbarDiskSmStyle {
+    position: absolute;
+    margin-top: -28%;
+    margin-left: 5%;
+}
+
+.SliderZirTitrLumbarDiskSmStyle {
+    color: rgba(12,144,68,1);
+    font-size: 3.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderDivDescriptionLumbarDiskTitrSmStyle {
+    position: absolute;
+    margin-top: -20%;
+    margin-left: 5.5%;
+}
+
+.SliderDescriptionLumbarDiskTextTitrSmStyle {
+    color: rgba(0,76,52,1);
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.DivBtnLumbarDiskSingInSmStyle {
+    position: absolute;
+    margin-top: -9.5%;
+    margin-left: 5%;
+    background-color: rgba(141,198,63,1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+    .DivBtnLumbarDiskSingInSmStyle:hover {
+        position: absolute;
+        margin-top: -9.5%;
+        margin-left: 5%;
+        background-color: rgba(141,198,63,1);
+        border-radius: 30px;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.TextBtnLumbarDiskSmStyle {
+    color: white;
+    font-size: 1.8vw;
+    font-weight: bold;
+}
+
+    .TextBtnLumbarDiskSmStyle:hover {
+        color: white;
+        font-size: 1.8vw;
+        font-weight: bold;
+    }
+
+.DivZirHeadersImgTextLumbarDiskSmStyle {
+    margin-top: 2%;
+}
+
+.ZirHeadersImgTextLumbarDiskSmStyle {
+    font-family: Arial;
+    font-size: 1.7vw;
+    color: black;
+}
+
+.DivVideoAndTextLumbarDiskSmStyle {
+    margin-top: 5%;
+}
+
+.VideoLumbarDiskSmStyle {
+    width: 100%;
+}
+
+.DivZirVideoLumbarDiskSmStyle {
+    margin-top: 2%;
+}
+
+.TitrTextVideoLumbarDiskSmStyle {
+    font-family: Arial;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.ZirTextVideoLumbarDiskSmStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+}
+
+
+.DescaptirionOrginalLumbarDiskSmStyle {
+    margin-top: 8%;
+}
+
+.DescaptirionRowOneLumbarDiskSmStyle {
+}
+
+.Pic3LumbarDiskRowOneTreatmentSmStyle {
+    width: 50%;
+}
+
+.DivTitrRowOneLumbarDiskSmStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowOneLumbarDiskSmStyle {
+    font-family: Arial;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowOneLumbarDiskSmStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowOneLumbarDiskSmStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+}
+
+.DescaptirionRowTwoLumbarDiskSmStyle {
+    margin-top: 10%;
+}
+
+.Pic1LumbarDiskRowTwoTreatmentSmStyle {
+    width: 55%;
+}
+
+.DivTitrRowTwoLumbarDiskSmStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowTwoLumbarDiskSmStyle {
+    font-family: Arial;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowTwoLumbarDiskSmStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowTwoLumbarDiskSmStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+}
+
+.DescaptirionRowThreeLumbarDiskSmStyle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Pic2LumbarDiskRowThreeTreatmentSmStyle {
+    width: 50%;
+}
+
+.DivTitrRowThreeLumbarDiskSmStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowThreeLumbarDiskSmStyle {
+    font-family: Arial;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRoThreeLumbarDiskSmStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowThreeLumbarDiskSmStyle {
+    font-family: Arial;
+    font-size: 1.6vw;
+    color: black;
+}
+
+
+/* #Xs*/
+
+
+.PanelLumbarDiskXsStyle {
+}
+
+.ImgHeaderLumbarDiskXsStyle {
+    width: 100%;
+}
+
+.SliderDivTextLumbarDiskXsStyle {
+    position: absolute;
+    margin-top: -33%;
+    margin-left: 5%;
+}
+
+.SliderTitrLumbarDiskXsStyle {
+    color: rgba(12,144,68,1);
+    font-size: 6vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderZirDivTextLumbarDiskXsStyle {
+    position: absolute;
+    margin-top: -26%;
+    margin-left: 5%;
+}
+
+.SliderZirTitrLumbarDiskXsStyle {
+    color: rgba(12,144,68,1);
+    font-size: 4.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.SliderDivDescriptionLumbarDiskTitrXsStyle {
+    position: absolute;
+    margin-top: -19%;
+    margin-left: 5.5%;
+}
+
+.SliderDescriptionLumbarDiskTextTitrXsStyle {
+    color: rgba(0,76,52,1);
+    font-size: 2.5vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.DivBtnLumbarDiskSingInXsStyle {
+    position: absolute;
+    margin-top: -8%;
+    margin-left: 40%;
+    background-color: rgba(141,198,63,1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+    .DivBtnLumbarDiskSingInXsStyle:hover {
+        position: absolute;
+        margin-top: -8%;
+        margin-left: 40%;
+        background-color: rgba(141,198,63,1);
+        border-radius: 30px;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.TextBtnLumbarDiskXsStyle {
+    color: white;
+    font-size: 2.4vw;
+    font-weight: bold;
+}
+
+    .TextBtnLumbarDiskXsStyle:hover {
+        color: white;
+        font-size: 2.4vw;
+        font-weight: bold;
+    }
+
+
+.DivZirHeadersImgTextLumbarDiskXsStyle {
+    margin-top: 3%;
+}
+
+.ZirHeadersImgTextLumbarDiskXsStyle {
+    font-family: Arial;
+    font-size: 2.3vw;
+    color: black;
+}
+
+.DivVideoAndTextLumbarDiskXsStyle {
+    margin-top: 5%;
+}
+
+.VideoLumbarDiskXsStyle {
+    width: 100%;
+}
+
+.DivZirVideoLumbarDiskXsStyle {
+    margin-top: 2%;
+}
+
+.TitrTextVideoLumbarDiskXsStyle {
+    font-family: Arial;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.ZirTextVideoLumbarDiskXsStyle {
+    font-family: Arial;
+    font-size: 2.2vw;
+    color: black;
+}
+
+.DescaptirionOrginalLumbarDiskXsStyle {
+    margin-top: 8%;
+}
+
+.DescaptirionRowOneLumbarDiskXsStyle {
+}
+
+.Pic3LumbarDiskTreatmentRowOneTreatmentXsStyle {
+    width: 50%;
+}
+
+.DivTitrRowOneLumbarDiskXsStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowOneLumbarDiskXsStyle {
+    font-family: Arial;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowOneLumbarDiskXsStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowOneLumbarDiskXsStyle {
+    font-family: Arial;
+    font-size: 2.2vw;
+    color: black;
+}
+
+
+.DescaptirionRowTwoLumbarDiskXsStyle {
+    margin-top: 10%;
+}
+
+.Pic1LumbarDiskRowTwoTreatmentXsStyle {
+    width: 55%;
+}
+
+.DivTitrRowTwoLumbarDiskXsStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowTwoLumbarDiskXsStyle {
+    font-family: Arial;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowTwoLumbarDiskXsStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowTwoLumbarDiskXsStyle {
+    font-family: Arial;
+    font-size: 2.2vw;
+    color: black;
+}
+
+
+.DescaptirionRowThreeLumbarDiskXsStyle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Pic2LumbarDiskRowThreeTreatmentXsStyle {
+    width: 50%;
+}
+
+.DivTitrRowThreeLumbarDiskXsStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowThreeLumbarDiskXsStyle {
+    font-family: Arial;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRoThreeLumbarDiskXsStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowThreeLumbarDiskXsStyle {
+    font-family: Arial;
+    font-size: 2.2vw;
+    color: black;
+}

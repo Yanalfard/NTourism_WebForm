@@ -1,0 +1,487 @@
+﻿/*Color Menu Right In one Page And others*/
+.accordion {
+    border-bottom: 1px solid #f29200;
+}
+
+.accordion-panel {
+    border-color: #f29200;
+}
+
+/**/
+
+
+.SliderPageHomeStyle {
+    display: none;
+}
+
+.SliderPageAboutUsStyle {
+    display: none;
+}
+
+.SliderPageDestinationsStyle {
+    display: none;
+}
+
+.SliderPageContactUsStyle {
+    display: none;
+}
+
+.SliderPageOurServicesStyle {
+    display: none;
+}
+
+.SliderPageIranUsStyle {
+    display: none;
+}
+
+.SliderPageNewsStyle {
+    display: none;
+}
+
+
+
+.SliderPageTourguideStyle {
+    display: normal;
+}
+
+.SliderPageEventStyle {
+    display: none;
+}
+
+.SliderPageTripstoryStyle {
+    display: none;
+}
+
+.SliderPageGalleryStyle {
+    display: none;
+}
+
+
+
+/*City Display*/
+.SliderPageCityArasStyle {
+    display: none;
+}
+
+.SliderPageCityHamedanStyle {
+    display: none;
+}
+
+.SliderPageCityIsfahanStyle {
+    display: none;
+}
+
+.SliderPageCityKashanStyle {
+    display: none;
+}
+
+.SliderPageCityShirazStyle {
+    display: none;
+}
+
+.SliderPageCityRashtStyle {
+    display: none;
+}
+
+.SliderPageCityTabrizStyle {
+    display: none;
+}
+
+.SliderPageCityTehranStyle {
+    display: none;
+}
+
+.SliderPageCityYazdStyle {
+    display: none;
+}
+
+.SliderPageCityKishStyle {
+    display: none;
+}
+
+.SliderPageCitySariStyle {
+    display: none;
+}
+
+.SliderPageCityMashhadStyle {
+    display: none;
+}
+
+.SliderPageCityKermanStyle {
+    display: none;
+}
+
+.SliderPageCityQeshmStyle {
+    display: none;
+}
+
+
+
+
+
+/*#Row1*/
+.divRow1TourguidePageStyle {
+    margin-top: 0.5em;
+}
+
+.divInRow1TheRow1TextTourguidePageStyle {
+    text-align: center;
+}
+
+.textInRow1TheRow1TextTourguidePageStyle {
+    font-family: 'ZapfHumnst Ult BT';
+    color: black;
+    font-size: 3.5vw;
+    font-weight: bolder;
+    height: 4.5vw;
+}
+
+.DivHideShowEquipmentesDynamicRoomTourguideTourguide {
+}
+
+.divInRow1TheRow2TourguidePageStyle {
+    box-shadow: 5px 5px 10px 0.5px #c7c5c6;
+    padding: 0;
+    margin: 0;
+    /*min-height: 10em;*/
+}
+
+.ShowDetailsClickRimatours {
+    box-shadow: 5px 5px 10px 0.5px #c7c5c6;
+    padding: 0;
+    margin: 0;
+    /*min-height: 10em;*/
+}
+
+.divEquipmentesTourguideStyle > div {
+    float: left;
+    margin-left: 1%;
+    width: 15%;
+}
+
+    .divEquipmentesTourguideStyle > div > img {
+        width: 90%;
+    }
+
+    .divEquipmentesTourguideStyle > div > p {
+        text-align: center;
+    }
+
+.fa-usd {
+    font-size: 1.5em;
+}
+
+#BtnbookingTourguide {
+    float: right;
+    color: black;
+    background-color: #C6A100;
+    font-size: 120%;
+    font-family: 'Myriad Pro';
+    font-weight: bolder;
+    outline: none;
+    border: none;
+    border-radius: 1.5em;
+    padding: 0em 1.5em;
+    box-shadow: 10px 8px 15px rgba(0, 0, 0, 0.2);
+    margin-top: 0.5em;
+}
+
+}
+
+.DynamicTourguidestyle {
+}
+
+.DivHideShowEquipmentesDynamicRoomTourguide > p {
+    font-size: 1em;
+    font-family: 'Myriad Pro';
+    color: #b3b1b2;
+}
+
+.ImgDynamicBigImgTourguidestyle {
+    width: 100%;
+    height: 12em;
+    object-fit: cover;
+    object-position: center;
+}
+
+.DynamicRow2Tourguidestyle {
+    margin-top: 1em;
+}
+
+.DivAllImgRow2DynamicBigImgTourguideStyle {
+    text-align: left;
+}
+
+.ImgRow2DynamicBigImgTourguideStyle {
+    width: 15%;
+    height: 7em;
+    margin-left: 0.7em;
+    margin-top: 0.7em;
+    object-fit: cover;
+    object-position: center;
+}
+
+.DynamicTextTourguidestyle {
+    clear: left;
+}
+
+.TitrDynamicRimatours {
+    font-size: 115%;
+    font-family: 'Myriad Pro';
+    color: black;
+    margin-left: 0.3em;
+}
+
+.ZirTitrDynamicRimatours {
+    font-size: 1.4em;
+    font-family: 'Myriad Pro';
+    color: #b3b1b2;
+    margin-left: 0.3em;
+}
+
+.linkNameTextTourguidestyle {
+    font-size: 1.4em;
+    font-family: 'Myriad Pro';
+    color: #b3b1b2;
+}
+
+.DynamicTextEquipmentesTourguidestyle {
+}
+
+.linkNameTextTourguidestyle {
+}
+
+.DivRow3CommentsTourguide {
+    border: 3px solid #e6007e;
+    height: 100%;
+    margin-top: 1em;
+    border-radius: 30px;
+    background: linear-gradient(to bottom, #e6007e 0%,#e6007e 2vw,white 2vw,white 100%);
+}
+
+.DivInRow3Row1CommentsTourguide {
+    min-height: 10px;
+    padding: 0em 3em;
+}
+
+    .DivInRow3Row1CommentsTourguide > p {
+        color: black;
+        font-size: 1.4em;
+        font-family: 'Myriad Pro';
+        font-weight: bolder;
+    }
+
+        .DivInRow3Row1CommentsTourguide > p > i {
+            font-weight: bolder;
+            margin-right: 0.3em;
+        }
+
+.DivInRow3Row2CommentsTourguide {
+    margin-top: 20px;
+    padding: 0 2%;
+}
+
+.DayDolarandweekend1Tourguide {
+    margin-left: 1em;
+    color: black;
+    font-family: 'Myriad Pro';
+    font-size: 1.5em;
+}
+
+.DayDolarandweekend2Tourguide {
+    color: #c7c5c6;
+    font-family: 'Myriad Pro';
+    font-size: 1.3em;
+}
+
+.WeekendDolarandweekend1Tourguide {
+    margin-left: 1em;
+    color: black;
+    font-family: 'Myriad Pro';
+    font-size: 1.5em;
+}
+
+.WeekendDolarandweekend2Tourguide {
+    color: #c7c5c6;
+    font-family: 'Myriad Pro';
+    font-size: 1.3em;
+}
+/*Paging*/
+.list-wrapper {
+    padding: 15px;
+    overflow: hidden;
+}
+
+.list-item {
+    border: 1px solid #EEE;
+    background: #FFF;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px 0px #EEE;
+}
+
+    .list-item h4 {
+        color: #FF7182;
+        font-size: 18px;
+        margin: 0 0 5px;
+    }
+
+    .list-item p {
+        margin: 0;
+    }
+
+.simple-pagination ul {
+    margin: 0 0 20px;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.simple-pagination li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+    .simple-pagination li a,
+    .simple-pagination li span {
+        color: #666;
+        padding: 5px 10px;
+        text-decoration: none;
+        border: 1px solid #EEE;
+        background-color: #FFF;
+        box-shadow: 0px 0px 10px 0px #EEE;
+    }
+
+.simple-pagination .current {
+    color: #FFF;
+    background-color: #C6A100;
+    border-color: #C6A100;
+}
+
+.simple-pagination .prev.current,
+.simple-pagination .next.current {
+    background: #C6A100;
+}
+
+.ImgShowDetailsCol2Rimatours {
+    width: 100%;
+}
+
+.DivRemoveImg {
+    position: relative;
+    /*float: left;*/
+}
+
+a.remImage i {
+    color: red;
+    font-size: 2em;
+    box-shadow: none;
+    position: absolute;
+    right: 7px;
+    top: -5px;
+    margin-top: 4px;
+    display: block;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+
+.DivRemoveImg:hover a.remImage i {
+    opacity: 1;
+    z-index: 99;
+    position: absolute;
+    top: 5px;
+}
+
+.ShowTagRimatours {
+    display: normal;
+}
+
+.HideTagRimatours {
+    display: none;
+}
+.textCodeRimatours {
+    width: 30%;
+    height: 40px;
+    padding: 9px;
+    color: orange;
+    border: 1px solid orange;
+    box-shadow: 1px 0px 3px orange;
+    border-radius: 50px;
+    font-size: 15px;
+    /*text-transform: capitalize;*/
+    outline: none;
+}
+
+    .textCodeRimatours:focus {
+        box-shadow: 1px 1px 8px orange;
+    }
+
+center h1 {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #fff;
+    background: #C6A100;
+    padding: 10px;
+    margin: 1%;
+    width: 50%;
+    border-radius: 50px;
+}
+
+.searchinput {
+    line-height: 100%;
+    display: table;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    margin-left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.textRimatours {
+    width: 40%;
+    height: 40px;
+    padding: 9px;
+    color: orange;
+    border: 1px solid orange;
+    box-shadow: 1px 0px 3px orange;
+    border-radius: 50px;
+    font-size: 15px;
+    /*text-transform: capitalize;*/
+    outline: none;
+}
+
+::-webkit-input-placeholder {
+    color: orange;
+}
+
+
+
+.textRimatours:focus {
+    box-shadow: 1px 1px 8px orange;
+}
+
+.submitRimatours {
+    padding: 10px;
+    height: 40px;
+    width: 80px;
+    font-size: 13px;
+    color: white;
+    background: #C6A100;
+    border: none;
+    margin: 10px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px orange;
+    outline: none;
+}
+
+    .submitRimatours:active {
+        box-shadow: 0px 0px 7px orange;
+    }
+
+.labelNameRimatours {
+    width: 100px;
+}
+
+.divInRow1TheRow2TourguidePageStyle {
+    cursor: pointer;
+}

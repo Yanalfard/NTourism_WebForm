@@ -1,0 +1,354 @@
+﻿.DivAslyHospitalShamsStyle {
+    margin-top: 1%;
+}
+
+.SliderImgHospitalShamsStyle {
+    width: 100%;
+}
+
+.SliderDivTextHealthHospitalShamsStyle {
+    position: absolute;
+    margin-top: 0.9%;
+    margin-left: 7.5%;
+}
+
+.SliderTitrHealthHospitalShamsStyle {
+    font-size: 6.5vw;
+    font-weight: bold;
+    color: white;
+}
+
+.SliderZirDivTextHealthHospitalShamsStyle {
+    position: absolute;
+    margin-top: 8.5%;
+    margin-left: 7.5%;
+}
+
+.SliderZirTitrHealthHospitalShamsStyle {
+    font-size: 3.5vw;
+    font-weight: bold;
+    color: white;
+}
+
+.SliderDivIncludinTextTitrHospitalShamsStyle {
+    position: absolute;
+    margin-top: 14%;
+    margin-left: 7.5%;
+}
+
+.SliderIncludinTextTitrHospitalShamsStyle {
+    font-size: 1.8vw;
+    font-weight: bold;
+    color: #c6c6c6;
+}
+
+.SliderDivIncludinTextZirTitrHospitalShamsStyle {
+    position: absolute;
+    margin-top: 16.2%;
+    margin-left: 7.5%;
+}
+
+.SliderIncludinTextZirTitrHospitalShamsStyle {
+    font-size: 1.2vw;
+    font-weight: bold;
+    color: #c6c6c6;
+}
+
+.SliderBtnRegisterHospitalShamsStyle {
+    position: absolute;
+    margin-top: 22%;
+    margin-left: 7%;
+    transition: 0.5s;
+}
+
+    .SliderBtnRegisterHospitalShamsStyle:hover {
+        position: absolute;
+        margin-top: 22%;
+        margin-left: 7%;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.SliderBtnRegisterTextHospitalShamsStyle {
+    color: white;
+    background-color: rgba(141,198,63,1);
+    border-radius: 25px;
+    font-size: 1.4vw;
+    font-weight: bold;
+}
+
+    .SliderBtnRegisterTextHospitalShamsStyle:hover {
+        color: white;
+        background-color: rgba(141,198,63,1);
+        border-radius: 25px;
+        font-size: 1.4vw;
+        font-weight: bold;
+    }
+
+
+.DivZirSliderTextHospitalShamsStyle {
+    padding: 2% 4% 0% 4%;
+}
+
+.ZirSliderTextHospitalShamsStyle {
+    font-family: Arial;
+    font-size: 1.5em;
+    color: black;
+}
+
+.DivVideoAndTextHospitalShamsStyle {
+    margin-top: 4%;
+}
+
+.VideoTextHospitalShamsStyle {
+    font-family: Arial;
+    font-size: 1.1em;
+    color: black;
+}
+
+.DivRow3StyleHospitalShamsStyle {
+    margin-top: 1%;
+    padding: 0% 3% 0% 3%;
+}
+
+.TitrRow3TextHospitalShamsStyle {
+    font-family: Arial;
+    font-size: 1.5em;
+    color: black;
+    font-weight: bold;
+}
+
+.ZirTitrRow3TextHospitalShamsStyle {
+    font-family: Arial;
+    font-size: 1.3em;
+    color: black;
+}
+
+
+.DivOthersHospitalShamsStyle {
+    margin-top: 1%;
+}
+
+.DivOthersHospitilsBorderStyle {
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+.DivOthersHospitilsInBorderStyle {
+    border-bottom: 2px solid #124908;
+    width: 40%;
+    margin-left: 30%
+}
+
+.TitrNameOthersHospitalShamsStyle {
+    color: #004a33;
+    font-size: 1.5em;
+    text-decoration: none;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+
+.LinkOthersHospitalShamsStyle {
+    margin-top: 3%;
+}
+
+.MatnLinkOthersHospitalShamsStyle {
+    color: #004a33;
+    font-size: 1em;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+    .MatnLinkOthersHospitalShamsStyle:hover {
+        color: #004a33;
+        font-size: 1em;
+        text-decoration: none;
+        font-family: Arial;
+    }
+
+
+.DivZirSliderTextHospitalShamsMdStyle {
+    padding: 2% 4% 0% 4%;
+}
+
+.SliderImgHospitalShamsMdStyle {
+    width: 100%;
+}
+
+.ZirSliderTextHospitalShamsMdStyle {
+    font-family: Arial;
+    font-size: 1.3em;
+    color: black;
+}
+
+.DivVideoAndTextHospitalShamsMdStyle {
+    margin-top: 4%;
+}
+
+.VideoTextHospitalShamsMdStyle {
+    font-family: Arial;
+    font-size: 0.8em;
+    color: black;
+}
+
+
+.DivRow3StyleHospitalShamsMdStyle {
+    margin-top: 1%;
+    padding: 0% 3% 0% 3%;
+}
+
+.TitrRow3TextHospitalShamsMdStyle {
+    font-family: Arial;
+    font-size: 1.2em;
+    color: black;
+    font-weight: bold;
+}
+
+.ZirTitrRow3TextHospitalShamsMdStyle {
+    font-family: Arial;
+    font-size: 1em;
+    color: black;
+}
+
+
+.DivOthersHospitalShamsMdStyle {
+    margin-top: 1%;
+}
+
+.DivOthersHospitilsBorderStyle {
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+.DivOthersHospitilsInBorderStyle {
+    border-bottom: 2px solid #124908;
+    width: 40%;
+    margin-left: 30%
+}
+
+.TitrNameOthersHospitalShamsMdStyle {
+    color: #004a33;
+    font-size: 1.5em;
+    text-decoration: none;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+
+.LinkOthersHospitalShamsMdStyle {
+    margin-top: 3%;
+}
+
+.MatnLinkOthersHospitalShamsMdStyle {
+    color: #004a33;
+    font-size: 1em;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+    .MatnLinkOthersHospitalShamsMdStyle:hover {
+        color: #004a33;
+        font-size: 1em;
+        text-decoration: none;
+        font-family: Arial;
+    }
+
+
+.DivZirSliderTextHospitalShamsSmStyle {
+    padding: 2% 4% 0% 4%;
+}
+
+.SliderImgHospitalShamsSmStyle {
+    width: 100%;
+}
+
+.ZirSliderTextHospitalShamsSmStyle {
+    font-family: Arial;
+    font-size: 1em;
+    color: black;
+}
+
+.DivVideoAndTextHospitalShamsSmStyle {
+    margin-top: 4%;
+}
+
+.VideoTextHospitalShamsSmStyle {
+    font-family: Arial;
+    font-size: 1em;
+    color: black;
+}
+
+.DivZirVideoHospitalShamsSmStyle {
+    padding: 5% 5% 0% 5%;
+}
+
+.DivRow3StyleHospitalShamsSmStyle {
+    margin-top: 2%;
+    padding: 0% 3% 0% 3%;
+}
+
+.TitrRow3TextHospitalShamsSmStyle {
+    font-family: Arial;
+    font-size: 1.2em;
+    color: black;
+    font-weight: bold;
+}
+
+.ZirTitrRow3TextHospitalShamsSmStyle {
+    font-family: Arial;
+    font-size: 1em;
+    color: black;
+}
+
+.DivZirSliderTextHospitalShamsXsStyle {
+    padding: 2% 4% 0% 4%;
+}
+
+.SliderImgHospitalShamsXsStyle {
+    width: 100%;
+}
+
+.ZirSliderTextHospitalShamsXsStyle {
+    font-family: Arial;
+    font-size: 1em;
+    color: black;
+}
+
+.DivVideoAndTextHospitalShamsXsStyle {
+    margin-top: 4%;
+}
+
+.VideoTextHospitalShamsXsStyle {
+    font-family: Arial;
+    font-size: 1em;
+    color: black;
+}
+
+.DivZirVideoHospitalShamsXsStyle {
+    padding: 5% 5% 0% 5%;
+}
+
+
+.DivRow3StyleHospitalShamsXsStyle {
+    margin-top: 2%;
+    padding: 0% 3% 0% 3%;
+}
+
+.TitrRow3TextHospitalShamsXsStyle {
+    font-family: Arial;
+    font-size: 1.2em;
+    color: black;
+    font-weight: bold;
+}
+
+.ZirTitrRow3TextHospitalShamsXsStyle {
+    font-family: Arial;
+    font-size: 1em;
+    color: black;
+}
+
+
+.DiuvTitrHospitilsStyle {
+    margin-top: 1%;
+}
